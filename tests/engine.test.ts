@@ -122,6 +122,63 @@ describe('DictionaryEngine.search cross language stop words', () => {
   });
 });
 
+describe('DictionaryEngine larger corpus', () => {
+  it('loads the expanded seed without validation errors and exposes every entry', () => {
+    const file = JSON.parse(readFileSync(dataPath, 'utf8')) as DictionaryFile;
+    // The 0.2.0 expansion roughly doubled the corpus to 350 entries.
+    expect(engine.size).toBe(file.entries.length);
+    expect(engine.size).toBe(350);
+    // Every entry is reachable by id.
+    for (const raw of file.entries) {
+      expect(engine.getById(raw.id)).toBeDefined();
+    }
+  });
+});
+
+describe('DictionaryEngine.search fuzzy prefilter', () => {
+  it('still returns the did-you-mean candidate for a near-miss query', () => {
+    // 'শহব' is a single substitution typo of 'শহর' (city); the length/first-char
+    // prefilter must not drop this reachable candidate.
+    const results = engine.search('শহব');
+    const fuzzy = results.filter((r) => r.matchType === 'fuzzy');
+    expect(fuzzy.map((r) => r.entry.headword)).toContain('শহর');
+  });
+
+  it('does not change the ranking of exact vs transliterated vs cross-language', () => {
+    // Exact Bangla headword ranks by the exact tier.
+    expect(engine.search('বই')[0].matchType).toBe('exact');
+    // Transliterated Latin input ranks by the transliterated-exact tier.
+    expect(engine.search('shohor')[0].matchType).toBe('transliterated-exact');
+    // A pure English gloss ranks by the cross-language tier.
+    expect(engine.search('friend')[0].matchType).toBe('cross-language');
+    // The fixed tier ordering holds: exact > transliterated-exact > cross-language.
+    const exactScore = engine.search('বই')[0].score;
+    const translitScore = engine.search('shohor')[0].score;
+    const crossScore = engine.search('friend')[0].score;
+    expect(exactScore).toBeGreaterThan(translitScore);
+    expect(translitScore).toBeGreaterThan(crossScore);
+  });
+
+  it('disabling fuzzy still suppresses fuzzy hits on the larger corpus', () => {
+    const results = engine.search('শহব', { fuzzy: false });
+    expect(results.find((r) => r.matchType === 'fuzzy')).toBeUndefined();
+  });
+});
+
+describe('DictionaryEngine.search cross language exact-gloss priority', () => {
+  it('ranks the exact-gloss entry above incidental multi-entry matches', () => {
+    // "old" is the whole gloss of পুরনো but only an incidental token of
+    // বৃদ্ধ ("old (person); elderly"). The exact-gloss entry must rank first.
+    const results = engine.search('old');
+    const purono = results.findIndex((r) => r.entry.headword === 'পুরনো');
+    const briddho = results.findIndex((r) => r.entry.headword === 'বৃদ্ধ');
+    expect(purono).toBeGreaterThanOrEqual(0);
+    expect(briddho).toBeGreaterThanOrEqual(0);
+    expect(purono).toBeLessThan(briddho);
+    expect(results[purono].score).toBeGreaterThan(results[briddho].score);
+  });
+});
+
 describe('DictionaryEngine.search ranking order', () => {
   it('ranks exact above prefix above fuzzy', () => {
     // 'ভাল' is a prefix of 'ভালো' and near several other words.

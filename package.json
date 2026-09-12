@@ -1,7 +1,7 @@
 {
   "name": "wordsetu",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "WordSetu - a production-ready offline Bangla dictionary desktop application for Windows 11.",
   "author": "WordSetu Team <team@wordsetu.example>",
   "license": "MIT",

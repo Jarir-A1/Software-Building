@@ -22,9 +22,10 @@ function loadSeedFile(): DictionaryFile {
 }
 
 describe('loadDictionary with real seed data', () => {
-  it('loads at least 120 valid entries and builds indexes', () => {
+  it('loads the expanded corpus of at least 350 valid entries and builds indexes', () => {
     const file = loadSeedFile();
-    expect(file.entries.length).toBeGreaterThanOrEqual(120);
+    // The 0.2.0 expansion roughly doubled the corpus.
+    expect(file.entries.length).toBeGreaterThanOrEqual(350);
 
     const indexes = loadDictionary(file);
     expect(indexes.entries.length).toBe(file.entries.length);
