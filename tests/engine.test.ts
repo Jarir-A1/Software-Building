@@ -144,6 +144,18 @@ describe('DictionaryEngine.search fuzzy prefilter', () => {
     expect(fuzzy.map((r) => r.entry.headword)).toContain('শহর');
   });
 
+  it('returns a candidate whose leading characters are all substituted but is still within budget', () => {
+    // Regression guard for the unsound first-character/leading-window prefilter.
+    // 'খগাশ' substitutes the first TWO code points of the real headword 'আকাশ'
+    // (আ->খ, ক->গ) and leaves the rest intact, giving an edit distance of 2 at
+    // the default fuzzy threshold. Neither 'খগাশ'[0] nor 'আকাশ'[0] appears in the
+    // other's leading window, so a first-character gate would wrongly skip it.
+    // With only the sound length gate, the reachable candidate must survive.
+    const results = engine.search('খগাশ');
+    const fuzzy = results.filter((r) => r.matchType === 'fuzzy');
+    expect(fuzzy.map((r) => r.entry.headword)).toContain('আকাশ');
+  });
+
   it('does not change the ranking of exact vs transliterated vs cross-language', () => {
     // Exact Bangla headword ranks by the exact tier.
     expect(engine.search('বই')[0].matchType).toBe('exact');

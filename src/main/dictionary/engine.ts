@@ -205,43 +205,30 @@ export class DictionaryEngine {
       }
     }
 
-    // Fuzzy match over headwords using bounded edit distance. A cheap prefilter
-    // skips headwords that cannot possibly be within fuzzyThreshold edits before
-    // paying for boundedLevenshtein, keeping the fuzzy pass from being a full
-    // O(entries x query) scan on a large corpus.
+    // Fuzzy match over headwords using bounded edit distance. A cheap length
+    // prefilter skips headwords that cannot possibly be within fuzzyThreshold
+    // edits before paying for boundedLevenshtein, keeping the fuzzy pass from
+    // being a full O(entries x query) scan on a large corpus.
     //
-    // The prefilter is intentionally conservative and never rejects a candidate
-    // that boundedLevenshtein could accept, so ranking and ordering are
-    // identical to an unfiltered scan:
-    //   - length gate: the edit distance between two strings is at least the
-    //     absolute difference of their lengths, so any headword whose length
-    //     differs from the query by more than fuzzyThreshold can be skipped.
-    //   - first-character gate: only applied when the query is long enough that
-    //     the leading characters cannot both be edited away within the budget
-    //     (query length > fuzzyThreshold), so a shared or edit-reachable first
-    //     character is required. This never drops a reachable match because a
-    //     differing first char costs one edit and, with the length gate already
-    //     bounding total edits, longer queries cannot absorb a leading mismatch
-    //     plus every other difference within budget when we still require the
-    //     first char to appear somewhere at a reachable position.
+    // Length gate only: the edit distance between two strings is at least the
+    // absolute difference of their lengths (each surplus character requires at
+    // least one insertion or deletion), so any headword whose length differs
+    // from the query by more than fuzzyThreshold can never be within budget and
+    // is safe to skip. This is a provably correct lower bound on edit distance,
+    // so it never rejects a candidate that boundedLevenshtein would accept and
+    // leaves ranking and ordering identical to an unfiltered scan.
+    //
+    // A first-character/leading-window gate is deliberately NOT used: it is not
+    // a sound lower bound. For a query longer than the budget, a headword can
+    // substitute all of its leading characters and still be within the edit
+    // distance (e.g. at threshold 2, 'abcde' -> 'xycde' has distance 2), so any
+    // leading-character filter would silently drop reachable did-you-mean
+    // results.
     if (fuzzyEnabled) {
-      const queryFirst = query.length > 0 ? query[0] : '';
       for (const headword of this.indexes.sortedHeadwords) {
         // Length prefilter: |len(a) - len(b)| is a lower bound on edit distance.
         if (Math.abs(headword.length - query.length) > fuzzyThreshold) {
           continue;
-        }
-        // First-character prefilter: for queries longer than the edit budget, a
-        // candidate must share a character with the query's leading region;
-        // otherwise the leading mismatch plus the length-bounded remaining
-        // differences cannot stay within budget. Kept conservative: we accept
-        // the candidate whenever its leading window contains the query's first
-        // character, matching what boundedLevenshtein would allow.
-        if (query.length > fuzzyThreshold && queryFirst.length > 0) {
-          const window = headword.slice(0, fuzzyThreshold + 1);
-          if (!window.includes(queryFirst) && !query.slice(0, fuzzyThreshold + 1).includes(headword[0])) {
-            continue;
-          }
         }
         const distance = boundedLevenshtein(query, headword, fuzzyThreshold);
         if (distance <= fuzzyThreshold && distance > 0) {
