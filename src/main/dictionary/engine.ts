@@ -15,16 +15,16 @@
 import { boundedLevenshtein } from './fuzzy';
 import type { DictionaryIndexes } from './loader';
 import { normalizeBangla, normalizeEnglish, tokenizeEnglish } from './loader';
-import { transliterate } from './phonetic';
+import { transliterate } from '../../shared/phonetic';
 import type { DictionaryEntry, MatchType, SearchOptions, SearchResult } from './types';
 
-// Base scores per match type. Higher is better. Exact wins over prefix which
-// wins over cross language which wins over fuzzy, giving a stable ranking.
+// Base scores per match type. Higher is better. Exact wins over headword
+// prefix which wins over cross language which wins over fuzzy, giving a stable
+// ranking.
 const MATCH_SCORES: Record<MatchType, number> = {
   exact: 1000,
   'transliterated-exact': 950,
   'headword-prefix': 800,
-  prefix: 700,
   'cross-language': 500,
   substring: 400,
   fuzzy: 200,

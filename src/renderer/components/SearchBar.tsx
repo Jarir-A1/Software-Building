@@ -6,7 +6,7 @@ import {
   type ReactElement,
 } from 'react';
 import type { DictionaryEntry } from '../../shared/api';
-import { transliterate } from '../../main/dictionary/phonetic';
+import { transliterate } from '../../shared/phonetic';
 import { useDebounced } from '../hooks';
 
 interface SearchBarProps {

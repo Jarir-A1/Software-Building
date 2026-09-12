@@ -9,7 +9,10 @@
 // set of common cases (vowels, consonants, a handful of conjuncts, and correct
 // vowel sign / kar placement after consonants).
 //
-// This module is pure and has no external dependencies.
+// This module lives under src/shared because it is pure logic with no Electron
+// or React coupling. Both the main process engine and the React renderer import
+// it, so keeping it in the shared layer avoids crossing the main/renderer
+// boundary by import path.
 
 // Independent vowels: used when a vowel sound starts a word or follows another
 // vowel. The keys are ordered longest first when matched (see the matcher).

@@ -95,6 +95,33 @@ describe('DictionaryEngine.search cross language', () => {
   });
 });
 
+describe('DictionaryEngine.search cross language stop words', () => {
+  it('does not flood cross-language results with the stop word "to"', () => {
+    // Many seed glosses contain "to" (e.g. "to go", "to come"). Because "to" is
+    // filtered out of the English reverse index, it must not surface any of
+    // those unrelated entries as cross-language hits.
+    const results = engine.search('to');
+    expect(results.filter((r) => r.matchType === 'cross-language')).toHaveLength(0);
+  });
+
+  it('still ranks the genuine cross-language match first for a stop-word phrase', () => {
+    // "to go" should resolve to যাওয়া (glossed "to go") via the content word
+    // "go", ranked above any incidental fuzzy noise, with exactly one clean
+    // cross-language hit rather than a flood of every "to" entry.
+    const results = engine.search('to go');
+    expect(results[0].entry.headword).toBe('যাওয়া');
+    expect(results[0].matchType).toBe('cross-language');
+    expect(results.filter((r) => r.matchType === 'cross-language')).toHaveLength(1);
+  });
+
+  it('keeps genuine single-word cross-language lookups working', () => {
+    const results = engine.search('water');
+    const headwords = results.map((r) => r.entry.headword);
+    expect(headwords).toContain('জল');
+    expect(headwords).toContain('পানি');
+  });
+});
+
 describe('DictionaryEngine.search ranking order', () => {
   it('ranks exact above prefix above fuzzy', () => {
     // 'ভাল' is a prefix of 'ভালো' and near several other words.

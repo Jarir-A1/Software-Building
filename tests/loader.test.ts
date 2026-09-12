@@ -4,6 +4,8 @@ import { dirname, join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import {
   DictionaryValidationError,
+  ENGLISH_STOP_WORDS,
+  indexableEnglishTokens,
   loadDictionary,
   normalizeBangla,
   normalizeEnglish,
@@ -100,5 +102,35 @@ describe('normalization helpers', () => {
 
   it('tokenizes English glosses into lowercase word tokens', () => {
     expect(tokenizeEnglish('Book, story-teller')).toEqual(['book', 'story', 'teller']);
+  });
+});
+
+describe('English stop-word filtering for the reverse index', () => {
+  it('drops common stop words from the indexable tokens but keeps content words', () => {
+    // "to go" indexes only "go"; "on the water" indexes only "water".
+    expect(indexableEnglishTokens('to go')).toEqual(['go']);
+    expect(indexableEnglishTokens('on the water')).toEqual(['water']);
+  });
+
+  it('falls back to the full token list when a gloss is only stop words', () => {
+    // A gloss made entirely of function words must not vanish from the index,
+    // so the entry stays reachable and the whole-gloss exact match still works.
+    expect(indexableEnglishTokens('to the')).toEqual(['to', 'the']);
+  });
+
+  it('does not index the stop word "to" from real seed glosses', () => {
+    const indexes = loadDictionary(loadSeedFile());
+    // The seed has many glosses containing "to" (e.g. "to go", "to come"), but
+    // "to" is a stop word and so must not appear in the English reverse index.
+    expect(indexes.englishIndex.has('to')).toBe(false);
+    // The content word from those glosses is still indexed.
+    expect(indexes.englishIndex.get('go')?.length ?? 0).toBeGreaterThan(0);
+  });
+
+  it('exposes a non-empty stop-word set covering common function words', () => {
+    expect(ENGLISH_STOP_WORDS.has('to')).toBe(true);
+    expect(ENGLISH_STOP_WORDS.has('the')).toBe(true);
+    // A content word is not a stop word.
+    expect(ENGLISH_STOP_WORDS.has('water')).toBe(false);
   });
 });

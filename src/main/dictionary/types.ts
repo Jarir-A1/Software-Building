@@ -67,7 +67,6 @@ export type MatchType =
   | 'headword-prefix'
   | 'transliterated-exact'
   | 'cross-language'
-  | 'prefix'
   | 'substring'
   | 'fuzzy';
 

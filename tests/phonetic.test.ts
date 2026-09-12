@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { transliterate } from '../src/main/dictionary/phonetic';
+import { transliterate } from '../src/shared/phonetic';
 
 // Documented, tested set of Avro style transliteration cases. These assertions
 // would fail if the mapping tables or the vowel-sign placement logic were
@@ -45,5 +45,58 @@ describe('phonetic transliterate', () => {
 
   it('returns an empty string for empty input', () => {
     expect(transliterate('')).toBe('');
+  });
+
+  // The following cases guard the less-common mapping-table entries that the
+  // canonical cases above never reach: the case-sensitive retroflex consonants
+  // (T, D), the extra sibilant (ss), the velar nasal (ngg), and several
+  // multi-consonant conjunct clusters. Expected outputs were taken from the
+  // actual CONSONANTS / OVERRIDES tables in src/shared/phonetic.ts, so a
+  // regression in any of those entries fails here.
+  it('maps case-sensitive retroflex consonants (T, D)', () => {
+    // Uppercase T/D are the retroflex ট/ড, distinct from lowercase t/d.
+    expect(transliterate('T')).toBe('ট');
+    expect(transliterate('D')).toBe('ড');
+    // With an inherent-vowel-following kar they take the aa-kar.
+    expect(transliterate('Ta')).toBe('টা');
+    expect(transliterate('Da')).toBe('ডা');
+  });
+
+  it('maps the retroflex sibilant ss and the velar nasal ngg', () => {
+    // "ss" is the retroflex ষ, distinct from the single "s" (স) and "sh" (শ).
+    expect(transliterate('ss')).toBe('ষ');
+    expect(transliterate('ssa')).toBe('ষা');
+    // "ngg" is the velar nasal ঙ, distinct from "ng" (the anusvara ং).
+    expect(transliterate('ngg')).toBe('ঙ');
+    expect(transliterate('ngga')).toBe('ঙা');
+  });
+
+  it('maps other less-common single consonants (nn, rr, z, Y, w)', () => {
+    expect(transliterate('nn')).toBe('ণ');
+    expect(transliterate('rr')).toBe('ড়');
+    expect(transliterate('z')).toBe('জ');
+    expect(transliterate('Y')).toBe('য');
+    expect(transliterate('w')).toBe('ও');
+  });
+
+  it('handles the chh digraph', () => {
+    expect(transliterate('chh')).toBe('ছ');
+    expect(transliterate('chha')).toBe('ছা');
+  });
+
+  it('joins multi-consonant clusters with hasanta (conjuncts)', () => {
+    // Two adjacent consonants with no vowel between them form a conjunct.
+    expect(transliterate('kT')).toBe('ক্ট');
+    expect(transliterate('sT')).toBe('স্ট');
+    expect(transliterate('nD')).toBe('ন্ড');
+    expect(transliterate('kt')).toBe('ক্ত');
+    // A three-consonant cluster chains two hasanta joins.
+    expect(transliterate('str')).toBe('স্ত্র');
+  });
+
+  it('applies explicit conjunct overrides (kkha, gga)', () => {
+    // These are entries in the OVERRIDES table, not built by the greedy matcher.
+    expect(transliterate('kkha')).toBe('ক্ষ');
+    expect(transliterate('gga')).toBe('জ্ঞ');
   });
 });
