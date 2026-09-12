@@ -18,11 +18,19 @@ export default function FavoritesView({
 
   useEffect(() => {
     let cancelled = false;
-    void Promise.all(favorites.map((id) => window.wordsetu.getById(id))).then((results) => {
-      if (!cancelled) {
-        setEntries(results.filter((entry): entry is DictionaryEntry => entry !== null));
-      }
-    });
+    void Promise.all(favorites.map((id) => window.wordsetu.getById(id))).then(
+      (results) => {
+        if (!cancelled) {
+          setEntries(results.filter((entry): entry is DictionaryEntry => entry !== null));
+        }
+      },
+      () => {
+        // A rejected IPC promise degrades to an empty list rather than crashing.
+        if (!cancelled) {
+          setEntries([]);
+        }
+      },
+    );
     return () => {
       cancelled = true;
     };

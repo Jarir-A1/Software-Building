@@ -33,6 +33,16 @@ const NAV: { view: View; label: string; icon: string }[] = [
   { view: 'settings', label: 'Settings', icon: '⚙' },
 ];
 
+// The keyboard shortcuts surfaced in the Shortcuts modal. This list must stay
+// in sync with the keydown handler below; only shortcuts actually wired there
+// are listed here.
+const SHORTCUTS: { keys: string[]; label: string }[] = [
+  { keys: ['/', 'Ctrl+F'], label: 'Focus the search box' },
+  { keys: ['Ctrl+,'], label: 'Open Settings' },
+  { keys: ['Ctrl+D'], label: 'Toggle favorite on the open word' },
+  { keys: ['Esc'], label: 'Close dialogs and suggestions' },
+];
+
 // Root application component. Owns the top-level app state (settings,
 // favorites, history, current view, current query and opened entry), loads it
 // from the store on mount, wires keyboard shortcuts and native menu actions,
@@ -45,18 +55,20 @@ export default function App(): ReactElement {
   const [query, setQuery] = useState('');
   const [openedEntry, setOpenedEntry] = useState<DictionaryEntry | null>(null);
   const [showAbout, setShowAbout] = useState(false);
+  const [showShortcuts, setShowShortcuts] = useState(false);
   const searchInputRef = useRef<HTMLInputElement>(null);
 
-  // Initial load of persisted state.
+  // Initial load of persisted state. Each IPC call degrades to its default on
+  // rejection so a failed store read never crashes the shell.
   useEffect(() => {
     void window.wordsetu.getSettings().then((loaded) => {
       setSettings(loaded);
       if (loaded.lastQuery) {
         setQuery(loaded.lastQuery);
       }
-    });
-    void window.wordsetu.listFavorites().then(setFavorites);
-    void window.wordsetu.listHistory().then(setHistory);
+    }, () => undefined);
+    void window.wordsetu.listFavorites().then(setFavorites, () => undefined);
+    void window.wordsetu.listHistory().then(setHistory, () => undefined);
   }, []);
 
   const persistSettings = useCallback((patch: Partial<Settings>) => {
@@ -127,13 +139,18 @@ export default function App(): ReactElement {
           event.preventDefault();
           toggleFavorite(openedEntry.id);
         }
-      } else if (event.key === 'Escape' && showAbout) {
-        setShowAbout(false);
+      } else if (event.key === 'Escape') {
+        if (showAbout) {
+          setShowAbout(false);
+        }
+        if (showShortcuts) {
+          setShowShortcuts(false);
+        }
       }
     };
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
-  }, [focusSearch, openedEntry, toggleFavorite, showAbout]);
+  }, [focusSearch, openedEntry, toggleFavorite, showAbout, showShortcuts]);
 
   return (
     <ThemeProvider
@@ -169,6 +186,13 @@ export default function App(): ReactElement {
             ))}
           </nav>
           <div className="sidebar__footer">
+            <button
+              type="button"
+              className="btn btn--ghost"
+              onClick={() => setShowShortcuts(true)}
+            >
+              Keyboard shortcuts
+            </button>
             <button type="button" className="btn btn--ghost" onClick={() => setShowAbout(true)}>
               About
             </button>
@@ -242,6 +266,39 @@ export default function App(): ReactElement {
               <p>A modern, offline Bangla dictionary for Windows 11.</p>
               <p className="modal__muted">Search Bangla and English, type phonetically, and save favorites, all offline.</p>
               <button type="button" className="btn btn--primary" onClick={() => setShowAbout(false)}>
+                Close
+              </button>
+            </div>
+          </div>
+        )}
+
+        {showShortcuts && (
+          <div
+            className="modal"
+            role="dialog"
+            aria-modal="true"
+            aria-label="Keyboard shortcuts"
+            onClick={() => setShowShortcuts(false)}
+          >
+            <div className="modal__card" onClick={(event) => event.stopPropagation()}>
+              <h2>Keyboard shortcuts</h2>
+              <dl className="shortcuts">
+                {SHORTCUTS.map((shortcut) => (
+                  <div className="shortcuts__row" key={shortcut.label}>
+                    <dt className="shortcuts__keys">
+                      {shortcut.keys.map((key) => (
+                        <kbd key={key}>{key}</kbd>
+                      ))}
+                    </dt>
+                    <dd className="shortcuts__desc">{shortcut.label}</dd>
+                  </div>
+                ))}
+              </dl>
+              <button
+                type="button"
+                className="btn btn--primary"
+                onClick={() => setShowShortcuts(false)}
+              >
                 Close
               </button>
             </div>

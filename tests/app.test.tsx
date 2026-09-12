@@ -128,4 +128,56 @@ describe('App', () => {
     fireEvent.click(favButton);
     await waitFor(() => expect(api.toggleFavorite).toHaveBeenCalledWith('boi'));
   });
+
+  it('renders a friendly error with retry when the search IPC rejects', async () => {
+    const api = installMockApi({
+      search: vi.fn(async () => {
+        throw new Error('ipc failed');
+      }),
+    });
+    render(<App />);
+    await waitFor(() => expect(api.getSettings).toHaveBeenCalled());
+
+    const input = screen.getByRole('combobox');
+    fireEvent.change(input, { target: { value: 'boi' } });
+    fireEvent.keyDown(input, { key: 'Enter' });
+
+    expect(await screen.findByText('Something went wrong')).toBeInTheDocument();
+    // It must not remain stuck on the loading state.
+    expect(screen.queryByText('Searching…')).not.toBeInTheDocument();
+    // The retry affordance re-runs the search.
+    const retry = screen.getByRole('button', { name: /retry/i });
+    fireEvent.click(retry);
+    await waitFor(() => expect((api.search as ReturnType<typeof vi.fn>).mock.calls.length).toBeGreaterThan(1));
+    // Let the debounced suggestion settle so its state update is flushed inside
+    // act() and does not leak a warning past the end of the test.
+    await waitFor(() => expect(api.suggest).toHaveBeenCalled());
+    await screen.findByRole('option');
+  });
+
+  it('opens the keyboard shortcuts affordance and lists the wired shortcuts', async () => {
+    installMockApi();
+    render(<App />);
+
+    fireEvent.click(screen.getByRole('button', { name: /keyboard shortcuts/i }));
+
+    const dialog = await screen.findByRole('dialog', { name: /keyboard shortcuts/i });
+    expect(dialog).toBeInTheDocument();
+    expect(screen.getByText(/focus the search box/i)).toBeInTheDocument();
+    expect(screen.getByText(/open settings/i)).toBeInTheDocument();
+    expect(screen.getByText(/toggle favorite/i)).toBeInTheDocument();
+    expect(screen.getByText(/close dialogs/i)).toBeInTheDocument();
+  });
+
+  it('renders the onboarding hint on the home view and dismisses it', async () => {
+    window.localStorage.clear();
+    installMockApi();
+    render(<App />);
+
+    expect(await screen.findByText(/Welcome to WordSetu/i)).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('button', { name: /got it/i }));
+    await waitFor(() =>
+      expect(screen.queryByText(/Welcome to WordSetu/i)).not.toBeInTheDocument(),
+    );
+  });
 });
