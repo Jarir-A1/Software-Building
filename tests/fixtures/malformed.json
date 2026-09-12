@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "language": "bn-en",
+  "entries": [
+    {
+      "id": "ok",
+      "headword": "ঠিক",
+      "senses": [{ "definitionBn": "সঠিক" }]
+    },
+    {
+      "id": "no-senses",
+      "headword": "ভুল",
+      "senses": []
+    },
+    {
+      "headword": "নাম-নেই",
+      "senses": [{ "definitionBn": "আইডি নেই" }]
+    }
+  ]
+}

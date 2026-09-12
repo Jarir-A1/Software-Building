@@ -1,0 +1,265 @@
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, join } from 'node:path';
+import { beforeAll, describe, expect, it } from 'vitest';
+import { loadDictionary } from '../src/main/dictionary/loader';
+import { DictionaryEngine, createEngine, detectScript } from '../src/main/dictionary/engine';
+import type { DictionaryFile } from '../src/main/dictionary/types';
+
+const here = dirname(fileURLToPath(import.meta.url));
+const dataPath = join(here, '..', 'resources', 'dictionary', 'entries.json');
+
+let engine: DictionaryEngine;
+
+beforeAll(() => {
+  const file = JSON.parse(readFileSync(dataPath, 'utf8')) as DictionaryFile;
+  engine = createEngine(loadDictionary(file));
+});
+
+describe('script detection', () => {
+  it('detects Bangla and Latin scripts', () => {
+    expect(detectScript('বই')).toBe('bangla');
+    expect(detectScript('boi')).toBe('latin');
+    expect(detectScript('boi বই')).toBe('bangla');
+  });
+});
+
+describe('DictionaryEngine.getById', () => {
+  it('returns the exact entry for a known id and undefined otherwise', () => {
+    expect(engine.getById('boi')?.headword).toBe('বই');
+    expect(engine.getById('does-not-exist')).toBeUndefined();
+  });
+});
+
+describe('DictionaryEngine.search exact and transliteration', () => {
+  it('returns an exact Bangla headword first', () => {
+    const results = engine.search('বই');
+    expect(results.length).toBeGreaterThan(0);
+    expect(results[0].entry.headword).toBe('বই');
+    expect(results[0].matchType).toBe('exact');
+  });
+
+  it('transliterates Latin input and finds the Bangla entry (ami -> আমি)', () => {
+    const results = engine.search('ami');
+    expect(results.length).toBeGreaterThan(0);
+    expect(results[0].entry.headword).toBe('আমি');
+    expect(results[0].matchType).toBe('transliterated-exact');
+  });
+
+  it('does not transliterate when the option is disabled', () => {
+    const results = engine.search('ami', { transliterate: false });
+    // Without transliteration and no English gloss for "ami", there is no
+    // transliterated-exact hit for আমি.
+    expect(results.find((r) => r.matchType === 'transliterated-exact')).toBeUndefined();
+  });
+});
+
+describe('DictionaryEngine.search fuzzy tolerance', () => {
+  it('tolerates a one character typo and returns the intended word', () => {
+    // 'শহব' is a single substitution typo of 'শহর' (city).
+    const results = engine.search('শহব');
+    const headwords = results.map((r) => r.entry.headword);
+    expect(headwords).toContain('শহর');
+  });
+
+  it('finds the target under a one character typo of a longer word', () => {
+    // 'পাখা' would be far; use 'পাখ1' style single substitution of 'পাখি'.
+    const results = engine.search('পাখী');
+    expect(results.map((r) => r.entry.headword)).toContain('পাখি');
+  });
+
+  it('skips fuzzy matches when fuzzy is disabled', () => {
+    const results = engine.search('শহব', { fuzzy: false });
+    expect(results.find((r) => r.matchType === 'fuzzy')).toBeUndefined();
+  });
+});
+
+describe('DictionaryEngine.search cross language', () => {
+  it('En -> Bn: an English gloss returns the corresponding Bangla entry', () => {
+    const results = engine.search('book');
+    expect(results[0].entry.headword).toBe('বই');
+    expect(results[0].matchType).toBe('cross-language');
+  });
+
+  it('En -> Bn: "water" returns the water entries', () => {
+    const results = engine.search('water');
+    const headwords = results.map((r) => r.entry.headword);
+    expect(headwords).toContain('জল');
+    expect(headwords).toContain('পানি');
+  });
+
+  it('Bn -> En: the matched Bangla entry carries the English definition', () => {
+    const results = engine.search('জল');
+    expect(results[0].entry.headword).toBe('জল');
+    expect(results[0].entry.senses[0].definitionEn).toBe('water');
+  });
+});
+
+describe('DictionaryEngine.search cross language stop words', () => {
+  it('does not flood cross-language results with the stop word "to"', () => {
+    // Many seed glosses contain "to" (e.g. "to go", "to come"). Because "to" is
+    // filtered out of the English reverse index, it must not surface any of
+    // those unrelated entries as cross-language hits.
+    const results = engine.search('to');
+    expect(results.filter((r) => r.matchType === 'cross-language')).toHaveLength(0);
+  });
+
+  it('still ranks the genuine cross-language match first for a stop-word phrase', () => {
+    // "to go" should resolve to যাওয়া (glossed "to go") via the content word
+    // "go", ranked above any incidental fuzzy noise, with exactly one clean
+    // cross-language hit rather than a flood of every "to" entry.
+    const results = engine.search('to go');
+    expect(results[0].entry.headword).toBe('যাওয়া');
+    expect(results[0].matchType).toBe('cross-language');
+    expect(results.filter((r) => r.matchType === 'cross-language')).toHaveLength(1);
+  });
+
+  it('keeps genuine single-word cross-language lookups working', () => {
+    const results = engine.search('water');
+    const headwords = results.map((r) => r.entry.headword);
+    expect(headwords).toContain('জল');
+    expect(headwords).toContain('পানি');
+  });
+});
+
+describe('DictionaryEngine larger corpus', () => {
+  it('loads the expanded seed without validation errors and exposes every entry', () => {
+    const file = JSON.parse(readFileSync(dataPath, 'utf8')) as DictionaryFile;
+    // The 0.2.0 expansion roughly doubled the corpus to 350 entries.
+    expect(engine.size).toBe(file.entries.length);
+    expect(engine.size).toBe(350);
+    // Every entry is reachable by id.
+    for (const raw of file.entries) {
+      expect(engine.getById(raw.id)).toBeDefined();
+    }
+  });
+});
+
+describe('DictionaryEngine.search fuzzy prefilter', () => {
+  it('still returns the did-you-mean candidate for a near-miss query', () => {
+    // 'শহব' is a single substitution typo of 'শহর' (city); the length/first-char
+    // prefilter must not drop this reachable candidate.
+    const results = engine.search('শহব');
+    const fuzzy = results.filter((r) => r.matchType === 'fuzzy');
+    expect(fuzzy.map((r) => r.entry.headword)).toContain('শহর');
+  });
+
+  it('returns a candidate whose leading characters are all substituted but is still within budget', () => {
+    // Regression guard for the unsound first-character/leading-window prefilter.
+    // 'খগাশ' substitutes the first TWO code points of the real headword 'আকাশ'
+    // (আ->খ, ক->গ) and leaves the rest intact, giving an edit distance of 2 at
+    // the default fuzzy threshold. Neither 'খগাশ'[0] nor 'আকাশ'[0] appears in the
+    // other's leading window, so a first-character gate would wrongly skip it.
+    // With only the sound length gate, the reachable candidate must survive.
+    const results = engine.search('খগাশ');
+    const fuzzy = results.filter((r) => r.matchType === 'fuzzy');
+    expect(fuzzy.map((r) => r.entry.headword)).toContain('আকাশ');
+  });
+
+  it('does not change the ranking of exact vs transliterated vs cross-language', () => {
+    // Exact Bangla headword ranks by the exact tier.
+    expect(engine.search('বই')[0].matchType).toBe('exact');
+    // Transliterated Latin input ranks by the transliterated-exact tier.
+    expect(engine.search('shohor')[0].matchType).toBe('transliterated-exact');
+    // A pure English gloss ranks by the cross-language tier.
+    expect(engine.search('friend')[0].matchType).toBe('cross-language');
+    // The fixed tier ordering holds: exact > transliterated-exact > cross-language.
+    const exactScore = engine.search('বই')[0].score;
+    const translitScore = engine.search('shohor')[0].score;
+    const crossScore = engine.search('friend')[0].score;
+    expect(exactScore).toBeGreaterThan(translitScore);
+    expect(translitScore).toBeGreaterThan(crossScore);
+  });
+
+  it('disabling fuzzy still suppresses fuzzy hits on the larger corpus', () => {
+    const results = engine.search('শহব', { fuzzy: false });
+    expect(results.find((r) => r.matchType === 'fuzzy')).toBeUndefined();
+  });
+});
+
+describe('DictionaryEngine.search cross language exact-gloss priority', () => {
+  it('ranks the exact-gloss entry above incidental multi-entry matches', () => {
+    // "old" is the whole gloss of পুরনো but only an incidental token of
+    // বৃদ্ধ ("old (person); elderly"). The exact-gloss entry must rank first.
+    const results = engine.search('old');
+    const purono = results.findIndex((r) => r.entry.headword === 'পুরনো');
+    const briddho = results.findIndex((r) => r.entry.headword === 'বৃদ্ধ');
+    expect(purono).toBeGreaterThanOrEqual(0);
+    expect(briddho).toBeGreaterThanOrEqual(0);
+    expect(purono).toBeLessThan(briddho);
+    expect(results[purono].score).toBeGreaterThan(results[briddho].score);
+  });
+});
+
+describe('DictionaryEngine.search ranking order', () => {
+  it('ranks exact above prefix above fuzzy', () => {
+    // 'ভাল' is a prefix of 'ভালো' and near several other words.
+    const results = engine.search('ভাল');
+    const exactOrPrefixIndex = results.findIndex((r) => r.entry.headword === 'ভালো');
+    const anyFuzzyIndex = results.findIndex((r) => r.matchType === 'fuzzy');
+    expect(exactOrPrefixIndex).toBeGreaterThanOrEqual(0);
+    if (anyFuzzyIndex >= 0) {
+      expect(exactOrPrefixIndex).toBeLessThan(anyFuzzyIndex);
+    }
+    // Scores are non increasing (stable descending ranking).
+    for (let i = 1; i < results.length; i += 1) {
+      expect(results[i - 1].score).toBeGreaterThanOrEqual(results[i].score);
+    }
+  });
+
+  it('respects the limit option', () => {
+    const results = engine.search('ব', { limit: 3 });
+    expect(results.length).toBeLessThanOrEqual(3);
+  });
+});
+
+describe('DictionaryEngine.suggest', () => {
+  it('returns headwords that start with the Bangla prefix', () => {
+    const suggestions = engine.suggest('বা', 5);
+    expect(suggestions.length).toBeGreaterThan(0);
+    for (const entry of suggestions) {
+      expect(entry.headword.startsWith('বা')).toBe(true);
+    }
+  });
+
+  it('transliterates a Latin prefix before suggesting', () => {
+    const suggestions = engine.suggest('ba', 5);
+    expect(suggestions.map((e) => e.headword)).toContain('বাংলা');
+  });
+
+  it('returns an empty list for an empty prefix', () => {
+    expect(engine.suggest('   ', 5)).toEqual([]);
+  });
+});
+
+describe('DictionaryEngine.wordOfTheDay', () => {
+  it('is deterministic for the same date', () => {
+    const a = engine.wordOfTheDay('2024-01-01');
+    const b = engine.wordOfTheDay('2024-01-01');
+    expect(a?.id).toBe(b?.id);
+  });
+
+  it('generally differs across dates', () => {
+    const a = engine.wordOfTheDay('2024-01-01');
+    const b = engine.wordOfTheDay('2024-06-15');
+    expect(a?.id).not.toBe(b?.id);
+  });
+
+  it('accepts a Date object and returns an entry', () => {
+    const entry = engine.wordOfTheDay(new Date('2024-03-21T00:00:00Z'));
+    expect(entry).toBeDefined();
+    expect(engine.getById(entry!.id)).toBeDefined();
+  });
+});
+
+describe('DictionaryEngine.random', () => {
+  it('returns an entry that exists in the dictionary', () => {
+    const entry = engine.random(42);
+    expect(entry).toBeDefined();
+    expect(engine.getById(entry!.id)).toBeDefined();
+  });
+
+  it('is deterministic for a fixed seed', () => {
+    expect(engine.random(7)?.id).toBe(engine.random(7)?.id);
+  });
+});

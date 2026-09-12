@@ -1,0 +1,32 @@
+{
+  "id": "FEAT-001",
+  "type": "chore",
+  "description": "Establish a green baseline before enhancement work. Install dependencies, ensure the Electron binary is present, and confirm the existing quality gates and packaging pipeline all pass so later features start from a known-good state.",
+  "status": "completed",
+  "steps": [
+    "Run `npm ci` at the project root (/projects/sandbox). Network is OPEN_INTERNET so installs are allowed.",
+    "If the Electron binary is missing after install, run `node node_modules/electron/install.js` (no-op if already present).",
+    "Run `npm run typecheck` and confirm it exits 0.",
+    "Run `npm run lint` and confirm it exits 0.",
+    "Run `npm test` and confirm all 6 suites / 63 tests pass.",
+    "Run `npm run build` and confirm dist/main/index.js, dist/preload/index.js, and dist/renderer/index.html are produced.",
+    "Run `npm run package:linux` and confirm it exits 0 and that release/linux-unpacked/resources/resources/dictionary/entries.json exists (this is the runtime-resolved packaged data path).",
+    "Record the exact baseline numbers (test count, suite count) in the feature findings."
+  ],
+  "acceptance_criteria": [
+    "npm run typecheck exits 0",
+    "npm run lint exits 0",
+    "npm test reports all tests passing (baseline 63 tests / 6 suites)",
+    "npm run build produces dist/main, dist/preload, dist/renderer",
+    "npm run package:linux exits 0 and the dictionary is present at release/linux-unpacked/resources/resources/dictionary/entries.json"
+  ],
+  "verification": [
+    "npm run typecheck",
+    "npm run lint",
+    "npm test",
+    "npm run build",
+    "npm run package:linux"
+  ],
+  "blocked_reason": null,
+  "findings": "Baseline verified green on Linux sandbox (Node 22, OPEN_INTERNET). npm ci added 724 packages, 0 vulnerabilities. Electron binary present at node_modules/electron/dist/electron after install (install.js was a no-op). Gate results: `npm run typecheck` exit 0; `npm run lint` exit 0 (clean, no warnings); `npm test` exit 0 with 6 test files / 63 tests passing (engine, loader, store, phonetic, app.test.tsx, smoke) — matches expected baseline exactly (some benign React act() warnings in app.test.tsx stderr, tests still pass). `npm run build` exit 0, produced dist/main/index.js (30872 B), dist/preload/index.js (2075 B), dist/renderer/index.html (566 B) plus renderer assets. `npm run package:linux` exit 0, produced release/linux-unpacked/ with executable `wordsetu` (~228 MB) and the runtime-resolved dictionary at release/linux-unpacked/resources/resources/dictionary/entries.json (104971 B). NOTE: Windows .exe cannot be built on this Linux sandbox — validated packaging via package:linux only, per environment constraints. electron-builder logged a benign 'duplicate dependency references' notice for react/loose-envify (non-fatal). No code changes made; this is a verification-only chore."
+}

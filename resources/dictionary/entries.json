@@ -1,0 +1,7662 @@
+{
+  "version": 1,
+  "language": "bn-en",
+  "entries": [
+    {
+      "id": "ami",
+      "headword": "আমি",
+      "headwordRoman": "ami",
+      "partOfSpeech": "pronoun",
+      "pronunciationIPA": "ami",
+      "senses": [
+        {
+          "definitionBn": "কথা বলা ব্যক্তি নিজেকে যে শব্দে বোঝায়।",
+          "definitionEn": "I"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "আমি বাড়ি যাচ্ছি।",
+          "en": "I am going home."
+        }
+      ]
+    },
+    {
+      "id": "tumi",
+      "headword": "তুমি",
+      "headwordRoman": "tumi",
+      "partOfSpeech": "pronoun",
+      "pronunciationIPA": "tumi",
+      "senses": [
+        {
+          "definitionBn": "যাকে সম্বোধন করা হয় তাকে ঘনিষ্ঠভাবে বোঝানোর শব্দ।",
+          "definitionEn": "you"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "তুমি কেমন আছ?",
+          "en": "How are you?"
+        }
+      ]
+    },
+    {
+      "id": "apni",
+      "headword": "আপনি",
+      "headwordRoman": "apni",
+      "partOfSpeech": "pronoun",
+      "pronunciationIPA": "apni",
+      "senses": [
+        {
+          "definitionBn": "সম্মানসূচকভাবে দ্বিতীয় ব্যক্তিকে বোঝানোর শব্দ।",
+          "definitionEn": "you (respectful)"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "আপনি বসুন।",
+          "en": "Please sit down."
+        }
+      ]
+    },
+    {
+      "id": "se",
+      "headword": "সে",
+      "headwordRoman": "she",
+      "partOfSpeech": "pronoun",
+      "pronunciationIPA": "ʃe",
+      "senses": [
+        {
+          "definitionBn": "তৃতীয় কোনো ব্যক্তিকে বোঝানোর শব্দ।",
+          "definitionEn": "he; she"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "সে এখন এখানে নেই।",
+          "en": "He is not here now."
+        }
+      ]
+    },
+    {
+      "id": "boi",
+      "headword": "বই",
+      "headwordRoman": "boi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "boi",
+      "senses": [
+        {
+          "definitionBn": "ছাপানো বা লেখা পৃষ্ঠার বাঁধাই করা সংকলন।",
+          "definitionEn": "book"
+        }
+      ],
+      "synonyms": [
+        "পুস্তক",
+        "গ্রন্থ"
+      ],
+      "examples": [
+        {
+          "bn": "আমি একটি বই পড়ছি।",
+          "en": "I am reading a book."
+        }
+      ]
+    },
+    {
+      "id": "jol",
+      "headword": "জল",
+      "headwordRoman": "jol",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dʒɔl",
+      "senses": [
+        {
+          "definitionBn": "বর্ণহীন স্বচ্ছ তরল যা পান করা হয়।",
+          "definitionEn": "water"
+        }
+      ],
+      "synonyms": [
+        "পানি",
+        "বারি"
+      ],
+      "examples": [
+        {
+          "bn": "গ্লাসে জল আছে।",
+          "en": "There is water in the glass."
+        }
+      ]
+    },
+    {
+      "id": "pani",
+      "headword": "পানি",
+      "headwordRoman": "pani",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "pani",
+      "senses": [
+        {
+          "definitionBn": "পানের যোগ্য স্বচ্ছ তরল।",
+          "definitionEn": "water"
+        }
+      ],
+      "synonyms": [
+        "জল",
+        "বারি"
+      ],
+      "examples": [
+        {
+          "bn": "আমাকে একটু পানি দাও।",
+          "en": "Give me some water."
+        }
+      ]
+    },
+    {
+      "id": "agun",
+      "headword": "আগুন",
+      "headwordRoman": "agun",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "agun",
+      "senses": [
+        {
+          "definitionBn": "জ্বলন্ত তাপ ও আলো উৎপন্নকারী দহন।",
+          "definitionEn": "fire"
+        }
+      ],
+      "synonyms": [
+        "অগ্নি",
+        "হুতাশন"
+      ],
+      "examples": [
+        {
+          "bn": "আগুন খুব গরম।",
+          "en": "Fire is very hot."
+        }
+      ]
+    },
+    {
+      "id": "batas",
+      "headword": "বাতাস",
+      "headwordRoman": "batas",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "batas",
+      "senses": [
+        {
+          "definitionBn": "চলমান বায়ু।",
+          "definitionEn": "wind; air"
+        }
+      ],
+      "synonyms": [
+        "হাওয়া",
+        "বায়ু"
+      ],
+      "examples": [
+        {
+          "bn": "ঠান্ডা বাতাস বইছে।",
+          "en": "A cold wind is blowing."
+        }
+      ]
+    },
+    {
+      "id": "akash",
+      "headword": "আকাশ",
+      "headwordRoman": "akash",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "akaʃ",
+      "senses": [
+        {
+          "definitionBn": "পৃথিবীর উপরে বিস্তৃত নীল শূন্যস্থান।",
+          "definitionEn": "sky"
+        }
+      ],
+      "synonyms": [
+        "গগন",
+        "নভ"
+      ],
+      "examples": [
+        {
+          "bn": "আকাশ আজ পরিষ্কার।",
+          "en": "The sky is clear today."
+        }
+      ]
+    },
+    {
+      "id": "mati",
+      "headword": "মাটি",
+      "headwordRoman": "mati",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "mati",
+      "senses": [
+        {
+          "definitionBn": "পৃথিবীর উপরিভাগের নরম স্তর যেখানে গাছ জন্মায়।",
+          "definitionEn": "soil; earth"
+        }
+      ],
+      "synonyms": [
+        "ভূমি",
+        "জমি"
+      ],
+      "examples": [
+        {
+          "bn": "মাটিতে বীজ বোনা হয়।",
+          "en": "Seeds are sown in the soil."
+        }
+      ]
+    },
+    {
+      "id": "surjo",
+      "headword": "সূর্য",
+      "headwordRoman": "surjo",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃurdʒo",
+      "senses": [
+        {
+          "definitionBn": "যে নক্ষত্র থেকে পৃথিবী আলো ও তাপ পায়।",
+          "definitionEn": "sun"
+        }
+      ],
+      "synonyms": [
+        "রবি",
+        "ভানু"
+      ],
+      "examples": [
+        {
+          "bn": "সকালে সূর্য ওঠে।",
+          "en": "The sun rises in the morning."
+        }
+      ]
+    },
+    {
+      "id": "chand",
+      "headword": "চাঁদ",
+      "headwordRoman": "chand",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tʃãd",
+      "senses": [
+        {
+          "definitionBn": "রাতের আকাশে দৃশ্যমান পৃথিবীর উপগ্রহ।",
+          "definitionEn": "moon"
+        }
+      ],
+      "synonyms": [
+        "শশী",
+        "ইন্দু"
+      ],
+      "examples": [
+        {
+          "bn": "আজ রাতে চাঁদ উঠেছে।",
+          "en": "The moon has risen tonight."
+        }
+      ]
+    },
+    {
+      "id": "tara",
+      "headword": "তারা",
+      "headwordRoman": "tara",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tara",
+      "senses": [
+        {
+          "definitionBn": "রাতের আকাশে জ্বলজ্বল করা দূরবর্তী নক্ষত্র।",
+          "definitionEn": "star"
+        }
+      ],
+      "synonyms": [
+        "নক্ষত্র",
+        "উডু"
+      ],
+      "examples": [
+        {
+          "bn": "আকাশে অনেক তারা।",
+          "en": "There are many stars in the sky."
+        }
+      ]
+    },
+    {
+      "id": "gachh",
+      "headword": "গাছ",
+      "headwordRoman": "gachh",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "gatʃʰ",
+      "senses": [
+        {
+          "definitionBn": "শিকড়, কাণ্ড ও পাতা যুক্ত উদ্ভিদ।",
+          "definitionEn": "tree; plant"
+        }
+      ],
+      "synonyms": [
+        "বৃক্ষ",
+        "তরু"
+      ],
+      "examples": [
+        {
+          "bn": "বাড়ির সামনে একটি গাছ আছে।",
+          "en": "There is a tree in front of the house."
+        }
+      ]
+    },
+    {
+      "id": "phul",
+      "headword": "ফুল",
+      "headwordRoman": "phul",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "pʰul",
+      "senses": [
+        {
+          "definitionBn": "গাছের রঙিন সুগন্ধি প্রজনন অংশ।",
+          "definitionEn": "flower"
+        }
+      ],
+      "synonyms": [
+        "পুষ্প",
+        "কুসুম"
+      ],
+      "examples": [
+        {
+          "bn": "বাগানে ফুল ফুটেছে।",
+          "en": "Flowers have bloomed in the garden."
+        }
+      ]
+    },
+    {
+      "id": "pakhi",
+      "headword": "পাখি",
+      "headwordRoman": "pakhi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "pakʰi",
+      "senses": [
+        {
+          "definitionBn": "পালকযুক্ত উড়তে সক্ষম প্রাণী।",
+          "definitionEn": "bird"
+        }
+      ],
+      "synonyms": [
+        "বিহঙ্গ",
+        "খেচর"
+      ],
+      "examples": [
+        {
+          "bn": "পাখি গান গায়।",
+          "en": "The bird sings."
+        }
+      ]
+    },
+    {
+      "id": "machh",
+      "headword": "মাছ",
+      "headwordRoman": "machh",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "matʃʰ",
+      "senses": [
+        {
+          "definitionBn": "জলে বাস করা কানকো ও পাখনাযুক্ত প্রাণী।",
+          "definitionEn": "fish"
+        }
+      ],
+      "synonyms": [
+        "মীন",
+        "মৎস্য"
+      ],
+      "examples": [
+        {
+          "bn": "নদীতে মাছ আছে।",
+          "en": "There are fish in the river."
+        }
+      ]
+    },
+    {
+      "id": "ghar",
+      "headword": "ঘর",
+      "headwordRoman": "ghar",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "gʰɔr",
+      "senses": [
+        {
+          "definitionBn": "বসবাসের জন্য নির্মিত কক্ষ বা বাসস্থান।",
+          "definitionEn": "room; house"
+        }
+      ],
+      "synonyms": [
+        "কক্ষ",
+        "গৃহ"
+      ],
+      "examples": [
+        {
+          "bn": "ঘরটি বড় ও পরিষ্কার।",
+          "en": "The room is big and clean."
+        }
+      ]
+    },
+    {
+      "id": "bari",
+      "headword": "বাড়ি",
+      "headwordRoman": "bari",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "baɽi",
+      "senses": [
+        {
+          "definitionBn": "পরিবারের বসবাসের স্থান।",
+          "definitionEn": "home; house"
+        }
+      ],
+      "synonyms": [
+        "গৃহ",
+        "নিবাস"
+      ],
+      "examples": [
+        {
+          "bn": "সে বাড়ি ফিরেছে।",
+          "en": "He has returned home."
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "headword": "স্কুল",
+      "headwordRoman": "skul",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "skul",
+      "senses": [
+        {
+          "definitionBn": "যেখানে ছাত্রছাত্রীরা শিক্ষা লাভ করে।",
+          "definitionEn": "school"
+        }
+      ],
+      "synonyms": [
+        "বিদ্যালয়",
+        "পাঠশালা"
+      ],
+      "examples": [
+        {
+          "bn": "শিশুরা স্কুলে যায়।",
+          "en": "The children go to school."
+        }
+      ]
+    },
+    {
+      "id": "boi_ghor",
+      "headword": "গ্রন্থাগার",
+      "headwordRoman": "granthagar",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "grɔntʰagar",
+      "senses": [
+        {
+          "definitionBn": "যেখানে বই সংগ্রহ ও পাঠ করা হয়।",
+          "definitionEn": "library"
+        }
+      ],
+      "synonyms": [
+        "পাঠাগার"
+      ],
+      "examples": [
+        {
+          "bn": "গ্রন্থাগারে অনেক বই আছে।",
+          "en": "There are many books in the library."
+        }
+      ]
+    },
+    {
+      "id": "shohor",
+      "headword": "শহর",
+      "headwordRoman": "shohor",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃɔhor",
+      "senses": [
+        {
+          "definitionBn": "ঘনবসতিপূর্ণ বড় জনপদ।",
+          "definitionEn": "city; town"
+        }
+      ],
+      "synonyms": [
+        "নগর",
+        "পুর"
+      ],
+      "examples": [
+        {
+          "bn": "শহরে অনেক মানুষ থাকে।",
+          "en": "Many people live in the city."
+        }
+      ]
+    },
+    {
+      "id": "gram",
+      "headword": "গ্রাম",
+      "headwordRoman": "gram",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "gram",
+      "senses": [
+        {
+          "definitionBn": "ছোট গ্রামীণ জনবসতি।",
+          "definitionEn": "village"
+        }
+      ],
+      "synonyms": [
+        "পল্লি",
+        "পাড়াগাঁ"
+      ],
+      "examples": [
+        {
+          "bn": "আমার গ্রাম খুব সুন্দর।",
+          "en": "My village is very beautiful."
+        }
+      ]
+    },
+    {
+      "id": "rasta",
+      "headword": "রাস্তা",
+      "headwordRoman": "rasta",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "rasta",
+      "senses": [
+        {
+          "definitionBn": "চলাচলের জন্য নির্মিত পথ।",
+          "definitionEn": "road; street"
+        }
+      ],
+      "synonyms": [
+        "পথ",
+        "সড়ক"
+      ],
+      "examples": [
+        {
+          "bn": "রাস্তা দিয়ে গাড়ি চলে।",
+          "en": "Cars run on the road."
+        }
+      ]
+    },
+    {
+      "id": "nodi",
+      "headword": "নদী",
+      "headwordRoman": "nodi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "nodi",
+      "senses": [
+        {
+          "definitionBn": "প্রবাহিত মিষ্টি জলের বড় ধারা।",
+          "definitionEn": "river"
+        }
+      ],
+      "synonyms": [
+        "তটিনী",
+        "স্রোতস্বিনী"
+      ],
+      "examples": [
+        {
+          "bn": "নদীতে নৌকা চলছে।",
+          "en": "Boats are sailing on the river."
+        }
+      ]
+    },
+    {
+      "id": "shagor",
+      "headword": "সাগর",
+      "headwordRoman": "shagor",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃagor",
+      "senses": [
+        {
+          "definitionBn": "বিশাল লবণাক্ত জলরাশি।",
+          "definitionEn": "sea; ocean"
+        }
+      ],
+      "synonyms": [
+        "সমুদ্র",
+        "জলধি"
+      ],
+      "examples": [
+        {
+          "bn": "সাগরের ঢেউ বড়।",
+          "en": "The waves of the sea are big."
+        }
+      ]
+    },
+    {
+      "id": "pahar",
+      "headword": "পাহাড়",
+      "headwordRoman": "pahar",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "pahaɽ",
+      "senses": [
+        {
+          "definitionBn": "ভূমি থেকে উঁচু বিশাল শিলাস্তূপ।",
+          "definitionEn": "mountain; hill"
+        }
+      ],
+      "synonyms": [
+        "পর্বত",
+        "গিরি"
+      ],
+      "examples": [
+        {
+          "bn": "পাহাড়ে বরফ জমে।",
+          "en": "Snow gathers on the mountain."
+        }
+      ]
+    },
+    {
+      "id": "bon",
+      "headword": "বন",
+      "headwordRoman": "bon",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bɔn",
+      "senses": [
+        {
+          "definitionBn": "ঘন গাছপালায় ঢাকা এলাকা।",
+          "definitionEn": "forest"
+        }
+      ],
+      "synonyms": [
+        "অরণ্য",
+        "জঙ্গল"
+      ],
+      "examples": [
+        {
+          "bn": "বনে বাঘ থাকে।",
+          "en": "Tigers live in the forest."
+        }
+      ]
+    },
+    {
+      "id": "manush",
+      "headword": "মানুষ",
+      "headwordRoman": "manush",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "manuʃ",
+      "senses": [
+        {
+          "definitionBn": "বুদ্ধিসম্পন্ন সামাজিক প্রাণী।",
+          "definitionEn": "human; person"
+        }
+      ],
+      "synonyms": [
+        "লোক",
+        "জন"
+      ],
+      "examples": [
+        {
+          "bn": "মানুষ সমাজে বাস করে।",
+          "en": "Humans live in society."
+        }
+      ]
+    },
+    {
+      "id": "chhele",
+      "headword": "ছেলে",
+      "headwordRoman": "chhele",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tʃʰele",
+      "senses": [
+        {
+          "definitionBn": "পুরুষ সন্তান বা বালক।",
+          "definitionEn": "boy; son"
+        }
+      ],
+      "synonyms": [
+        "বালক",
+        "পুত্র"
+      ],
+      "examples": [
+        {
+          "bn": "ছেলেটি মাঠে খেলছে।",
+          "en": "The boy is playing in the field."
+        }
+      ]
+    },
+    {
+      "id": "meye",
+      "headword": "মেয়ে",
+      "headwordRoman": "meye",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "meje",
+      "senses": [
+        {
+          "definitionBn": "নারী সন্তান বা বালিকা।",
+          "definitionEn": "girl; daughter"
+        }
+      ],
+      "synonyms": [
+        "বালিকা",
+        "কন্যা"
+      ],
+      "examples": [
+        {
+          "bn": "মেয়েটি গান শেখে।",
+          "en": "The girl learns to sing."
+        }
+      ]
+    },
+    {
+      "id": "baba",
+      "headword": "বাবা",
+      "headwordRoman": "baba",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "baba",
+      "senses": [
+        {
+          "definitionBn": "পিতা, জন্মদাতা পুরুষ অভিভাবক।",
+          "definitionEn": "father"
+        }
+      ],
+      "synonyms": [
+        "পিতা",
+        "জনক"
+      ],
+      "examples": [
+        {
+          "bn": "বাবা অফিসে গেছেন।",
+          "en": "Father has gone to the office."
+        }
+      ]
+    },
+    {
+      "id": "ma",
+      "headword": "মা",
+      "headwordRoman": "ma",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ma",
+      "senses": [
+        {
+          "definitionBn": "জননী, জন্মদাত্রী নারী অভিভাবক।",
+          "definitionEn": "mother"
+        }
+      ],
+      "synonyms": [
+        "জননী",
+        "মাতা"
+      ],
+      "examples": [
+        {
+          "bn": "মা রান্না করছেন।",
+          "en": "Mother is cooking."
+        }
+      ]
+    },
+    {
+      "id": "bhai",
+      "headword": "ভাই",
+      "headwordRoman": "bhai",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bʱai",
+      "senses": [
+        {
+          "definitionBn": "একই পিতামাতার পুরুষ সন্তান।",
+          "definitionEn": "brother"
+        }
+      ],
+      "synonyms": [
+        "ভ্রাতা",
+        "সহোদর"
+      ],
+      "examples": [
+        {
+          "bn": "আমার একটি ছোট ভাই আছে।",
+          "en": "I have a younger brother."
+        }
+      ]
+    },
+    {
+      "id": "bon_r",
+      "headword": "বোন",
+      "headwordRoman": "bon",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bon",
+      "senses": [
+        {
+          "definitionBn": "একই পিতামাতার নারী সন্তান।",
+          "definitionEn": "sister"
+        }
+      ],
+      "synonyms": [
+        "ভগিনী",
+        "সহোদরা"
+      ],
+      "examples": [
+        {
+          "bn": "বোন আমাকে সাহায্য করে।",
+          "en": "My sister helps me."
+        }
+      ]
+    },
+    {
+      "id": "bondhu",
+      "headword": "বন্ধু",
+      "headwordRoman": "bondhu",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bondʱu",
+      "senses": [
+        {
+          "definitionBn": "যাকে বিশ্বাস ও ভালোবাসা যায় এমন সঙ্গী।",
+          "definitionEn": "friend"
+        }
+      ],
+      "synonyms": [
+        "মিত্র",
+        "সখা"
+      ],
+      "examples": [
+        {
+          "bn": "সে আমার ভালো বন্ধু।",
+          "en": "He is my good friend."
+        }
+      ]
+    },
+    {
+      "id": "shikkhok",
+      "headword": "শিক্ষক",
+      "headwordRoman": "shikkhok",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃikkʰok",
+      "senses": [
+        {
+          "definitionBn": "যিনি শিক্ষা দেন।",
+          "definitionEn": "teacher"
+        }
+      ],
+      "synonyms": [
+        "গুরু",
+        "অধ্যাপক"
+      ],
+      "examples": [
+        {
+          "bn": "শিক্ষক পড়ান।",
+          "en": "The teacher teaches."
+        }
+      ]
+    },
+    {
+      "id": "chhatro",
+      "headword": "ছাত্র",
+      "headwordRoman": "chhatro",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tʃʰatro",
+      "senses": [
+        {
+          "definitionBn": "যে শিক্ষা গ্রহণ করে।",
+          "definitionEn": "student"
+        }
+      ],
+      "synonyms": [
+        "শিক্ষার্থী",
+        "শিষ্য"
+      ],
+      "examples": [
+        {
+          "bn": "ছাত্র মন দিয়ে পড়ে।",
+          "en": "The student studies attentively."
+        }
+      ]
+    },
+    {
+      "id": "daktar",
+      "headword": "ডাক্তার",
+      "headwordRoman": "daktar",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "daktar",
+      "senses": [
+        {
+          "definitionBn": "যিনি রোগ চিকিৎসা করেন।",
+          "definitionEn": "doctor"
+        }
+      ],
+      "synonyms": [
+        "চিকিৎসক",
+        "বৈদ্য"
+      ],
+      "examples": [
+        {
+          "bn": "ডাক্তার রোগী দেখছেন।",
+          "en": "The doctor is examining the patient."
+        }
+      ]
+    },
+    {
+      "id": "krishok",
+      "headword": "কৃষক",
+      "headwordRoman": "krishok",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kriʃok",
+      "senses": [
+        {
+          "definitionBn": "যিনি জমি চাষ করেন।",
+          "definitionEn": "farmer"
+        }
+      ],
+      "synonyms": [
+        "চাষি",
+        "কৃষিজীবী"
+      ],
+      "examples": [
+        {
+          "bn": "কৃষক মাঠে কাজ করে।",
+          "en": "The farmer works in the field."
+        }
+      ]
+    },
+    {
+      "id": "kaj",
+      "headword": "কাজ",
+      "headwordRoman": "kaj",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kadʒ",
+      "senses": [
+        {
+          "definitionBn": "যা সম্পন্ন করতে হয় এমন কর্ম।",
+          "definitionEn": "work; task"
+        }
+      ],
+      "synonyms": [
+        "কর্ম",
+        "শ্রম"
+      ],
+      "examples": [
+        {
+          "bn": "আমার অনেক কাজ আছে।",
+          "en": "I have a lot of work."
+        }
+      ]
+    },
+    {
+      "id": "somoy",
+      "headword": "সময়",
+      "headwordRoman": "somoy",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃomoj",
+      "senses": [
+        {
+          "definitionBn": "ঘটনার ধারাবাহিক পরিমাপ।",
+          "definitionEn": "time"
+        }
+      ],
+      "synonyms": [
+        "কাল",
+        "বেলা"
+      ],
+      "examples": [
+        {
+          "bn": "সময় নষ্ট কোরো না।",
+          "en": "Do not waste time."
+        }
+      ]
+    },
+    {
+      "id": "din",
+      "headword": "দিন",
+      "headwordRoman": "din",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "din",
+      "senses": [
+        {
+          "definitionBn": "সূর্যোদয় থেকে সূর্যাস্ত পর্যন্ত সময়।",
+          "definitionEn": "day"
+        }
+      ],
+      "synonyms": [
+        "দিবস",
+        "বার"
+      ],
+      "examples": [
+        {
+          "bn": "আজকের দিনটি সুন্দর।",
+          "en": "Today is a beautiful day."
+        }
+      ]
+    },
+    {
+      "id": "rat",
+      "headword": "রাত",
+      "headwordRoman": "rat",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "rat",
+      "senses": [
+        {
+          "definitionBn": "সূর্যাস্ত থেকে সূর্যোদয় পর্যন্ত অন্ধকার সময়।",
+          "definitionEn": "night"
+        }
+      ],
+      "synonyms": [
+        "রজনী",
+        "নিশি"
+      ],
+      "examples": [
+        {
+          "bn": "রাতে আকাশে তারা দেখা যায়।",
+          "en": "Stars are visible in the sky at night."
+        }
+      ]
+    },
+    {
+      "id": "sokal",
+      "headword": "সকাল",
+      "headwordRoman": "sokal",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃokal",
+      "senses": [
+        {
+          "definitionBn": "দিনের প্রথম ভাগ।",
+          "definitionEn": "morning"
+        }
+      ],
+      "synonyms": [
+        "প্রভাত",
+        "ভোর"
+      ],
+      "examples": [
+        {
+          "bn": "সকালে হাঁটা ভালো।",
+          "en": "Walking in the morning is good."
+        }
+      ]
+    },
+    {
+      "id": "bikel",
+      "headword": "বিকেল",
+      "headwordRoman": "bikel",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bikel",
+      "senses": [
+        {
+          "definitionBn": "দুপুরের পর সন্ধ্যার আগের সময়।",
+          "definitionEn": "afternoon"
+        }
+      ],
+      "synonyms": [
+        "অপরাহ্ন"
+      ],
+      "examples": [
+        {
+          "bn": "বিকেলে আমরা খেলি।",
+          "en": "We play in the afternoon."
+        }
+      ]
+    },
+    {
+      "id": "bochhor",
+      "headword": "বছর",
+      "headwordRoman": "bochhor",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "botʃʰor",
+      "senses": [
+        {
+          "definitionBn": "বারো মাসের সময়কাল।",
+          "definitionEn": "year"
+        }
+      ],
+      "synonyms": [
+        "বর্ষ",
+        "সন"
+      ],
+      "examples": [
+        {
+          "bn": "নতুন বছর শুরু হয়েছে।",
+          "en": "The new year has begun."
+        }
+      ]
+    },
+    {
+      "id": "khabar",
+      "headword": "খাবার",
+      "headwordRoman": "khabar",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kʰabar",
+      "senses": [
+        {
+          "definitionBn": "যা খাওয়া হয়।",
+          "definitionEn": "food"
+        }
+      ],
+      "synonyms": [
+        "আহার",
+        "খাদ্য"
+      ],
+      "examples": [
+        {
+          "bn": "খাবার গরম আছে।",
+          "en": "The food is hot."
+        }
+      ]
+    },
+    {
+      "id": "bhat",
+      "headword": "ভাত",
+      "headwordRoman": "bhat",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bʱat",
+      "senses": [
+        {
+          "definitionBn": "সেদ্ধ চাল, প্রধান খাদ্য।",
+          "definitionEn": "cooked rice"
+        }
+      ],
+      "synonyms": [
+        "অন্ন"
+      ],
+      "examples": [
+        {
+          "bn": "দুপুরে ভাত খাই।",
+          "en": "I eat rice at noon."
+        }
+      ]
+    },
+    {
+      "id": "dudh",
+      "headword": "দুধ",
+      "headwordRoman": "dudh",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dudʱ",
+      "senses": [
+        {
+          "definitionBn": "গবাদি পশু থেকে পাওয়া সাদা পুষ্টিকর তরল।",
+          "definitionEn": "milk"
+        }
+      ],
+      "synonyms": [
+        "ক্ষীর"
+      ],
+      "examples": [
+        {
+          "bn": "শিশু দুধ পান করে।",
+          "en": "The child drinks milk."
+        }
+      ]
+    },
+    {
+      "id": "dim",
+      "headword": "ডিম",
+      "headwordRoman": "dim",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dim",
+      "senses": [
+        {
+          "definitionBn": "পাখি বা মুরগির খোলাযুক্ত প্রজননকোষ।",
+          "definitionEn": "egg"
+        }
+      ],
+      "synonyms": [
+        "অণ্ড"
+      ],
+      "examples": [
+        {
+          "bn": "সকালে ডিম খেলাম।",
+          "en": "I ate an egg in the morning."
+        }
+      ]
+    },
+    {
+      "id": "fol",
+      "headword": "ফল",
+      "headwordRoman": "fol",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "fɔl",
+      "senses": [
+        {
+          "definitionBn": "গাছের ভোজ্য মিষ্টি অংশ।",
+          "definitionEn": "fruit"
+        }
+      ],
+      "synonyms": [
+        "ফলমূল"
+      ],
+      "examples": [
+        {
+          "bn": "আম একটি মিষ্টি ফল।",
+          "en": "The mango is a sweet fruit."
+        }
+      ]
+    },
+    {
+      "id": "am",
+      "headword": "আম",
+      "headwordRoman": "am",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "am",
+      "senses": [
+        {
+          "definitionBn": "গ্রীষ্মকালীন রসালো মিষ্টি ফল।",
+          "definitionEn": "mango"
+        }
+      ],
+      "synonyms": [
+        "আম্র"
+      ],
+      "examples": [
+        {
+          "bn": "গ্রীষ্মে আম পাকে।",
+          "en": "Mangoes ripen in summer."
+        }
+      ]
+    },
+    {
+      "id": "kola",
+      "headword": "কলা",
+      "headwordRoman": "kola",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kola",
+      "senses": [
+        {
+          "definitionBn": "লম্বাটে হলুদ খোসাযুক্ত মিষ্টি ফল।",
+          "definitionEn": "banana"
+        }
+      ],
+      "synonyms": [
+        "রম্ভা"
+      ],
+      "examples": [
+        {
+          "bn": "বাঁদর কলা খায়।",
+          "en": "The monkey eats a banana."
+        }
+      ]
+    },
+    {
+      "id": "chaal",
+      "headword": "চাল",
+      "headwordRoman": "chaal",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tʃal",
+      "senses": [
+        {
+          "definitionBn": "ধান থেকে পাওয়া শস্যদানা।",
+          "definitionEn": "rice (uncooked)"
+        }
+      ],
+      "synonyms": [
+        "তণ্ডুল"
+      ],
+      "examples": [
+        {
+          "bn": "বাজারে চালের দাম বেড়েছে।",
+          "en": "The price of rice has risen in the market."
+        }
+      ]
+    },
+    {
+      "id": "nun",
+      "headword": "নুন",
+      "headwordRoman": "nun",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "nun",
+      "senses": [
+        {
+          "definitionBn": "রান্নায় ব্যবহৃত লবণাক্ত সাদা দানা।",
+          "definitionEn": "salt"
+        }
+      ],
+      "synonyms": [
+        "লবণ"
+      ],
+      "examples": [
+        {
+          "bn": "তরকারিতে নুন কম হয়েছে।",
+          "en": "The curry has too little salt."
+        }
+      ]
+    },
+    {
+      "id": "chini",
+      "headword": "চিনি",
+      "headwordRoman": "chini",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tʃini",
+      "senses": [
+        {
+          "definitionBn": "মিষ্টি স্বাদের সাদা দানা।",
+          "definitionEn": "sugar"
+        }
+      ],
+      "synonyms": [
+        "শর্করা"
+      ],
+      "examples": [
+        {
+          "bn": "চায়ে চিনি দাও।",
+          "en": "Put sugar in the tea."
+        }
+      ]
+    },
+    {
+      "id": "cha",
+      "headword": "চা",
+      "headwordRoman": "cha",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tʃa",
+      "senses": [
+        {
+          "definitionBn": "পাতা ফুটিয়ে তৈরি গরম পানীয়।",
+          "definitionEn": "tea"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "সকালে এক কাপ চা খাই।",
+          "en": "I drink a cup of tea in the morning."
+        }
+      ]
+    },
+    {
+      "id": "ranna",
+      "headword": "রান্না",
+      "headwordRoman": "ranna",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ranna",
+      "senses": [
+        {
+          "definitionBn": "খাবার প্রস্তুত করার কাজ।",
+          "definitionEn": "cooking"
+        }
+      ],
+      "synonyms": [
+        "পাক"
+      ],
+      "examples": [
+        {
+          "bn": "মা রান্না করছেন।",
+          "en": "Mother is cooking."
+        }
+      ]
+    },
+    {
+      "id": "bhalobasa",
+      "headword": "ভালোবাসা",
+      "headwordRoman": "bhalobasa",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bʱalobaʃa",
+      "senses": [
+        {
+          "definitionBn": "গভীর স্নেহ ও অনুরাগ।",
+          "definitionEn": "love"
+        }
+      ],
+      "synonyms": [
+        "প্রেম",
+        "অনুরাগ"
+      ],
+      "examples": [
+        {
+          "bn": "ভালোবাসা মানুষকে কাছে টানে।",
+          "en": "Love brings people close."
+        }
+      ]
+    },
+    {
+      "id": "ananda",
+      "headword": "আনন্দ",
+      "headwordRoman": "ananda",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "anɔndo",
+      "senses": [
+        {
+          "definitionBn": "সুখ ও খুশির অনুভূতি।",
+          "definitionEn": "joy; happiness"
+        }
+      ],
+      "synonyms": [
+        "সুখ",
+        "হর্ষ"
+      ],
+      "examples": [
+        {
+          "bn": "উৎসবে সবার মনে আনন্দ।",
+          "en": "Everyone feels joy during the festival."
+        }
+      ]
+    },
+    {
+      "id": "dukkho",
+      "headword": "দুঃখ",
+      "headwordRoman": "dukkho",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dukkʰo",
+      "senses": [
+        {
+          "definitionBn": "কষ্ট ও বেদনার অনুভূতি।",
+          "definitionEn": "sorrow; grief"
+        }
+      ],
+      "synonyms": [
+        "কষ্ট",
+        "বেদনা"
+      ],
+      "examples": [
+        {
+          "bn": "তার মনে অনেক দুঃখ।",
+          "en": "There is much sorrow in his heart."
+        }
+      ]
+    },
+    {
+      "id": "bhoy",
+      "headword": "ভয়",
+      "headwordRoman": "bhoy",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bʱɔj",
+      "senses": [
+        {
+          "definitionBn": "আশঙ্কা বা ভীতির অনুভূতি।",
+          "definitionEn": "fear"
+        }
+      ],
+      "synonyms": [
+        "ভীতি",
+        "শঙ্কা"
+      ],
+      "examples": [
+        {
+          "bn": "অন্ধকারে তার ভয় করে।",
+          "en": "He feels fear in the dark."
+        }
+      ]
+    },
+    {
+      "id": "asha",
+      "headword": "আশা",
+      "headwordRoman": "asha",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "aʃa",
+      "senses": [
+        {
+          "definitionBn": "ভালো কিছু ঘটার প্রত্যাশা।",
+          "definitionEn": "hope"
+        }
+      ],
+      "synonyms": [
+        "প্রত্যাশা",
+        "ভরসা"
+      ],
+      "examples": [
+        {
+          "bn": "আশা কখনো হারিও না।",
+          "en": "Never lose hope."
+        }
+      ]
+    },
+    {
+      "id": "shanti",
+      "headword": "শান্তি",
+      "headwordRoman": "shanti",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃanti",
+      "senses": [
+        {
+          "definitionBn": "অস্থিরতাহীন স্থির অবস্থা।",
+          "definitionEn": "peace"
+        }
+      ],
+      "synonyms": [
+        "প্রশান্তি"
+      ],
+      "examples": [
+        {
+          "bn": "সবাই শান্তি চায়।",
+          "en": "Everyone wants peace."
+        }
+      ]
+    },
+    {
+      "id": "bhasha",
+      "headword": "ভাষা",
+      "headwordRoman": "bhasha",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bʱaʃa",
+      "senses": [
+        {
+          "definitionBn": "ভাব প্রকাশের শব্দ ও ধ্বনির ব্যবস্থা।",
+          "definitionEn": "language"
+        }
+      ],
+      "synonyms": [
+        "বুলি"
+      ],
+      "examples": [
+        {
+          "bn": "বাংলা আমার মাতৃভাষা।",
+          "en": "Bangla is my mother tongue."
+        }
+      ]
+    },
+    {
+      "id": "bangla",
+      "headword": "বাংলা",
+      "headwordRoman": "bangla",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "baŋla",
+      "senses": [
+        {
+          "definitionBn": "বাঙালিদের ভাষা ও সংস্কৃতি।",
+          "definitionEn": "Bangla; Bengali"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "আমি বাংলা ভালোবাসি।",
+          "en": "I love Bangla."
+        }
+      ]
+    },
+    {
+      "id": "gaan",
+      "headword": "গান",
+      "headwordRoman": "gaan",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "gan",
+      "senses": [
+        {
+          "definitionBn": "সুরে গাওয়া কথা ও ধ্বনি।",
+          "definitionEn": "song"
+        }
+      ],
+      "synonyms": [
+        "সঙ্গীত",
+        "গীত"
+      ],
+      "examples": [
+        {
+          "bn": "সে সুন্দর গান গায়।",
+          "en": "She sings beautiful songs."
+        }
+      ]
+    },
+    {
+      "id": "kobita",
+      "headword": "কবিতা",
+      "headwordRoman": "kobita",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kobita",
+      "senses": [
+        {
+          "definitionBn": "ছন্দ ও ভাবে রচিত সাহিত্যরূপ।",
+          "definitionEn": "poem; poetry"
+        }
+      ],
+      "synonyms": [
+        "পদ্য",
+        "কাব্য"
+      ],
+      "examples": [
+        {
+          "bn": "সে একটি কবিতা লিখেছে।",
+          "en": "He has written a poem."
+        }
+      ]
+    },
+    {
+      "id": "golpo",
+      "headword": "গল্প",
+      "headwordRoman": "golpo",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "golpo",
+      "senses": [
+        {
+          "definitionBn": "কল্পিত বা বাস্তব ঘটনার বিবরণ।",
+          "definitionEn": "story"
+        }
+      ],
+      "synonyms": [
+        "কাহিনি",
+        "আখ্যান"
+      ],
+      "examples": [
+        {
+          "bn": "দাদি রাতে গল্প বলেন।",
+          "en": "Grandmother tells stories at night."
+        }
+      ]
+    },
+    {
+      "id": "chhobi",
+      "headword": "ছবি",
+      "headwordRoman": "chhobi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tʃʰobi",
+      "senses": [
+        {
+          "definitionBn": "রঙ ও রেখায় আঁকা দৃশ্য।",
+          "definitionEn": "picture; image"
+        }
+      ],
+      "synonyms": [
+        "চিত্র",
+        "প্রতিকৃতি"
+      ],
+      "examples": [
+        {
+          "bn": "দেয়ালে একটি ছবি টাঙানো।",
+          "en": "A picture hangs on the wall."
+        }
+      ]
+    },
+    {
+      "id": "rong",
+      "headword": "রং",
+      "headwordRoman": "rong",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "rɔŋ",
+      "senses": [
+        {
+          "definitionBn": "বস্তুর দৃশ্যমান বর্ণ।",
+          "definitionEn": "color"
+        }
+      ],
+      "synonyms": [
+        "বর্ণ"
+      ],
+      "examples": [
+        {
+          "bn": "তার প্রিয় রং নীল।",
+          "en": "His favorite color is blue."
+        }
+      ]
+    },
+    {
+      "id": "lal",
+      "headword": "লাল",
+      "headwordRoman": "lal",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "lal",
+      "senses": [
+        {
+          "definitionBn": "রক্তের মতো বর্ণবিশিষ্ট।",
+          "definitionEn": "red"
+        }
+      ],
+      "synonyms": [
+        "রক্তবর্ণ"
+      ],
+      "examples": [
+        {
+          "bn": "তার একটি লাল জামা আছে।",
+          "en": "She has a red dress."
+        }
+      ]
+    },
+    {
+      "id": "nil",
+      "headword": "নীল",
+      "headwordRoman": "nil",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "nil",
+      "senses": [
+        {
+          "definitionBn": "আকাশ বা সমুদ্রের মতো বর্ণবিশিষ্ট।",
+          "definitionEn": "blue"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "আকাশ নীল দেখায়।",
+          "en": "The sky looks blue."
+        }
+      ]
+    },
+    {
+      "id": "shobuj",
+      "headword": "সবুজ",
+      "headwordRoman": "shobuj",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "ʃobudʒ",
+      "senses": [
+        {
+          "definitionBn": "ঘাস বা পাতার মতো বর্ণবিশিষ্ট।",
+          "definitionEn": "green"
+        }
+      ],
+      "synonyms": [
+        "হরিৎ"
+      ],
+      "examples": [
+        {
+          "bn": "মাঠ সবুজ ঘাসে ঢাকা।",
+          "en": "The field is covered in green grass."
+        }
+      ]
+    },
+    {
+      "id": "sada",
+      "headword": "সাদা",
+      "headwordRoman": "sada",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "ʃada",
+      "senses": [
+        {
+          "definitionBn": "দুধ বা বরফের মতো বর্ণবিশিষ্ট।",
+          "definitionEn": "white"
+        }
+      ],
+      "synonyms": [
+        "শুভ্র",
+        "ধবল"
+      ],
+      "examples": [
+        {
+          "bn": "তার সাদা পোশাক পরিষ্কার।",
+          "en": "His white clothes are clean."
+        }
+      ]
+    },
+    {
+      "id": "kalo",
+      "headword": "কালো",
+      "headwordRoman": "kalo",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "kalo",
+      "senses": [
+        {
+          "definitionBn": "অন্ধকার বা কয়লার মতো বর্ণবিশিষ্ট।",
+          "definitionEn": "black"
+        }
+      ],
+      "synonyms": [
+        "কৃষ্ণ"
+      ],
+      "examples": [
+        {
+          "bn": "রাত কালো অন্ধকার।",
+          "en": "The night is pitch black."
+        }
+      ]
+    },
+    {
+      "id": "boro",
+      "headword": "বড়",
+      "headwordRoman": "boro",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "bɔɽo",
+      "senses": [
+        {
+          "definitionBn": "আকারে বা মাপে অধিক।",
+          "definitionEn": "big; large"
+        }
+      ],
+      "synonyms": [
+        "বৃহৎ",
+        "বিশাল"
+      ],
+      "examples": [
+        {
+          "bn": "এটি একটি বড় বাড়ি।",
+          "en": "This is a big house."
+        }
+      ]
+    },
+    {
+      "id": "chhoto",
+      "headword": "ছোট",
+      "headwordRoman": "chhoto",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "tʃʰoto",
+      "senses": [
+        {
+          "definitionBn": "আকারে বা মাপে কম।",
+          "definitionEn": "small; little"
+        }
+      ],
+      "synonyms": [
+        "ক্ষুদ্র"
+      ],
+      "examples": [
+        {
+          "bn": "তার একটি ছোট বিড়াল আছে।",
+          "en": "She has a small cat."
+        }
+      ]
+    },
+    {
+      "id": "bhalo",
+      "headword": "ভালো",
+      "headwordRoman": "bhalo",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "bʱalo",
+      "senses": [
+        {
+          "definitionBn": "গুণে বা মানে উত্তম।",
+          "definitionEn": "good"
+        }
+      ],
+      "synonyms": [
+        "উত্তম",
+        "সৎ"
+      ],
+      "examples": [
+        {
+          "bn": "সে খুব ভালো মানুষ।",
+          "en": "He is a very good person."
+        }
+      ]
+    },
+    {
+      "id": "kharap",
+      "headword": "খারাপ",
+      "headwordRoman": "kharap",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "kʰarap",
+      "senses": [
+        {
+          "definitionBn": "গুণে বা মানে মন্দ।",
+          "definitionEn": "bad"
+        }
+      ],
+      "synonyms": [
+        "মন্দ",
+        "অশুভ"
+      ],
+      "examples": [
+        {
+          "bn": "আজ আবহাওয়া খারাপ।",
+          "en": "The weather is bad today."
+        }
+      ]
+    },
+    {
+      "id": "notun",
+      "headword": "নতুন",
+      "headwordRoman": "notun",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "notun",
+      "senses": [
+        {
+          "definitionBn": "সম্প্রতি তৈরি বা আসা।",
+          "definitionEn": "new"
+        }
+      ],
+      "synonyms": [
+        "নব",
+        "নবীন"
+      ],
+      "examples": [
+        {
+          "bn": "সে একটি নতুন গাড়ি কিনেছে।",
+          "en": "He has bought a new car."
+        }
+      ]
+    },
+    {
+      "id": "purono",
+      "headword": "পুরনো",
+      "headwordRoman": "purono",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "purono",
+      "senses": [
+        {
+          "definitionBn": "দীর্ঘদিন ধরে থাকা বা ব্যবহৃত।",
+          "definitionEn": "old"
+        }
+      ],
+      "synonyms": [
+        "প্রাচীন",
+        "জীর্ণ"
+      ],
+      "examples": [
+        {
+          "bn": "এই বইটি অনেক পুরনো।",
+          "en": "This book is very old."
+        }
+      ]
+    },
+    {
+      "id": "lomba",
+      "headword": "লম্বা",
+      "headwordRoman": "lomba",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "lɔmba",
+      "senses": [
+        {
+          "definitionBn": "দৈর্ঘ্যে অধিক।",
+          "definitionEn": "long; tall"
+        }
+      ],
+      "synonyms": [
+        "দীর্ঘ"
+      ],
+      "examples": [
+        {
+          "bn": "সে দেখতে লম্বা।",
+          "en": "He is tall."
+        }
+      ]
+    },
+    {
+      "id": "choto_khato",
+      "headword": "বেঁটে",
+      "headwordRoman": "bete",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "bɛʈe",
+      "senses": [
+        {
+          "definitionBn": "উচ্চতায় কম।",
+          "definitionEn": "short (in height)"
+        }
+      ],
+      "synonyms": [
+        "খর্ব"
+      ],
+      "examples": [
+        {
+          "bn": "লোকটি একটু বেঁটে।",
+          "en": "The man is a bit short."
+        }
+      ]
+    },
+    {
+      "id": "gorom",
+      "headword": "গরম",
+      "headwordRoman": "gorom",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "gɔrom",
+      "senses": [
+        {
+          "definitionBn": "উচ্চ তাপমাত্রাযুক্ত।",
+          "definitionEn": "hot; warm"
+        }
+      ],
+      "synonyms": [
+        "উষ্ণ",
+        "তপ্ত"
+      ],
+      "examples": [
+        {
+          "bn": "গ্রীষ্মে আবহাওয়া গরম।",
+          "en": "The weather is hot in summer."
+        }
+      ]
+    },
+    {
+      "id": "thanda",
+      "headword": "ঠান্ডা",
+      "headwordRoman": "thanda",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "ʈʰanda",
+      "senses": [
+        {
+          "definitionBn": "নিম্ন তাপমাত্রাযুক্ত।",
+          "definitionEn": "cold; cool"
+        }
+      ],
+      "synonyms": [
+        "শীতল",
+        "হিম"
+      ],
+      "examples": [
+        {
+          "bn": "ঠান্ডা পানি খেতে ভালো।",
+          "en": "Cold water is nice to drink."
+        }
+      ]
+    },
+    {
+      "id": "druto",
+      "headword": "দ্রুত",
+      "headwordRoman": "druto",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "druto",
+      "senses": [
+        {
+          "definitionBn": "অধিক গতিসম্পন্ন।",
+          "definitionEn": "fast; quick"
+        }
+      ],
+      "synonyms": [
+        "ক্ষিপ্র",
+        "দ্রুতগামী"
+      ],
+      "examples": [
+        {
+          "bn": "ট্রেন দ্রুত চলে।",
+          "en": "The train moves fast."
+        }
+      ]
+    },
+    {
+      "id": "dhire",
+      "headword": "ধীরে",
+      "headwordRoman": "dhire",
+      "partOfSpeech": "adverb",
+      "pronunciationIPA": "dʱire",
+      "senses": [
+        {
+          "definitionBn": "কম গতিতে; আস্তে।",
+          "definitionEn": "slowly"
+        }
+      ],
+      "synonyms": [
+        "আস্তে",
+        "মন্থর"
+      ],
+      "examples": [
+        {
+          "bn": "ধীরে ধীরে হাঁটো।",
+          "en": "Walk slowly."
+        }
+      ]
+    },
+    {
+      "id": "unchu",
+      "headword": "উঁচু",
+      "headwordRoman": "unchu",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "ũtʃu",
+      "senses": [
+        {
+          "definitionBn": "উপরের দিকে অধিক বিস্তৃত।",
+          "definitionEn": "high; tall"
+        }
+      ],
+      "synonyms": [
+        "উচ্চ"
+      ],
+      "examples": [
+        {
+          "bn": "পাহাড় খুব উঁচু।",
+          "en": "The mountain is very high."
+        }
+      ]
+    },
+    {
+      "id": "nichu",
+      "headword": "নিচু",
+      "headwordRoman": "nichu",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "nitʃu",
+      "senses": [
+        {
+          "definitionBn": "নিচের দিকে অবস্থিত; কম উঁচু।",
+          "definitionEn": "low"
+        }
+      ],
+      "synonyms": [
+        "নিম্ন"
+      ],
+      "examples": [
+        {
+          "bn": "জায়গাটি একটু নিচু।",
+          "en": "The place is a bit low."
+        }
+      ]
+    },
+    {
+      "id": "khola",
+      "headword": "খোলা",
+      "headwordRoman": "khola",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "kʰola",
+      "senses": [
+        {
+          "definitionBn": "বন্ধ নয় এমন; উন্মুক্ত।",
+          "definitionEn": "open"
+        }
+      ],
+      "synonyms": [
+        "উন্মুক্ত"
+      ],
+      "examples": [
+        {
+          "bn": "দরজা খোলা আছে।",
+          "en": "The door is open."
+        }
+      ]
+    },
+    {
+      "id": "bondho",
+      "headword": "বন্ধ",
+      "headwordRoman": "bondho",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "bɔndʱo",
+      "senses": [
+        {
+          "definitionBn": "খোলা নয় এমন; রুদ্ধ।",
+          "definitionEn": "closed; shut"
+        }
+      ],
+      "synonyms": [
+        "রুদ্ধ"
+      ],
+      "examples": [
+        {
+          "bn": "দোকান আজ বন্ধ।",
+          "en": "The shop is closed today."
+        }
+      ]
+    },
+    {
+      "id": "jawa",
+      "headword": "যাওয়া",
+      "headwordRoman": "jawa",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "dʒaoa",
+      "senses": [
+        {
+          "definitionBn": "এক স্থান থেকে অন্য স্থানে সরে যাওয়া।",
+          "definitionEn": "to go"
+        }
+      ],
+      "synonyms": [
+        "গমন করা"
+      ],
+      "examples": [
+        {
+          "bn": "আমাকে এখন যেতে হবে।",
+          "en": "I have to go now."
+        }
+      ]
+    },
+    {
+      "id": "asha_v",
+      "headword": "আসা",
+      "headwordRoman": "asha",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "aʃa",
+      "senses": [
+        {
+          "definitionBn": "কোনো স্থানে পৌঁছানো বা আগমন করা।",
+          "definitionEn": "to come"
+        }
+      ],
+      "synonyms": [
+        "আগমন করা"
+      ],
+      "examples": [
+        {
+          "bn": "সে কাল আসবে।",
+          "en": "He will come tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "khawa",
+      "headword": "খাওয়া",
+      "headwordRoman": "khawa",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "kʰaoa",
+      "senses": [
+        {
+          "definitionBn": "খাদ্য গ্রহণ করা।",
+          "definitionEn": "to eat"
+        }
+      ],
+      "synonyms": [
+        "ভক্ষণ করা"
+      ],
+      "examples": [
+        {
+          "bn": "আমরা একসঙ্গে খাব।",
+          "en": "We will eat together."
+        }
+      ]
+    },
+    {
+      "id": "pora",
+      "headword": "পড়া",
+      "headwordRoman": "pora",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "pɔɽa",
+      "senses": [
+        {
+          "definitionBn": "লেখা বুঝে পাঠ করা; অধ্যয়ন করা।",
+          "definitionEn": "to read; to study"
+        }
+      ],
+      "synonyms": [
+        "অধ্যয়ন করা"
+      ],
+      "examples": [
+        {
+          "bn": "সে বই পড়ছে।",
+          "en": "She is reading a book."
+        }
+      ]
+    },
+    {
+      "id": "lekha",
+      "headword": "লেখা",
+      "headwordRoman": "lekha",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "lekʰa",
+      "senses": [
+        {
+          "definitionBn": "কলম বা যন্ত্রে শব্দ অঙ্কন করা।",
+          "definitionEn": "to write"
+        }
+      ],
+      "synonyms": [
+        "রচনা করা"
+      ],
+      "examples": [
+        {
+          "bn": "সে চিঠি লিখছে।",
+          "en": "He is writing a letter."
+        }
+      ]
+    },
+    {
+      "id": "bola",
+      "headword": "বলা",
+      "headwordRoman": "bola",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "bɔla",
+      "senses": [
+        {
+          "definitionBn": "কথা প্রকাশ করা; উচ্চারণ করা।",
+          "definitionEn": "to say; to speak"
+        }
+      ],
+      "synonyms": [
+        "কহা"
+      ],
+      "examples": [
+        {
+          "bn": "সত্য কথা বলো।",
+          "en": "Speak the truth."
+        }
+      ]
+    },
+    {
+      "id": "shona",
+      "headword": "শোনা",
+      "headwordRoman": "shona",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "ʃona",
+      "senses": [
+        {
+          "definitionBn": "কান দিয়ে ধ্বনি গ্রহণ করা।",
+          "definitionEn": "to hear; to listen"
+        }
+      ],
+      "synonyms": [
+        "শ্রবণ করা"
+      ],
+      "examples": [
+        {
+          "bn": "গান শুনতে ভালো লাগে।",
+          "en": "I like listening to songs."
+        }
+      ]
+    },
+    {
+      "id": "dekha",
+      "headword": "দেখা",
+      "headwordRoman": "dekha",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "dɛkʰa",
+      "senses": [
+        {
+          "definitionBn": "চোখ দিয়ে অনুভব করা।",
+          "definitionEn": "to see; to look"
+        }
+      ],
+      "synonyms": [
+        "দর্শন করা"
+      ],
+      "examples": [
+        {
+          "bn": "আকাশ দেখো কত সুন্দর।",
+          "en": "Look how beautiful the sky is."
+        }
+      ]
+    },
+    {
+      "id": "kora",
+      "headword": "করা",
+      "headwordRoman": "kora",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "kɔra",
+      "senses": [
+        {
+          "definitionBn": "কোনো কাজ সম্পন্ন করা।",
+          "definitionEn": "to do; to make"
+        }
+      ],
+      "synonyms": [
+        "সম্পাদন করা"
+      ],
+      "examples": [
+        {
+          "bn": "কাজটি ঠিকমতো করো।",
+          "en": "Do the task properly."
+        }
+      ]
+    },
+    {
+      "id": "deoa",
+      "headword": "দেওয়া",
+      "headwordRoman": "deoa",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "dɛoa",
+      "senses": [
+        {
+          "definitionBn": "কিছু হাতে তুলে দেওয়া বা প্রদান করা।",
+          "definitionEn": "to give"
+        }
+      ],
+      "synonyms": [
+        "প্রদান করা"
+      ],
+      "examples": [
+        {
+          "bn": "আমাকে বইটি দাও।",
+          "en": "Give me the book."
+        }
+      ]
+    },
+    {
+      "id": "neoa",
+      "headword": "নেওয়া",
+      "headwordRoman": "neoa",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "nɛoa",
+      "senses": [
+        {
+          "definitionBn": "কিছু গ্রহণ করা বা নিজের কাছে রাখা।",
+          "definitionEn": "to take"
+        }
+      ],
+      "synonyms": [
+        "গ্রহণ করা"
+      ],
+      "examples": [
+        {
+          "bn": "ছাতাটি সঙ্গে নাও।",
+          "en": "Take the umbrella with you."
+        }
+      ]
+    },
+    {
+      "id": "ghumano",
+      "headword": "ঘুমানো",
+      "headwordRoman": "ghumano",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "gʱumano",
+      "senses": [
+        {
+          "definitionBn": "নিদ্রা যাওয়া; বিশ্রাম নেওয়া।",
+          "definitionEn": "to sleep"
+        }
+      ],
+      "synonyms": [
+        "নিদ্রা যাওয়া"
+      ],
+      "examples": [
+        {
+          "bn": "শিশু ঘুমাচ্ছে।",
+          "en": "The baby is sleeping."
+        }
+      ]
+    },
+    {
+      "id": "hasha",
+      "headword": "হাসা",
+      "headwordRoman": "hasha",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "haʃa",
+      "senses": [
+        {
+          "definitionBn": "আনন্দে মুখে হাসি প্রকাশ করা।",
+          "definitionEn": "to laugh; to smile"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "সে মন খুলে হাসে।",
+          "en": "She laughs heartily."
+        }
+      ]
+    },
+    {
+      "id": "kanna",
+      "headword": "কান্না",
+      "headwordRoman": "kanna",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kanna",
+      "senses": [
+        {
+          "definitionBn": "দুঃখে বা কষ্টে চোখের জল ফেলা।",
+          "definitionEn": "crying; weeping"
+        }
+      ],
+      "synonyms": [
+        "ক্রন্দন"
+      ],
+      "examples": [
+        {
+          "bn": "শিশুর কান্না থামছে না।",
+          "en": "The baby will not stop crying."
+        }
+      ]
+    },
+    {
+      "id": "hata",
+      "headword": "হাঁটা",
+      "headwordRoman": "hata",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "hãʈa",
+      "senses": [
+        {
+          "definitionBn": "পায়ে হেঁটে চলা।",
+          "definitionEn": "to walk"
+        }
+      ],
+      "synonyms": [
+        "পদব্রজে চলা"
+      ],
+      "examples": [
+        {
+          "bn": "সকালে হাঁটা স্বাস্থ্যকর।",
+          "en": "Walking in the morning is healthy."
+        }
+      ]
+    },
+    {
+      "id": "dourano",
+      "headword": "দৌড়ানো",
+      "headwordRoman": "dourano",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "douɽano",
+      "senses": [
+        {
+          "definitionBn": "দ্রুত গতিতে পায়ে চলা।",
+          "definitionEn": "to run"
+        }
+      ],
+      "synonyms": [
+        "ধাবন করা"
+      ],
+      "examples": [
+        {
+          "bn": "সে মাঠে দৌড়াচ্ছে।",
+          "en": "He is running in the field."
+        }
+      ]
+    },
+    {
+      "id": "khela",
+      "headword": "খেলা",
+      "headwordRoman": "khela",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kʰɛla",
+      "senses": [
+        {
+          "definitionBn": "বিনোদন বা প্রতিযোগিতার কাজ।",
+          "definitionEn": "game; play"
+        }
+      ],
+      "synonyms": [
+        "ক্রীড়া"
+      ],
+      "examples": [
+        {
+          "bn": "শিশুরা খেলা করছে।",
+          "en": "The children are playing."
+        }
+      ]
+    },
+    {
+      "id": "kaj_kora",
+      "headword": "পরিশ্রম",
+      "headwordRoman": "porishrom",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "poriʃrom",
+      "senses": [
+        {
+          "definitionBn": "কঠোর মেহনত বা খাটুনি।",
+          "definitionEn": "hard work; labor"
+        }
+      ],
+      "synonyms": [
+        "মেহনত",
+        "শ্রম"
+      ],
+      "examples": [
+        {
+          "bn": "পরিশ্রমে সফলতা আসে।",
+          "en": "Success comes through hard work."
+        }
+      ]
+    },
+    {
+      "id": "taka",
+      "headword": "টাকা",
+      "headwordRoman": "taka",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʈaka",
+      "senses": [
+        {
+          "definitionBn": "বাংলাদেশের মুদ্রা; অর্থ।",
+          "definitionEn": "money; taka"
+        }
+      ],
+      "synonyms": [
+        "অর্থ",
+        "মুদ্রা"
+      ],
+      "examples": [
+        {
+          "bn": "তার কাছে অনেক টাকা।",
+          "en": "He has a lot of money."
+        }
+      ]
+    },
+    {
+      "id": "bajar",
+      "headword": "বাজার",
+      "headwordRoman": "bajar",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "badʒar",
+      "senses": [
+        {
+          "definitionBn": "যেখানে জিনিস কেনাবেচা হয়।",
+          "definitionEn": "market"
+        }
+      ],
+      "synonyms": [
+        "হাট"
+      ],
+      "examples": [
+        {
+          "bn": "মা বাজারে গেছেন।",
+          "en": "Mother has gone to the market."
+        }
+      ]
+    },
+    {
+      "id": "dokan",
+      "headword": "দোকান",
+      "headwordRoman": "dokan",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dokan",
+      "senses": [
+        {
+          "definitionBn": "যেখানে পণ্য বিক্রি হয়।",
+          "definitionEn": "shop; store"
+        }
+      ],
+      "synonyms": [
+        "বিপণি"
+      ],
+      "examples": [
+        {
+          "bn": "দোকানে নতুন জিনিস এসেছে।",
+          "en": "New items have arrived at the shop."
+        }
+      ]
+    },
+    {
+      "id": "gari",
+      "headword": "গাড়ি",
+      "headwordRoman": "gari",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "gaɽi",
+      "senses": [
+        {
+          "definitionBn": "চাকাযুক্ত যানবাহন।",
+          "definitionEn": "car; vehicle"
+        }
+      ],
+      "synonyms": [
+        "যান",
+        "বাহন"
+      ],
+      "examples": [
+        {
+          "bn": "গাড়ি রাস্তায় চলছে।",
+          "en": "The car is moving on the road."
+        }
+      ]
+    },
+    {
+      "id": "train",
+      "headword": "ট্রেন",
+      "headwordRoman": "tren",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʈren",
+      "senses": [
+        {
+          "definitionBn": "রেললাইনে চলা দীর্ঘ যান।",
+          "definitionEn": "train"
+        }
+      ],
+      "synonyms": [
+        "রেলগাড়ি"
+      ],
+      "examples": [
+        {
+          "bn": "ট্রেন সময়মতো এসেছে।",
+          "en": "The train arrived on time."
+        }
+      ]
+    },
+    {
+      "id": "nouka",
+      "headword": "নৌকা",
+      "headwordRoman": "nouka",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "nouka",
+      "senses": [
+        {
+          "definitionBn": "জলে চলার ছোট যান।",
+          "definitionEn": "boat"
+        }
+      ],
+      "synonyms": [
+        "তরি",
+        "ডিঙি"
+      ],
+      "examples": [
+        {
+          "bn": "নৌকা নদীতে ভাসছে।",
+          "en": "The boat floats on the river."
+        }
+      ]
+    },
+    {
+      "id": "hat",
+      "headword": "হাত",
+      "headwordRoman": "hat",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "hat",
+      "senses": [
+        {
+          "definitionBn": "শরীরের যে অঙ্গ দিয়ে ধরা হয়।",
+          "definitionEn": "hand"
+        }
+      ],
+      "synonyms": [
+        "কর",
+        "পাণি"
+      ],
+      "examples": [
+        {
+          "bn": "হাত ধুয়ে খাও।",
+          "en": "Wash your hands before eating."
+        }
+      ]
+    },
+    {
+      "id": "pa",
+      "headword": "পা",
+      "headwordRoman": "pa",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "pa",
+      "senses": [
+        {
+          "definitionBn": "শরীরের যে অঙ্গ দিয়ে হাঁটা হয়।",
+          "definitionEn": "foot; leg"
+        }
+      ],
+      "synonyms": [
+        "চরণ",
+        "পদ"
+      ],
+      "examples": [
+        {
+          "bn": "তার পায়ে ব্যথা।",
+          "en": "His foot hurts."
+        }
+      ]
+    },
+    {
+      "id": "chokh",
+      "headword": "চোখ",
+      "headwordRoman": "chokh",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tʃokʰ",
+      "senses": [
+        {
+          "definitionBn": "শরীরের যে অঙ্গ দিয়ে দেখা হয়।",
+          "definitionEn": "eye"
+        }
+      ],
+      "synonyms": [
+        "নয়ন",
+        "আঁখি"
+      ],
+      "examples": [
+        {
+          "bn": "তার চোখ দুটি সুন্দর।",
+          "en": "Her eyes are beautiful."
+        }
+      ]
+    },
+    {
+      "id": "kan",
+      "headword": "কান",
+      "headwordRoman": "kan",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kan",
+      "senses": [
+        {
+          "definitionBn": "শরীরের যে অঙ্গ দিয়ে শোনা হয়।",
+          "definitionEn": "ear"
+        }
+      ],
+      "synonyms": [
+        "কর্ণ",
+        "শ্রবণ"
+      ],
+      "examples": [
+        {
+          "bn": "কান দিয়ে শব্দ শুনি।",
+          "en": "We hear sound with our ears."
+        }
+      ]
+    },
+    {
+      "id": "mukh",
+      "headword": "মুখ",
+      "headwordRoman": "mukh",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "mukʰ",
+      "senses": [
+        {
+          "definitionBn": "মুখমণ্ডল; কথা বলার অঙ্গ।",
+          "definitionEn": "face; mouth"
+        }
+      ],
+      "synonyms": [
+        "বদন",
+        "আনন"
+      ],
+      "examples": [
+        {
+          "bn": "তার মুখে হাসি।",
+          "en": "There is a smile on his face."
+        }
+      ]
+    },
+    {
+      "id": "matha",
+      "headword": "মাথা",
+      "headwordRoman": "matha",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "matʰa",
+      "senses": [
+        {
+          "definitionBn": "শরীরের উপরের অংশ; মস্তক।",
+          "definitionEn": "head"
+        }
+      ],
+      "synonyms": [
+        "মস্তক",
+        "শির"
+      ],
+      "examples": [
+        {
+          "bn": "তার মাথা ব্যথা করছে।",
+          "en": "His head is aching."
+        }
+      ]
+    },
+    {
+      "id": "mon",
+      "headword": "মন",
+      "headwordRoman": "mon",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "mɔn",
+      "senses": [
+        {
+          "definitionBn": "চিন্তা ও অনুভূতির কেন্দ্র।",
+          "definitionEn": "mind; heart"
+        }
+      ],
+      "synonyms": [
+        "চিত্ত",
+        "হৃদয়"
+      ],
+      "examples": [
+        {
+          "bn": "তার মন আজ খুশি।",
+          "en": "His mind is happy today."
+        }
+      ]
+    },
+    {
+      "id": "gyan",
+      "headword": "জ্ঞান",
+      "headwordRoman": "gyan",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ggæn",
+      "senses": [
+        {
+          "definitionBn": "জানা ও বোঝার ক্ষমতা।",
+          "definitionEn": "knowledge"
+        }
+      ],
+      "synonyms": [
+        "বিদ্যা",
+        "প্রজ্ঞা"
+      ],
+      "examples": [
+        {
+          "bn": "জ্ঞান মানুষকে আলোকিত করে।",
+          "en": "Knowledge enlightens people."
+        }
+      ]
+    },
+    {
+      "id": "shotto",
+      "headword": "সত্য",
+      "headwordRoman": "shotto",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃotto",
+      "senses": [
+        {
+          "definitionBn": "যা সঠিক ও বাস্তব।",
+          "definitionEn": "truth"
+        }
+      ],
+      "synonyms": [
+        "যথার্থ"
+      ],
+      "examples": [
+        {
+          "bn": "সত্য কখনো লুকায় না।",
+          "en": "Truth never stays hidden."
+        }
+      ]
+    },
+    {
+      "id": "mittha",
+      "headword": "মিথ্যা",
+      "headwordRoman": "mittha",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "mittʰa",
+      "senses": [
+        {
+          "definitionBn": "যা সত্য নয়; অসত্য।",
+          "definitionEn": "lie; falsehood"
+        }
+      ],
+      "synonyms": [
+        "অসত্য"
+      ],
+      "examples": [
+        {
+          "bn": "মিথ্যা বলা উচিত নয়।",
+          "en": "One should not tell lies."
+        }
+      ]
+    },
+    {
+      "id": "shopno",
+      "headword": "স্বপ্ন",
+      "headwordRoman": "shopno",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃɔpno",
+      "senses": [
+        {
+          "definitionBn": "ঘুমের মধ্যে দেখা দৃশ্য; আকাঙ্ক্ষা।",
+          "definitionEn": "dream"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "তার একটি বড় স্বপ্ন আছে।",
+          "en": "He has a big dream."
+        }
+      ]
+    },
+    {
+      "id": "prithibi",
+      "headword": "পৃথিবী",
+      "headwordRoman": "prithibi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "pritʰibi",
+      "senses": [
+        {
+          "definitionBn": "আমরা যে গ্রহে বাস করি।",
+          "definitionEn": "earth; world"
+        }
+      ],
+      "synonyms": [
+        "ধরা",
+        "বসুন্ধরা"
+      ],
+      "examples": [
+        {
+          "bn": "পৃথিবী সূর্যের চারদিকে ঘোরে।",
+          "en": "The earth revolves around the sun."
+        }
+      ]
+    },
+    {
+      "id": "brishti",
+      "headword": "বৃষ্টি",
+      "headwordRoman": "brishti",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "briʃʈi",
+      "senses": [
+        {
+          "definitionBn": "মেঘ থেকে পড়া জল।",
+          "definitionEn": "rain"
+        }
+      ],
+      "synonyms": [
+        "বর্ষণ"
+      ],
+      "examples": [
+        {
+          "bn": "বৃষ্টিতে মাটি ভিজে গেছে।",
+          "en": "The soil is wet from the rain."
+        }
+      ]
+    },
+    {
+      "id": "megh",
+      "headword": "মেঘ",
+      "headwordRoman": "megh",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "megʱ",
+      "senses": [
+        {
+          "definitionBn": "আকাশে জমা জলীয় বাষ্প।",
+          "definitionEn": "cloud"
+        }
+      ],
+      "synonyms": [
+        "জলধর"
+      ],
+      "examples": [
+        {
+          "bn": "আকাশে কালো মেঘ জমেছে।",
+          "en": "Dark clouds have gathered in the sky."
+        }
+      ]
+    },
+    {
+      "id": "shishu",
+      "headword": "শিশু",
+      "headwordRoman": "shishu",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃiʃu",
+      "senses": [
+        {
+          "definitionBn": "ছোট বয়সের বাচ্চা।",
+          "definitionEn": "child; baby"
+        }
+      ],
+      "synonyms": [
+        "বাচ্চা",
+        "শাবক"
+      ],
+      "examples": [
+        {
+          "bn": "শিশুটি হাসছে।",
+          "en": "The baby is smiling."
+        }
+      ]
+    },
+    {
+      "id": "bura",
+      "headword": "বৃদ্ধ",
+      "headwordRoman": "briddho",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "briddʱo",
+      "senses": [
+        {
+          "definitionBn": "বয়সে প্রবীণ।",
+          "definitionEn": "old (person); elderly"
+        }
+      ],
+      "synonyms": [
+        "প্রবীণ"
+      ],
+      "examples": [
+        {
+          "bn": "বৃদ্ধ লোকটি ধীরে হাঁটেন।",
+          "en": "The old man walks slowly."
+        }
+      ]
+    },
+    {
+      "id": "jibon",
+      "headword": "জীবন",
+      "headwordRoman": "jibon",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dʒibon",
+      "senses": [
+        {
+          "definitionBn": "বেঁচে থাকার অবস্থা।",
+          "definitionEn": "life"
+        }
+      ],
+      "synonyms": [
+        "প্রাণ",
+        "আয়ু"
+      ],
+      "examples": [
+        {
+          "bn": "জীবন খুব মূল্যবান।",
+          "en": "Life is very precious."
+        }
+      ]
+    },
+    {
+      "id": "mrittu",
+      "headword": "মৃত্যু",
+      "headwordRoman": "mrittu",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "mrittu",
+      "senses": [
+        {
+          "definitionBn": "জীবনের অবসান।",
+          "definitionEn": "death"
+        }
+      ],
+      "synonyms": [
+        "মরণ"
+      ],
+      "examples": [
+        {
+          "bn": "মৃত্যু জীবনের অনিবার্য সত্য।",
+          "en": "Death is the inevitable truth of life."
+        }
+      ]
+    },
+    {
+      "id": "shorir",
+      "headword": "শরীর",
+      "headwordRoman": "shorir",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃorir",
+      "senses": [
+        {
+          "definitionBn": "প্রাণীর দেহ।",
+          "definitionEn": "body"
+        }
+      ],
+      "synonyms": [
+        "দেহ",
+        "কায়া"
+      ],
+      "examples": [
+        {
+          "bn": "ব্যায়ামে শরীর সুস্থ থাকে।",
+          "en": "Exercise keeps the body healthy."
+        }
+      ]
+    },
+    {
+      "id": "rog",
+      "headword": "রোগ",
+      "headwordRoman": "rog",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "rog",
+      "senses": [
+        {
+          "definitionBn": "শরীরের অসুস্থ অবস্থা।",
+          "definitionEn": "disease; illness"
+        }
+      ],
+      "synonyms": [
+        "ব্যাধি",
+        "অসুখ"
+      ],
+      "examples": [
+        {
+          "bn": "সময়মতো রোগের চিকিৎসা দরকার।",
+          "en": "A disease needs timely treatment."
+        }
+      ]
+    },
+    {
+      "id": "oushudh",
+      "headword": "ওষুধ",
+      "headwordRoman": "oushudh",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ouʃudʱ",
+      "senses": [
+        {
+          "definitionBn": "রোগ সারাতে ব্যবহৃত দ্রব্য।",
+          "definitionEn": "medicine"
+        }
+      ],
+      "synonyms": [
+        "ঔষধ",
+        "দাওয়াই"
+      ],
+      "examples": [
+        {
+          "bn": "ডাক্তার ওষুধ দিয়েছেন।",
+          "en": "The doctor has given medicine."
+        }
+      ]
+    },
+    {
+      "id": "alo",
+      "headword": "আলো",
+      "headwordRoman": "alo",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "alo",
+      "senses": [
+        {
+          "definitionBn": "যা দিয়ে দেখা যায়; দীপ্তি।",
+          "definitionEn": "light"
+        }
+      ],
+      "synonyms": [
+        "জ্যোতি",
+        "দীপ্তি"
+      ],
+      "examples": [
+        {
+          "bn": "ঘরে আলো জ্বলছে।",
+          "en": "The light is on in the room."
+        }
+      ]
+    },
+    {
+      "id": "andhokar",
+      "headword": "অন্ধকার",
+      "headwordRoman": "andhokar",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ɔndʱokar",
+      "senses": [
+        {
+          "definitionBn": "আলোর অভাব।",
+          "definitionEn": "darkness"
+        }
+      ],
+      "synonyms": [
+        "তমসা",
+        "আঁধার"
+      ],
+      "examples": [
+        {
+          "bn": "রাতে চারদিকে অন্ধকার।",
+          "en": "It is dark all around at night."
+        }
+      ]
+    },
+    {
+      "id": "shokti",
+      "headword": "শক্তি",
+      "headwordRoman": "shokti",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃokti",
+      "senses": [
+        {
+          "definitionBn": "কাজ করার সামর্থ্য বা বল।",
+          "definitionEn": "power; strength; energy"
+        }
+      ],
+      "synonyms": [
+        "বল",
+        "ক্ষমতা"
+      ],
+      "examples": [
+        {
+          "bn": "সূর্য থেকে শক্তি পাওয়া যায়।",
+          "en": "Energy is obtained from the sun."
+        }
+      ]
+    },
+    {
+      "id": "shomoy_shuchi",
+      "headword": "ইতিহাস",
+      "headwordRoman": "itihas",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "itihaʃ",
+      "senses": [
+        {
+          "definitionBn": "অতীত ঘটনার লিখিত বিবরণ।",
+          "definitionEn": "history"
+        }
+      ],
+      "synonyms": [
+        "পুরাবৃত্ত"
+      ],
+      "examples": [
+        {
+          "bn": "আমরা দেশের ইতিহাস পড়ি।",
+          "en": "We study the history of the country."
+        }
+      ]
+    },
+    {
+      "id": "bigyan",
+      "headword": "বিজ্ঞান",
+      "headwordRoman": "bigyan",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "biggæn",
+      "senses": [
+        {
+          "definitionBn": "পর্যবেক্ষণ ও পরীক্ষার মাধ্যমে অর্জিত জ্ঞান।",
+          "definitionEn": "science"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "বিজ্ঞান আমাদের জীবন সহজ করেছে।",
+          "en": "Science has made our lives easier."
+        }
+      ]
+    },
+    {
+      "id": "ganit",
+      "headword": "গণিত",
+      "headwordRoman": "ganit",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "gonit",
+      "senses": [
+        {
+          "definitionBn": "সংখ্যা ও পরিমাণ নিয়ে বিদ্যা।",
+          "definitionEn": "mathematics"
+        }
+      ],
+      "synonyms": [
+        "অঙ্কশাস্ত্র"
+      ],
+      "examples": [
+        {
+          "bn": "গণিত আমার প্রিয় বিষয়।",
+          "en": "Mathematics is my favorite subject."
+        }
+      ]
+    },
+    {
+      "id": "kolom",
+      "headword": "কলম",
+      "headwordRoman": "kolom",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kɔlom",
+      "senses": [
+        {
+          "definitionBn": "লেখার জন্য কালিভরা যন্ত্র।",
+          "definitionEn": "pen"
+        }
+      ],
+      "synonyms": [
+        "লেখনী"
+      ],
+      "examples": [
+        {
+          "bn": "কলম দিয়ে লিখি।",
+          "en": "I write with a pen."
+        }
+      ]
+    },
+    {
+      "id": "kagoj",
+      "headword": "কাগজ",
+      "headwordRoman": "kagoj",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kagodʒ",
+      "senses": [
+        {
+          "definitionBn": "লেখা ও ছাপার পাতলা উপাদান।",
+          "definitionEn": "paper"
+        }
+      ],
+      "synonyms": [
+        "পত্র"
+      ],
+      "examples": [
+        {
+          "bn": "কাগজে ছবি আঁকি।",
+          "en": "I draw a picture on paper."
+        }
+      ]
+    },
+    {
+      "id": "darja",
+      "headword": "দরজা",
+      "headwordRoman": "darja",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dɔrdʒa",
+      "senses": [
+        {
+          "definitionBn": "ঘরে ঢোকার মুখ।",
+          "definitionEn": "door"
+        }
+      ],
+      "synonyms": [
+        "কপাট",
+        "দ্বার"
+      ],
+      "examples": [
+        {
+          "bn": "দরজাটি বন্ধ করো।",
+          "en": "Close the door."
+        }
+      ]
+    },
+    {
+      "id": "janala",
+      "headword": "জানালা",
+      "headwordRoman": "janala",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dʒanala",
+      "senses": [
+        {
+          "definitionBn": "ঘরের যে ফাঁক দিয়ে আলো-বাতাস আসে।",
+          "definitionEn": "window"
+        }
+      ],
+      "synonyms": [
+        "বাতায়ন",
+        "গবাক্ষ"
+      ],
+      "examples": [
+        {
+          "bn": "জানালা দিয়ে বাতাস আসে।",
+          "en": "Air comes in through the window."
+        }
+      ]
+    },
+    {
+      "id": "bichana",
+      "headword": "বিছানা",
+      "headwordRoman": "bichana",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bitʃana",
+      "senses": [
+        {
+          "definitionBn": "ঘুমানোর জন্য পাতা শয্যা।",
+          "definitionEn": "bed"
+        }
+      ],
+      "synonyms": [
+        "শয্যা"
+      ],
+      "examples": [
+        {
+          "bn": "সে বিছানায় শুয়ে আছে।",
+          "en": "She is lying on the bed."
+        }
+      ]
+    },
+    {
+      "id": "jama",
+      "headword": "জামা",
+      "headwordRoman": "jama",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dʒama",
+      "senses": [
+        {
+          "definitionBn": "শরীরে পরিধেয় পোশাক।",
+          "definitionEn": "shirt; clothes"
+        }
+      ],
+      "synonyms": [
+        "বস্ত্র",
+        "পোশাক"
+      ],
+      "examples": [
+        {
+          "bn": "তার নতুন জামা পছন্দ হয়েছে।",
+          "en": "He liked his new shirt."
+        }
+      ]
+    },
+    {
+      "id": "juta",
+      "headword": "জুতা",
+      "headwordRoman": "juta",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dʒuta",
+      "senses": [
+        {
+          "definitionBn": "পায়ে পরার আবরণ।",
+          "definitionEn": "shoe"
+        }
+      ],
+      "synonyms": [
+        "পাদুকা"
+      ],
+      "examples": [
+        {
+          "bn": "জুতা পরে বাইরে যাও।",
+          "en": "Wear shoes when going out."
+        }
+      ]
+    },
+    {
+      "id": "ghori",
+      "headword": "ঘড়ি",
+      "headwordRoman": "ghori",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "gʱoɽi",
+      "senses": [
+        {
+          "definitionBn": "সময় দেখার যন্ত্র।",
+          "definitionEn": "clock; watch"
+        }
+      ],
+      "synonyms": [
+        "সময়যন্ত্র"
+      ],
+      "examples": [
+        {
+          "bn": "ঘড়িতে এখন দশটা।",
+          "en": "It is ten o clock now."
+        }
+      ]
+    },
+    {
+      "id": "chabi",
+      "headword": "চাবি",
+      "headwordRoman": "chabi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tʃabi",
+      "senses": [
+        {
+          "definitionBn": "তালা খোলা ও বন্ধ করার যন্ত্র।",
+          "definitionEn": "key"
+        }
+      ],
+      "synonyms": [
+        "কুঞ্চিকা"
+      ],
+      "examples": [
+        {
+          "bn": "দরজার চাবি হারিয়ে গেছে।",
+          "en": "The door key is lost."
+        }
+      ]
+    },
+    {
+      "id": "ayna",
+      "headword": "আয়না",
+      "headwordRoman": "ayna",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ajna",
+      "senses": [
+        {
+          "definitionBn": "যে কাঁচে নিজের প্রতিবিম্ব দেখা যায়।",
+          "definitionEn": "mirror"
+        }
+      ],
+      "synonyms": [
+        "দর্পণ"
+      ],
+      "examples": [
+        {
+          "bn": "আয়নায় নিজেকে দেখি।",
+          "en": "I look at myself in the mirror."
+        }
+      ]
+    },
+    {
+      "id": "bidyut",
+      "headword": "বিদ্যুৎ",
+      "headwordRoman": "bidyut",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "biddut",
+      "senses": [
+        {
+          "definitionBn": "তড়িৎ শক্তি।",
+          "definitionEn": "electricity"
+        }
+      ],
+      "synonyms": [
+        "তড়িৎ",
+        "বিজলি"
+      ],
+      "examples": [
+        {
+          "bn": "বিদ্যুৎ চলে গেছে।",
+          "en": "The electricity has gone out."
+        }
+      ]
+    },
+    {
+      "id": "agni",
+      "headword": "তাপ",
+      "headwordRoman": "tap",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tap",
+      "senses": [
+        {
+          "definitionBn": "গরম হওয়ার অনুভূতি বা শক্তি।",
+          "definitionEn": "heat"
+        }
+      ],
+      "synonyms": [
+        "উত্তাপ"
+      ],
+      "examples": [
+        {
+          "bn": "সূর্যের তাপ প্রখর।",
+          "en": "The heat of the sun is intense."
+        }
+      ]
+    },
+    {
+      "id": "borsha",
+      "headword": "বর্ষা",
+      "headwordRoman": "borsha",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bɔrʃa",
+      "senses": [
+        {
+          "definitionBn": "বৃষ্টিবহুল ঋতু।",
+          "definitionEn": "monsoon; rainy season"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "বর্ষায় নদী ভরে ওঠে।",
+          "en": "Rivers fill up during the monsoon."
+        }
+      ]
+    },
+    {
+      "id": "shirt_kal",
+      "headword": "শীত",
+      "headwordRoman": "shit",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃit",
+      "senses": [
+        {
+          "definitionBn": "ঠান্ডা ঋতু।",
+          "definitionEn": "winter"
+        }
+      ],
+      "synonyms": [
+        "শীতকাল"
+      ],
+      "examples": [
+        {
+          "bn": "শীতে সবাই গরম কাপড় পরে।",
+          "en": "Everyone wears warm clothes in winter."
+        }
+      ]
+    },
+    {
+      "id": "grishmo",
+      "headword": "গ্রীষ্ম",
+      "headwordRoman": "grishmo",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "griʃʃo",
+      "senses": [
+        {
+          "definitionBn": "গরম ঋতু।",
+          "definitionEn": "summer"
+        }
+      ],
+      "synonyms": [
+        "গ্রীষ্মকাল"
+      ],
+      "examples": [
+        {
+          "bn": "গ্রীষ্মে দিন বড় হয়।",
+          "en": "Days are longer in summer."
+        }
+      ]
+    },
+    {
+      "id": "bosonto",
+      "headword": "বসন্ত",
+      "headwordRoman": "bosonto",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bɔʃonto",
+      "senses": [
+        {
+          "definitionBn": "ফুল ফোটার ঋতু।",
+          "definitionEn": "spring"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "বসন্তে গাছে নতুন পাতা আসে।",
+          "en": "New leaves appear on trees in spring."
+        }
+      ]
+    },
+    {
+      "id": "desh",
+      "headword": "দেশ",
+      "headwordRoman": "desh",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "deʃ",
+      "senses": [
+        {
+          "definitionBn": "নির্দিষ্ট সীমানার ভূখণ্ড ও জাতি।",
+          "definitionEn": "country"
+        }
+      ],
+      "synonyms": [
+        "রাষ্ট্র",
+        "ভূখণ্ড"
+      ],
+      "examples": [
+        {
+          "bn": "আমি আমার দেশকে ভালোবাসি।",
+          "en": "I love my country."
+        }
+      ]
+    },
+    {
+      "id": "manchitro",
+      "headword": "মানচিত্র",
+      "headwordRoman": "manchitro",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "mantʃitro",
+      "senses": [
+        {
+          "definitionBn": "ভূখণ্ডের অঙ্কিত চিত্র।",
+          "definitionEn": "map"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "মানচিত্রে নদী দেখানো আছে।",
+          "en": "The river is shown on the map."
+        }
+      ]
+    },
+    {
+      "id": "itihaser_boi",
+      "headword": "সংবাদ",
+      "headwordRoman": "shongbad",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃoŋbad",
+      "senses": [
+        {
+          "definitionBn": "নতুন ঘটনার খবর।",
+          "definitionEn": "news"
+        }
+      ],
+      "synonyms": [
+        "খবর",
+        "বার্তা"
+      ],
+      "examples": [
+        {
+          "bn": "সকালে সংবাদ পড়ি।",
+          "en": "I read the news in the morning."
+        }
+      ]
+    },
+    {
+      "id": "prosno",
+      "headword": "প্রশ্ন",
+      "headwordRoman": "proshno",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "proʃno",
+      "senses": [
+        {
+          "definitionBn": "উত্তর জানতে চাওয়া কথা।",
+          "definitionEn": "question"
+        }
+      ],
+      "synonyms": [
+        "জিজ্ঞাসা"
+      ],
+      "examples": [
+        {
+          "bn": "তার প্রশ্নের উত্তর দাও।",
+          "en": "Answer his question."
+        }
+      ]
+    },
+    {
+      "id": "uttor",
+      "headword": "উত্তর",
+      "headwordRoman": "uttor",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "uttor",
+      "senses": [
+        {
+          "definitionBn": "প্রশ্নের জবাব; একটি দিক।",
+          "definitionEn": "answer; north"
+        }
+      ],
+      "synonyms": [
+        "জবাব"
+      ],
+      "examples": [
+        {
+          "bn": "তার উত্তর সঠিক ছিল।",
+          "en": "His answer was correct."
+        }
+      ]
+    },
+    {
+      "id": "shomadhan",
+      "headword": "সমাধান",
+      "headwordRoman": "shomadhan",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃomadʱan",
+      "senses": [
+        {
+          "definitionBn": "সমস্যার নিষ্পত্তি।",
+          "definitionEn": "solution"
+        }
+      ],
+      "synonyms": [
+        "নিষ্পত্তি"
+      ],
+      "examples": [
+        {
+          "bn": "সমস্যার সমাধান পাওয়া গেছে।",
+          "en": "A solution to the problem has been found."
+        }
+      ]
+    },
+    {
+      "id": "shomossa",
+      "headword": "সমস্যা",
+      "headwordRoman": "shomossa",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃomoʃʃa",
+      "senses": [
+        {
+          "definitionBn": "যা সমাধান করা প্রয়োজন।",
+          "definitionEn": "problem"
+        }
+      ],
+      "synonyms": [
+        "ঝামেলা"
+      ],
+      "examples": [
+        {
+          "bn": "এটি একটি কঠিন সমস্যা।",
+          "en": "This is a difficult problem."
+        }
+      ]
+    },
+    {
+      "id": "shongkhya",
+      "headword": "সংখ্যা",
+      "headwordRoman": "shongkhya",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃoŋkʰæ",
+      "senses": [
+        {
+          "definitionBn": "গণনার একক; নম্বর।",
+          "definitionEn": "number"
+        }
+      ],
+      "synonyms": [
+        "নম্বর",
+        "অঙ্ক"
+      ],
+      "examples": [
+        {
+          "bn": "পাঁচ একটি ছোট সংখ্যা।",
+          "en": "Five is a small number."
+        }
+      ]
+    },
+    {
+      "id": "nam",
+      "headword": "নাম",
+      "headwordRoman": "nam",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "nam",
+      "senses": [
+        {
+          "definitionBn": "পরিচয়ের জন্য দেওয়া শব্দ।",
+          "definitionEn": "name"
+        }
+      ],
+      "synonyms": [
+        "অভিধা"
+      ],
+      "examples": [
+        {
+          "bn": "তার নাম কী?",
+          "en": "What is his name?"
+        }
+      ]
+    },
+    {
+      "id": "kotha",
+      "headword": "কথা",
+      "headwordRoman": "kotha",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kɔtʰa",
+      "senses": [
+        {
+          "definitionBn": "উচ্চারিত বা লিখিত বাক্য।",
+          "definitionEn": "word; talk"
+        }
+      ],
+      "synonyms": [
+        "বাণী",
+        "বাক্য"
+      ],
+      "examples": [
+        {
+          "bn": "তার কথা সবাই শোনে।",
+          "en": "Everyone listens to what he says."
+        }
+      ]
+    },
+    {
+      "id": "chithi",
+      "headword": "চিঠি",
+      "headwordRoman": "chithi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tʃiʈʰi",
+      "senses": [
+        {
+          "definitionBn": "লিখিত বার্তা যা পাঠানো হয়।",
+          "definitionEn": "letter"
+        }
+      ],
+      "synonyms": [
+        "পত্র"
+      ],
+      "examples": [
+        {
+          "bn": "সে বন্ধুকে চিঠি লিখেছে।",
+          "en": "He has written a letter to his friend."
+        }
+      ]
+    },
+    {
+      "id": "upohar",
+      "headword": "উপহার",
+      "headwordRoman": "upohar",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "upohar",
+      "senses": [
+        {
+          "definitionBn": "ভালোবাসা বা সম্মানে দেওয়া জিনিস।",
+          "definitionEn": "gift; present"
+        }
+      ],
+      "synonyms": [
+        "উপঢৌকন"
+      ],
+      "examples": [
+        {
+          "bn": "সে আমাকে উপহার দিয়েছে।",
+          "en": "She has given me a gift."
+        }
+      ]
+    },
+    {
+      "id": "utsob",
+      "headword": "উৎসব",
+      "headwordRoman": "utsob",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "utʃʃɔb",
+      "senses": [
+        {
+          "definitionBn": "আনন্দের সামাজিক অনুষ্ঠান।",
+          "definitionEn": "festival"
+        }
+      ],
+      "synonyms": [
+        "পার্বণ"
+      ],
+      "examples": [
+        {
+          "bn": "গ্রামে উৎসব চলছে।",
+          "en": "A festival is going on in the village."
+        }
+      ]
+    },
+    {
+      "id": "bijoy",
+      "headword": "বিজয়",
+      "headwordRoman": "bijoy",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bidʒoj",
+      "senses": [
+        {
+          "definitionBn": "জয় বা সাফল্য।",
+          "definitionEn": "victory"
+        }
+      ],
+      "synonyms": [
+        "জয়",
+        "বিজয়লাভ"
+      ],
+      "examples": [
+        {
+          "bn": "দলটি বিজয় অর্জন করেছে।",
+          "en": "The team has achieved victory."
+        }
+      ]
+    },
+    {
+      "id": "shadhinota",
+      "headword": "স্বাধীনতা",
+      "headwordRoman": "shadhinota",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃadʱinota",
+      "senses": [
+        {
+          "definitionBn": "পরাধীনতা থেকে মুক্ত অবস্থা।",
+          "definitionEn": "freedom; independence"
+        }
+      ],
+      "synonyms": [
+        "মুক্তি"
+      ],
+      "examples": [
+        {
+          "bn": "স্বাধীনতা সবার অধিকার।",
+          "en": "Freedom is everyone right."
+        }
+      ]
+    },
+    {
+      "id": "nyay",
+      "headword": "ন্যায়",
+      "headwordRoman": "nyay",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "næj",
+      "senses": [
+        {
+          "definitionBn": "সঠিক ও সুবিচারপূর্ণ আচরণ।",
+          "definitionEn": "justice"
+        }
+      ],
+      "synonyms": [
+        "সুবিচার"
+      ],
+      "examples": [
+        {
+          "bn": "বিচারক ন্যায় প্রতিষ্ঠা করেন।",
+          "en": "The judge establishes justice."
+        }
+      ]
+    },
+    {
+      "id": "shahajjo",
+      "headword": "সাহায্য",
+      "headwordRoman": "shahajjo",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃahaddʒo",
+      "senses": [
+        {
+          "definitionBn": "অন্যকে সহযোগিতা করা।",
+          "definitionEn": "help; aid"
+        }
+      ],
+      "synonyms": [
+        "সহযোগিতা",
+        "উপকার"
+      ],
+      "examples": [
+        {
+          "bn": "বিপদে বন্ধুর সাহায্য পেয়েছি।",
+          "en": "I got my friend help in trouble."
+        }
+      ]
+    },
+    {
+      "id": "bishwas",
+      "headword": "বিশ্বাস",
+      "headwordRoman": "bishwas",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "biʃʃaʃ",
+      "senses": [
+        {
+          "definitionBn": "কারও বা কিছুর প্রতি আস্থা।",
+          "definitionEn": "trust; belief"
+        }
+      ],
+      "synonyms": [
+        "আস্থা",
+        "ভরসা"
+      ],
+      "examples": [
+        {
+          "bn": "তার প্রতি আমার বিশ্বাস আছে।",
+          "en": "I have trust in him."
+        }
+      ]
+    },
+    {
+      "id": "shomman",
+      "headword": "সম্মান",
+      "headwordRoman": "shomman",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃomman",
+      "senses": [
+        {
+          "definitionBn": "শ্রদ্ধা ও মর্যাদা।",
+          "definitionEn": "respect; honor"
+        }
+      ],
+      "synonyms": [
+        "শ্রদ্ধা",
+        "মর্যাদা"
+      ],
+      "examples": [
+        {
+          "bn": "বড়দের সম্মান করা উচিত।",
+          "en": "One should respect elders."
+        }
+      ]
+    },
+    {
+      "id": "ek",
+      "headword": "এক",
+      "headwordRoman": "ek",
+      "partOfSpeech": "number",
+      "pronunciationIPA": "æk",
+      "senses": [
+        {
+          "definitionBn": "গণনার প্রথম সংখ্যা; ১।",
+          "definitionEn": "one"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "আমার কাছে এক টাকা আছে।",
+          "en": "I have one taka."
+        }
+      ]
+    },
+    {
+      "id": "dui",
+      "headword": "দুই",
+      "headwordRoman": "dui",
+      "partOfSpeech": "number",
+      "pronunciationIPA": "dui",
+      "senses": [
+        {
+          "definitionBn": "গণনার দ্বিতীয় সংখ্যা; ২।",
+          "definitionEn": "two"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "তার দুই ভাই।",
+          "en": "He has two brothers."
+        }
+      ]
+    },
+    {
+      "id": "tin",
+      "headword": "তিন",
+      "headwordRoman": "tin",
+      "partOfSpeech": "number",
+      "pronunciationIPA": "tin",
+      "senses": [
+        {
+          "definitionBn": "গণনার তৃতীয় সংখ্যা; ৩।",
+          "definitionEn": "three"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "তিন দিন পরে দেখা হবে।",
+          "en": "We will meet after three days."
+        }
+      ]
+    },
+    {
+      "id": "char",
+      "headword": "চার",
+      "headwordRoman": "char",
+      "partOfSpeech": "number",
+      "pronunciationIPA": "tʃar",
+      "senses": [
+        {
+          "definitionBn": "গণনার চতুর্থ সংখ্যা; ৪।",
+          "definitionEn": "four"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "টেবিলে চার পা আছে।",
+          "en": "The table has four legs."
+        }
+      ]
+    },
+    {
+      "id": "panch",
+      "headword": "পাঁচ",
+      "headwordRoman": "panch",
+      "partOfSpeech": "number",
+      "pronunciationIPA": "pãtʃ",
+      "senses": [
+        {
+          "definitionBn": "গণনার পঞ্চম সংখ্যা; ৫।",
+          "definitionEn": "five"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "তার হাতে পাঁচ আঙুল।",
+          "en": "There are five fingers on his hand."
+        }
+      ]
+    },
+    {
+      "id": "choy",
+      "headword": "ছয়",
+      "headwordRoman": "choy",
+      "partOfSpeech": "number",
+      "pronunciationIPA": "tʃɔj",
+      "senses": [
+        {
+          "definitionBn": "গণনার ষষ্ঠ সংখ্যা; ৬।",
+          "definitionEn": "six"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "ছয় মাস কেটে গেছে।",
+          "en": "Six months have passed."
+        }
+      ]
+    },
+    {
+      "id": "shat",
+      "headword": "সাত",
+      "headwordRoman": "shat",
+      "partOfSpeech": "number",
+      "pronunciationIPA": "ʃat",
+      "senses": [
+        {
+          "definitionBn": "গণনার সপ্তম সংখ্যা; ৭।",
+          "definitionEn": "seven"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "সপ্তাহে সাত দিন।",
+          "en": "There are seven days in a week."
+        }
+      ]
+    },
+    {
+      "id": "at",
+      "headword": "আট",
+      "headwordRoman": "at",
+      "partOfSpeech": "number",
+      "pronunciationIPA": "aʈ",
+      "senses": [
+        {
+          "definitionBn": "গণনার অষ্টম সংখ্যা; ৮।",
+          "definitionEn": "eight"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "আট ঘণ্টা কাজ করি।",
+          "en": "I work eight hours."
+        }
+      ]
+    },
+    {
+      "id": "noy",
+      "headword": "নয়",
+      "headwordRoman": "noy",
+      "partOfSpeech": "number",
+      "pronunciationIPA": "nɔj",
+      "senses": [
+        {
+          "definitionBn": "গণনার নবম সংখ্যা; ৯।",
+          "definitionEn": "nine"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "নয় জন খেলোয়াড় এসেছে।",
+          "en": "Nine players have come."
+        }
+      ]
+    },
+    {
+      "id": "dosh",
+      "headword": "দশ",
+      "headwordRoman": "dosh",
+      "partOfSpeech": "number",
+      "pronunciationIPA": "dɔʃ",
+      "senses": [
+        {
+          "definitionBn": "গণনার দশম সংখ্যা; ১০।",
+          "definitionEn": "ten"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "দশ টাকা দাও।",
+          "en": "Give me ten taka."
+        }
+      ]
+    },
+    {
+      "id": "sho",
+      "headword": "একশো",
+      "headwordRoman": "eksho",
+      "partOfSpeech": "number",
+      "pronunciationIPA": "ækʃo",
+      "senses": [
+        {
+          "definitionBn": "দশ গুণ দশ; ১০০।",
+          "definitionEn": "hundred"
+        }
+      ],
+      "synonyms": [
+        "শত"
+      ],
+      "examples": [
+        {
+          "bn": "একশো বছর আগের কথা।",
+          "en": "This is a story of a hundred years ago."
+        }
+      ]
+    },
+    {
+      "id": "hajar",
+      "headword": "হাজার",
+      "headwordRoman": "hajar",
+      "partOfSpeech": "number",
+      "pronunciationIPA": "hadʒar",
+      "senses": [
+        {
+          "definitionBn": "দশ গুণ একশো; ১০০০।",
+          "definitionEn": "thousand"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "হাজার মানুষ জড়ো হয়েছে।",
+          "en": "A thousand people have gathered."
+        }
+      ]
+    },
+    {
+      "id": "dada",
+      "headword": "দাদা",
+      "headwordRoman": "dada",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dada",
+      "senses": [
+        {
+          "definitionBn": "বড় ভাই বা পিতামহ।",
+          "definitionEn": "elder brother; grandfather"
+        }
+      ],
+      "synonyms": [
+        "অগ্রজ"
+      ],
+      "examples": [
+        {
+          "bn": "দাদা আমাকে খুব স্নেহ করেন।",
+          "en": "My elder brother loves me dearly."
+        }
+      ]
+    },
+    {
+      "id": "didi",
+      "headword": "দিদি",
+      "headwordRoman": "didi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "didi",
+      "senses": [
+        {
+          "definitionBn": "বড় বোন।",
+          "definitionEn": "elder sister"
+        }
+      ],
+      "synonyms": [
+        "অগ্রজা"
+      ],
+      "examples": [
+        {
+          "bn": "দিদি রান্না শেখাচ্ছেন।",
+          "en": "Elder sister is teaching cooking."
+        }
+      ]
+    },
+    {
+      "id": "dadu",
+      "headword": "দাদু",
+      "headwordRoman": "dadu",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dadu",
+      "senses": [
+        {
+          "definitionBn": "পিতামহ বা মাতামহ; বৃদ্ধ আত্মীয়।",
+          "definitionEn": "grandfather"
+        }
+      ],
+      "synonyms": [
+        "ঠাকুরদা"
+      ],
+      "examples": [
+        {
+          "bn": "দাদু গল্প বলেন।",
+          "en": "Grandfather tells stories."
+        }
+      ]
+    },
+    {
+      "id": "thakuma",
+      "headword": "ঠাকুমা",
+      "headwordRoman": "thakuma",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʈʰakuma",
+      "senses": [
+        {
+          "definitionBn": "পিতার মা; পিতামহী।",
+          "definitionEn": "grandmother"
+        }
+      ],
+      "synonyms": [
+        "দিদিমা"
+      ],
+      "examples": [
+        {
+          "bn": "ঠাকুমা পিঠা বানান।",
+          "en": "Grandmother makes cakes."
+        }
+      ]
+    },
+    {
+      "id": "kaka",
+      "headword": "কাকা",
+      "headwordRoman": "kaka",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kaka",
+      "senses": [
+        {
+          "definitionBn": "পিতার ছোট ভাই।",
+          "definitionEn": "uncle (paternal)"
+        }
+      ],
+      "synonyms": [
+        "চাচা"
+      ],
+      "examples": [
+        {
+          "bn": "কাকা গ্রামে থাকেন।",
+          "en": "Uncle lives in the village."
+        }
+      ]
+    },
+    {
+      "id": "mama",
+      "headword": "মামা",
+      "headwordRoman": "mama",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "mama",
+      "senses": [
+        {
+          "definitionBn": "মায়ের ভাই।",
+          "definitionEn": "uncle (maternal)"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "মামা শহর থেকে এসেছেন।",
+          "en": "Maternal uncle has come from the city."
+        }
+      ]
+    },
+    {
+      "id": "pishi",
+      "headword": "পিসি",
+      "headwordRoman": "pishi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "piʃi",
+      "senses": [
+        {
+          "definitionBn": "পিতার বোন।",
+          "definitionEn": "aunt (paternal)"
+        }
+      ],
+      "synonyms": [
+        "ফুপু"
+      ],
+      "examples": [
+        {
+          "bn": "পিসি আমাকে উপহার দিলেন।",
+          "en": "Aunt gave me a gift."
+        }
+      ]
+    },
+    {
+      "id": "mashi",
+      "headword": "মাসি",
+      "headwordRoman": "mashi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "maʃi",
+      "senses": [
+        {
+          "definitionBn": "মায়ের বোন।",
+          "definitionEn": "aunt (maternal)"
+        }
+      ],
+      "synonyms": [
+        "খালা"
+      ],
+      "examples": [
+        {
+          "bn": "মাসির বাড়ি যাচ্ছি।",
+          "en": "I am going to my aunt house."
+        }
+      ]
+    },
+    {
+      "id": "stri",
+      "headword": "স্ত্রী",
+      "headwordRoman": "stri",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "stri",
+      "senses": [
+        {
+          "definitionBn": "বিবাহিত নারী সঙ্গিনী।",
+          "definitionEn": "wife"
+        }
+      ],
+      "synonyms": [
+        "বউ",
+        "পত্নী"
+      ],
+      "examples": [
+        {
+          "bn": "তার স্ত্রী শিক্ষক।",
+          "en": "His wife is a teacher."
+        }
+      ]
+    },
+    {
+      "id": "shami",
+      "headword": "স্বামী",
+      "headwordRoman": "shami",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃami",
+      "senses": [
+        {
+          "definitionBn": "বিবাহিত পুরুষ সঙ্গী।",
+          "definitionEn": "husband"
+        }
+      ],
+      "synonyms": [
+        "বর",
+        "পতি"
+      ],
+      "examples": [
+        {
+          "bn": "তার স্বামী ব্যবসায়ী।",
+          "en": "Her husband is a businessman."
+        }
+      ]
+    },
+    {
+      "id": "chele_shontan",
+      "headword": "সন্তান",
+      "headwordRoman": "shontan",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃɔntan",
+      "senses": [
+        {
+          "definitionBn": "কারও ছেলে বা মেয়ে।",
+          "definitionEn": "child; offspring"
+        }
+      ],
+      "synonyms": [
+        "ছানা"
+      ],
+      "examples": [
+        {
+          "bn": "তাদের দুটি সন্তান।",
+          "en": "They have two children."
+        }
+      ]
+    },
+    {
+      "id": "atmiyo",
+      "headword": "আত্মীয়",
+      "headwordRoman": "atmiyo",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "attio",
+      "senses": [
+        {
+          "definitionBn": "রক্ত বা বিবাহসূত্রে সম্পর্কিত ব্যক্তি।",
+          "definitionEn": "relative"
+        }
+      ],
+      "synonyms": [
+        "স্বজন"
+      ],
+      "examples": [
+        {
+          "bn": "উৎসবে আত্মীয়রা আসেন।",
+          "en": "Relatives come during the festival."
+        }
+      ]
+    },
+    {
+      "id": "protibeshi",
+      "headword": "প্রতিবেশী",
+      "headwordRoman": "protibeshi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "protibeʃi",
+      "senses": [
+        {
+          "definitionBn": "পাশে বসবাসকারী ব্যক্তি।",
+          "definitionEn": "neighbor"
+        }
+      ],
+      "synonyms": [
+        "পড়শি"
+      ],
+      "examples": [
+        {
+          "bn": "প্রতিবেশী খুব ভালো।",
+          "en": "The neighbor is very nice."
+        }
+      ]
+    },
+    {
+      "id": "nak",
+      "headword": "নাক",
+      "headwordRoman": "nak",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "nak",
+      "senses": [
+        {
+          "definitionBn": "শ্বাস নেওয়া ও গন্ধ নেওয়ার অঙ্গ।",
+          "definitionEn": "nose"
+        }
+      ],
+      "synonyms": [
+        "নাসিকা"
+      ],
+      "examples": [
+        {
+          "bn": "ফুলের গন্ধ নাকে আসে।",
+          "en": "The scent of flowers reaches the nose."
+        }
+      ]
+    },
+    {
+      "id": "dat",
+      "headword": "দাঁত",
+      "headwordRoman": "dat",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dãt",
+      "senses": [
+        {
+          "definitionBn": "মুখের ভেতরের শক্ত চিবানোর অঙ্গ।",
+          "definitionEn": "tooth"
+        }
+      ],
+      "synonyms": [
+        "দন্ত"
+      ],
+      "examples": [
+        {
+          "bn": "প্রতিদিন দাঁত মাজা উচিত।",
+          "en": "One should brush teeth every day."
+        }
+      ]
+    },
+    {
+      "id": "jib",
+      "headword": "জিভ",
+      "headwordRoman": "jib",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dʒib",
+      "senses": [
+        {
+          "definitionBn": "মুখের ভেতরের স্বাদ নেওয়ার অঙ্গ।",
+          "definitionEn": "tongue"
+        }
+      ],
+      "synonyms": [
+        "জিহ্বা"
+      ],
+      "examples": [
+        {
+          "bn": "জিভ দিয়ে স্বাদ বুঝি।",
+          "en": "We taste with the tongue."
+        }
+      ]
+    },
+    {
+      "id": "gola",
+      "headword": "গলা",
+      "headwordRoman": "gola",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "gɔla",
+      "senses": [
+        {
+          "definitionBn": "মাথা ও ধড়ের সংযোগস্থল; কণ্ঠ।",
+          "definitionEn": "throat; neck"
+        }
+      ],
+      "synonyms": [
+        "কণ্ঠ",
+        "গ্রীবা"
+      ],
+      "examples": [
+        {
+          "bn": "তার গলা ব্যথা করছে।",
+          "en": "His throat hurts."
+        }
+      ]
+    },
+    {
+      "id": "angul",
+      "headword": "আঙুল",
+      "headwordRoman": "angul",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "aŋul",
+      "senses": [
+        {
+          "definitionBn": "হাত বা পায়ের সরু অংশ।",
+          "definitionEn": "finger"
+        }
+      ],
+      "synonyms": [
+        "অঙ্গুলি"
+      ],
+      "examples": [
+        {
+          "bn": "আঙুলে আংটি পরেছে।",
+          "en": "She wears a ring on her finger."
+        }
+      ]
+    },
+    {
+      "id": "chul",
+      "headword": "চুল",
+      "headwordRoman": "chul",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tʃul",
+      "senses": [
+        {
+          "definitionBn": "মাথায় গজানো সরু তন্তু।",
+          "definitionEn": "hair"
+        }
+      ],
+      "synonyms": [
+        "কেশ"
+      ],
+      "examples": [
+        {
+          "bn": "তার লম্বা কালো চুল।",
+          "en": "She has long black hair."
+        }
+      ]
+    },
+    {
+      "id": "bhuru",
+      "headword": "ভ্রু",
+      "headwordRoman": "bhuru",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bʱru",
+      "senses": [
+        {
+          "definitionBn": "চোখের উপরের লোমরেখা।",
+          "definitionEn": "eyebrow"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "সে ভ্রু কুঁচকে তাকাল।",
+          "en": "He looked with a frown."
+        }
+      ]
+    },
+    {
+      "id": "thot",
+      "headword": "ঠোঁট",
+      "headwordRoman": "thot",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʈʰõʈ",
+      "senses": [
+        {
+          "definitionBn": "মুখের বাইরের নরম প্রান্ত।",
+          "definitionEn": "lip"
+        }
+      ],
+      "synonyms": [
+        "অধর"
+      ],
+      "examples": [
+        {
+          "bn": "তার ঠোঁটে হাসি।",
+          "en": "There is a smile on her lips."
+        }
+      ]
+    },
+    {
+      "id": "peth",
+      "headword": "পেট",
+      "headwordRoman": "peth",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "peʈ",
+      "senses": [
+        {
+          "definitionBn": "দেহের যে অংশে খাবার হজম হয়।",
+          "definitionEn": "stomach; belly"
+        }
+      ],
+      "synonyms": [
+        "উদর"
+      ],
+      "examples": [
+        {
+          "bn": "তার পেট ব্যথা করছে।",
+          "en": "His stomach hurts."
+        }
+      ]
+    },
+    {
+      "id": "pith",
+      "headword": "পিঠ",
+      "headwordRoman": "pith",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "piʈʰ",
+      "senses": [
+        {
+          "definitionBn": "দেহের পশ্চাৎভাগ।",
+          "definitionEn": "back"
+        }
+      ],
+      "synonyms": [
+        "পৃষ্ঠ"
+      ],
+      "examples": [
+        {
+          "bn": "ভারী বোঝা পিঠে বইছে।",
+          "en": "He carries a heavy load on his back."
+        }
+      ]
+    },
+    {
+      "id": "hridoy",
+      "headword": "হৃদয়",
+      "headwordRoman": "hridoy",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ridoj",
+      "senses": [
+        {
+          "definitionBn": "রক্ত সঞ্চালনকারী অঙ্গ; আবেগের কেন্দ্র।",
+          "definitionEn": "heart"
+        }
+      ],
+      "synonyms": [
+        "হৃৎপিণ্ড"
+      ],
+      "examples": [
+        {
+          "bn": "তার হৃদয় দয়ায় ভরা।",
+          "en": "His heart is full of kindness."
+        }
+      ]
+    },
+    {
+      "id": "rokto",
+      "headword": "রক্ত",
+      "headwordRoman": "rokto",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "rɔkto",
+      "senses": [
+        {
+          "definitionBn": "দেহের লাল তরল।",
+          "definitionEn": "blood"
+        }
+      ],
+      "synonyms": [
+        "শোণিত"
+      ],
+      "examples": [
+        {
+          "bn": "ক্ষত থেকে রক্ত ঝরছে।",
+          "en": "Blood is flowing from the wound."
+        }
+      ]
+    },
+    {
+      "id": "haar",
+      "headword": "হাড়",
+      "headwordRoman": "haar",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "haɽ",
+      "senses": [
+        {
+          "definitionBn": "দেহের কাঠামো গঠনকারী শক্ত অংশ।",
+          "definitionEn": "bone"
+        }
+      ],
+      "synonyms": [
+        "অস্থি"
+      ],
+      "examples": [
+        {
+          "bn": "দুধ হাড় শক্ত করে।",
+          "en": "Milk strengthens the bones."
+        }
+      ]
+    },
+    {
+      "id": "tok",
+      "headword": "ত্বক",
+      "headwordRoman": "tok",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tɔk",
+      "senses": [
+        {
+          "definitionBn": "দেহের বাইরের আবরণ; চামড়া।",
+          "definitionEn": "skin"
+        }
+      ],
+      "synonyms": [
+        "চর্ম"
+      ],
+      "examples": [
+        {
+          "bn": "রোদে ত্বক পুড়ে যায়।",
+          "en": "Skin burns in the sun."
+        }
+      ]
+    },
+    {
+      "id": "bagh",
+      "headword": "বাঘ",
+      "headwordRoman": "bagh",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bagʱ",
+      "senses": [
+        {
+          "definitionBn": "ডোরাকাটা বড় হিংস্র বিড়ালজাতীয় প্রাণী।",
+          "definitionEn": "tiger"
+        }
+      ],
+      "synonyms": [
+        "শার্দূল"
+      ],
+      "examples": [
+        {
+          "bn": "সুন্দরবনে বাঘ থাকে।",
+          "en": "Tigers live in the Sundarbans."
+        }
+      ]
+    },
+    {
+      "id": "singho",
+      "headword": "সিংহ",
+      "headwordRoman": "singho",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃiŋho",
+      "senses": [
+        {
+          "definitionBn": "বনের রাজা বলে পরিচিত হিংস্র প্রাণী।",
+          "definitionEn": "lion"
+        }
+      ],
+      "synonyms": [
+        "কেশরী"
+      ],
+      "examples": [
+        {
+          "bn": "সিংহ গর্জন করে।",
+          "en": "The lion roars."
+        }
+      ]
+    },
+    {
+      "id": "hati",
+      "headword": "হাতি",
+      "headwordRoman": "hati",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "hati",
+      "senses": [
+        {
+          "definitionBn": "লম্বা শুঁড়যুক্ত বিশাল স্তন্যপায়ী।",
+          "definitionEn": "elephant"
+        }
+      ],
+      "synonyms": [
+        "গজ",
+        "করী"
+      ],
+      "examples": [
+        {
+          "bn": "হাতি শুঁড় দিয়ে জল নেয়।",
+          "en": "The elephant takes water with its trunk."
+        }
+      ]
+    },
+    {
+      "id": "ghora",
+      "headword": "ঘোড়া",
+      "headwordRoman": "ghora",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "gʱoɽa",
+      "senses": [
+        {
+          "definitionBn": "দ্রুতগামী চার পায়ের বাহন পশু।",
+          "definitionEn": "horse"
+        }
+      ],
+      "synonyms": [
+        "অশ্ব",
+        "তুরগ"
+      ],
+      "examples": [
+        {
+          "bn": "ঘোড়া দ্রুত ছোটে।",
+          "en": "The horse runs fast."
+        }
+      ]
+    },
+    {
+      "id": "goru",
+      "headword": "গরু",
+      "headwordRoman": "goru",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "goru",
+      "senses": [
+        {
+          "definitionBn": "দুধ ও কৃষিকাজে ব্যবহৃত গৃহপালিত পশু।",
+          "definitionEn": "cow"
+        }
+      ],
+      "synonyms": [
+        "গাভি",
+        "ধেনু"
+      ],
+      "examples": [
+        {
+          "bn": "গরু ঘাস খায়।",
+          "en": "The cow eats grass."
+        }
+      ]
+    },
+    {
+      "id": "chagol",
+      "headword": "ছাগল",
+      "headwordRoman": "chagol",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tʃagol",
+      "senses": [
+        {
+          "definitionBn": "ছোট শিংওয়ালা গৃহপালিত পশু।",
+          "definitionEn": "goat"
+        }
+      ],
+      "synonyms": [
+        "অজ"
+      ],
+      "examples": [
+        {
+          "bn": "ছাগল লাফ দিয়ে চলে।",
+          "en": "The goat moves by jumping."
+        }
+      ]
+    },
+    {
+      "id": "kukur",
+      "headword": "কুকুর",
+      "headwordRoman": "kukur",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kukur",
+      "senses": [
+        {
+          "definitionBn": "বিশ্বস্ত গৃহপালিত প্রাণী।",
+          "definitionEn": "dog"
+        }
+      ],
+      "synonyms": [
+        "সারমেয়"
+      ],
+      "examples": [
+        {
+          "bn": "কুকুর ঘর পাহারা দেয়।",
+          "en": "The dog guards the house."
+        }
+      ]
+    },
+    {
+      "id": "biral",
+      "headword": "বিড়াল",
+      "headwordRoman": "biral",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "biɽal",
+      "senses": [
+        {
+          "definitionBn": "নরম লোমযুক্ত ছোট গৃহপালিত প্রাণী।",
+          "definitionEn": "cat"
+        }
+      ],
+      "synonyms": [
+        "মার্জার"
+      ],
+      "examples": [
+        {
+          "bn": "বিড়াল দুধ পছন্দ করে।",
+          "en": "The cat likes milk."
+        }
+      ]
+    },
+    {
+      "id": "murgi",
+      "headword": "মুরগি",
+      "headwordRoman": "murgi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "murgi",
+      "senses": [
+        {
+          "definitionBn": "ডিম ও মাংসের জন্য পালিত পাখি।",
+          "definitionEn": "hen; chicken"
+        }
+      ],
+      "synonyms": [
+        "কুক্কুট"
+      ],
+      "examples": [
+        {
+          "bn": "মুরগি ডিম পাড়ে।",
+          "en": "The hen lays eggs."
+        }
+      ]
+    },
+    {
+      "id": "bandor",
+      "headword": "বাঁদর",
+      "headwordRoman": "bandor",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bãdor",
+      "senses": [
+        {
+          "definitionBn": "গাছে লাফানো চঞ্চল প্রাণী।",
+          "definitionEn": "monkey"
+        }
+      ],
+      "synonyms": [
+        "বানর",
+        "কপি"
+      ],
+      "examples": [
+        {
+          "bn": "বাঁদর গাছে লাফায়।",
+          "en": "The monkey jumps on trees."
+        }
+      ]
+    },
+    {
+      "id": "shap",
+      "headword": "সাপ",
+      "headwordRoman": "shap",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃap",
+      "senses": [
+        {
+          "definitionBn": "পা ছাড়া লম্বা সরীসৃপ।",
+          "definitionEn": "snake"
+        }
+      ],
+      "synonyms": [
+        "সর্প",
+        "অহি"
+      ],
+      "examples": [
+        {
+          "bn": "ঘাসে একটি সাপ দেখলাম।",
+          "en": "I saw a snake in the grass."
+        }
+      ]
+    },
+    {
+      "id": "bang",
+      "headword": "ব্যাঙ",
+      "headwordRoman": "bang",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bæŋ",
+      "senses": [
+        {
+          "definitionBn": "জল ও ডাঙায় বাস করা লাফানো প্রাণী।",
+          "definitionEn": "frog"
+        }
+      ],
+      "synonyms": [
+        "ভেক",
+        "দাদুর"
+      ],
+      "examples": [
+        {
+          "bn": "বৃষ্টিতে ব্যাঙ ডাকে।",
+          "en": "Frogs croak in the rain."
+        }
+      ]
+    },
+    {
+      "id": "prajapoti",
+      "headword": "প্রজাপতি",
+      "headwordRoman": "prajapoti",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "prodʒapoti",
+      "senses": [
+        {
+          "definitionBn": "রঙিন ডানাযুক্ত ছোট উড়ন্ত পতঙ্গ।",
+          "definitionEn": "butterfly"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "ফুলে প্রজাপতি বসেছে।",
+          "en": "A butterfly has landed on the flower."
+        }
+      ]
+    },
+    {
+      "id": "machhi",
+      "headword": "মাছি",
+      "headwordRoman": "machhi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "matʃʰi",
+      "senses": [
+        {
+          "definitionBn": "ছোট বিরক্তিকর উড়ন্ত পতঙ্গ।",
+          "definitionEn": "fly"
+        }
+      ],
+      "synonyms": [
+        "মক্ষিকা"
+      ],
+      "examples": [
+        {
+          "bn": "খাবারে মাছি বসে।",
+          "en": "A fly lands on the food."
+        }
+      ]
+    },
+    {
+      "id": "mohumachhi",
+      "headword": "মৌমাছি",
+      "headwordRoman": "mowmachhi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "mowmatʃʰi",
+      "senses": [
+        {
+          "definitionBn": "মধু সংগ্রহকারী পতঙ্গ।",
+          "definitionEn": "bee"
+        }
+      ],
+      "synonyms": [
+        "ভ্রমর"
+      ],
+      "examples": [
+        {
+          "bn": "মৌমাছি মধু বানায়।",
+          "en": "The bee makes honey."
+        }
+      ]
+    },
+    {
+      "id": "pipra",
+      "headword": "পিঁপড়া",
+      "headwordRoman": "pipra",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "pĩpɽa",
+      "senses": [
+        {
+          "definitionBn": "সারিবদ্ধ চলা ছোট পরিশ্রমী পতঙ্গ।",
+          "definitionEn": "ant"
+        }
+      ],
+      "synonyms": [
+        "পিপীলিকা"
+      ],
+      "examples": [
+        {
+          "bn": "পিঁপড়া খাবার বয়ে নেয়।",
+          "en": "The ant carries food."
+        }
+      ]
+    },
+    {
+      "id": "pata",
+      "headword": "পাতা",
+      "headwordRoman": "pata",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "pata",
+      "senses": [
+        {
+          "definitionBn": "গাছের সবুজ চ্যাপ্টা অংশ।",
+          "definitionEn": "leaf"
+        }
+      ],
+      "synonyms": [
+        "পত্র",
+        "পল্লব"
+      ],
+      "examples": [
+        {
+          "bn": "শরতে পাতা ঝরে।",
+          "en": "Leaves fall in autumn."
+        }
+      ]
+    },
+    {
+      "id": "shikor",
+      "headword": "শিকড়",
+      "headwordRoman": "shikor",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃikoɽ",
+      "senses": [
+        {
+          "definitionBn": "গাছের মাটির নিচের অংশ।",
+          "definitionEn": "root"
+        }
+      ],
+      "synonyms": [
+        "মূল"
+      ],
+      "examples": [
+        {
+          "bn": "গাছের শিকড় গভীরে যায়।",
+          "en": "The tree roots go deep."
+        }
+      ]
+    },
+    {
+      "id": "bij",
+      "headword": "বীজ",
+      "headwordRoman": "bij",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bidʒ",
+      "senses": [
+        {
+          "definitionBn": "যা থেকে নতুন গাছ জন্মায়।",
+          "definitionEn": "seed"
+        }
+      ],
+      "synonyms": [
+        "বীচি"
+      ],
+      "examples": [
+        {
+          "bn": "মাটিতে বীজ পুঁতলাম।",
+          "en": "I planted a seed in the soil."
+        }
+      ]
+    },
+    {
+      "id": "ghash",
+      "headword": "ঘাস",
+      "headwordRoman": "ghash",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "gʱaʃ",
+      "senses": [
+        {
+          "definitionBn": "মাটিতে জন্মানো সরু সবুজ উদ্ভিদ।",
+          "definitionEn": "grass"
+        }
+      ],
+      "synonyms": [
+        "তৃণ"
+      ],
+      "examples": [
+        {
+          "bn": "মাঠে সবুজ ঘাস।",
+          "en": "There is green grass in the field."
+        }
+      ]
+    },
+    {
+      "id": "pathor",
+      "headword": "পাথর",
+      "headwordRoman": "pathor",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "patʰor",
+      "senses": [
+        {
+          "definitionBn": "শক্ত খনিজ পিণ্ড।",
+          "definitionEn": "stone; rock"
+        }
+      ],
+      "synonyms": [
+        "প্রস্তর",
+        "শিলা"
+      ],
+      "examples": [
+        {
+          "bn": "নদীর তীরে পাথর আছে।",
+          "en": "There are stones by the river."
+        }
+      ]
+    },
+    {
+      "id": "balu",
+      "headword": "বালি",
+      "headwordRoman": "bali",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bali",
+      "senses": [
+        {
+          "definitionBn": "সূক্ষ্ম দানাদার মাটি।",
+          "definitionEn": "sand"
+        }
+      ],
+      "synonyms": [
+        "বালুকা"
+      ],
+      "examples": [
+        {
+          "bn": "সৈকতে নরম বালি।",
+          "en": "There is soft sand on the beach."
+        }
+      ]
+    },
+    {
+      "id": "dheu",
+      "headword": "ঢেউ",
+      "headwordRoman": "dheu",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ɖʱeu",
+      "senses": [
+        {
+          "definitionBn": "জলের উঁচু-নিচু চলমান রেখা।",
+          "definitionEn": "wave"
+        }
+      ],
+      "synonyms": [
+        "তরঙ্গ"
+      ],
+      "examples": [
+        {
+          "bn": "সাগরে বড় ঢেউ ওঠে।",
+          "en": "Big waves rise in the sea."
+        }
+      ]
+    },
+    {
+      "id": "borof",
+      "headword": "বরফ",
+      "headwordRoman": "borof",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bɔrof",
+      "senses": [
+        {
+          "definitionBn": "জমে শক্ত হওয়া জল।",
+          "definitionEn": "ice; snow"
+        }
+      ],
+      "synonyms": [
+        "তুষার",
+        "হিম"
+      ],
+      "examples": [
+        {
+          "bn": "পাহাড়ে বরফ পড়ছে।",
+          "en": "Snow is falling on the mountain."
+        }
+      ]
+    },
+    {
+      "id": "kuasha",
+      "headword": "কুয়াশা",
+      "headwordRoman": "kuasha",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kuaʃa",
+      "senses": [
+        {
+          "definitionBn": "মাটির কাছে ভাসমান ঘন জলীয় বাষ্প।",
+          "definitionEn": "fog; mist"
+        }
+      ],
+      "synonyms": [
+        "নীহার"
+      ],
+      "examples": [
+        {
+          "bn": "শীতে ঘন কুয়াশা পড়ে।",
+          "en": "Dense fog falls in winter."
+        }
+      ]
+    },
+    {
+      "id": "bidyut_chomok",
+      "headword": "বজ্র",
+      "headwordRoman": "bojro",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bɔdʒro",
+      "senses": [
+        {
+          "definitionBn": "ঝড়ের সময় আকাশের প্রচণ্ড গর্জন।",
+          "definitionEn": "thunder"
+        }
+      ],
+      "synonyms": [
+        "অশনি"
+      ],
+      "examples": [
+        {
+          "bn": "বজ্রের শব্দে ভয় পেলাম।",
+          "en": "I was scared by the thunder."
+        }
+      ]
+    },
+    {
+      "id": "jhor",
+      "headword": "ঝড়",
+      "headwordRoman": "jhor",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dʒʱɔɽ",
+      "senses": [
+        {
+          "definitionBn": "প্রবল বাতাস ও বৃষ্টির প্রাকৃতিক ঘটনা।",
+          "definitionEn": "storm"
+        }
+      ],
+      "synonyms": [
+        "তুফান",
+        "ঝঞ্ঝা"
+      ],
+      "examples": [
+        {
+          "bn": "ঝড়ে গাছ ভেঙে পড়েছে।",
+          "en": "A tree fell in the storm."
+        }
+      ]
+    },
+    {
+      "id": "rongdhonu",
+      "headword": "রংধনু",
+      "headwordRoman": "rongdhonu",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "rɔŋdʱonu",
+      "senses": [
+        {
+          "definitionBn": "বৃষ্টির পর আকাশে সাত রঙের বৃত্তচাপ।",
+          "definitionEn": "rainbow"
+        }
+      ],
+      "synonyms": [
+        "ইন্দ্রধনু"
+      ],
+      "examples": [
+        {
+          "bn": "বৃষ্টির পর রংধনু উঠেছে।",
+          "en": "A rainbow appeared after the rain."
+        }
+      ]
+    },
+    {
+      "id": "maath",
+      "headword": "মাঠ",
+      "headwordRoman": "maath",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "maʈʰ",
+      "senses": [
+        {
+          "definitionBn": "খোলা সমতল জমি।",
+          "definitionEn": "field"
+        }
+      ],
+      "synonyms": [
+        "প্রান্তর"
+      ],
+      "examples": [
+        {
+          "bn": "ছেলেরা মাঠে খেলে।",
+          "en": "The boys play in the field."
+        }
+      ]
+    },
+    {
+      "id": "pukur",
+      "headword": "পুকুর",
+      "headwordRoman": "pukur",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "pukur",
+      "senses": [
+        {
+          "definitionBn": "ছোট বদ্ধ জলাশয়।",
+          "definitionEn": "pond"
+        }
+      ],
+      "synonyms": [
+        "দিঘি",
+        "জলাশয়"
+      ],
+      "examples": [
+        {
+          "bn": "পুকুরে হাঁস সাঁতার কাটে।",
+          "en": "Ducks swim in the pond."
+        }
+      ]
+    },
+    {
+      "id": "ruti",
+      "headword": "রুটি",
+      "headwordRoman": "ruti",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ruti",
+      "senses": [
+        {
+          "definitionBn": "আটা দিয়ে তৈরি সেঁকা খাবার।",
+          "definitionEn": "bread; roti"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "সকালে রুটি খাই।",
+          "en": "I eat bread in the morning."
+        }
+      ]
+    },
+    {
+      "id": "tel",
+      "headword": "তেল",
+      "headwordRoman": "tel",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tel",
+      "senses": [
+        {
+          "definitionBn": "রান্নায় ব্যবহৃত পিচ্ছিল তরল।",
+          "definitionEn": "oil"
+        }
+      ],
+      "synonyms": [
+        "তৈল"
+      ],
+      "examples": [
+        {
+          "bn": "তরকারিতে তেল দাও।",
+          "en": "Add oil to the curry."
+        }
+      ]
+    },
+    {
+      "id": "ghee",
+      "headword": "ঘি",
+      "headwordRoman": "ghi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "gʱi",
+      "senses": [
+        {
+          "definitionBn": "দুধ থেকে তৈরি সুগন্ধি চর্বি।",
+          "definitionEn": "clarified butter; ghee"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "ভাতে ঘি মেখে খাই।",
+          "en": "I eat rice mixed with ghee."
+        }
+      ]
+    },
+    {
+      "id": "moshla",
+      "headword": "মশলা",
+      "headwordRoman": "moshla",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "mɔʃla",
+      "senses": [
+        {
+          "definitionBn": "রান্নার স্বাদ বাড়ানো গুঁড়া বা দানা।",
+          "definitionEn": "spice"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "তরকারিতে মশলা দাও।",
+          "en": "Add spice to the curry."
+        }
+      ]
+    },
+    {
+      "id": "tarkari",
+      "headword": "তরকারি",
+      "headwordRoman": "tarkari",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tɔrkari",
+      "senses": [
+        {
+          "definitionBn": "রান্না করা সবজি বা মাংসের পদ।",
+          "definitionEn": "curry; cooked dish"
+        }
+      ],
+      "synonyms": [
+        "ব্যঞ্জন"
+      ],
+      "examples": [
+        {
+          "bn": "আজ মাছের তরকারি হয়েছে।",
+          "en": "Fish curry was made today."
+        }
+      ]
+    },
+    {
+      "id": "sobji",
+      "headword": "সবজি",
+      "headwordRoman": "sobji",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃobdʒi",
+      "senses": [
+        {
+          "definitionBn": "রান্নার উপযোগী ভোজ্য উদ্ভিদ।",
+          "definitionEn": "vegetable"
+        }
+      ],
+      "synonyms": [
+        "তরিতরকারি"
+      ],
+      "examples": [
+        {
+          "bn": "তাজা সবজি স্বাস্থ্যকর।",
+          "en": "Fresh vegetables are healthy."
+        }
+      ]
+    },
+    {
+      "id": "alu",
+      "headword": "আলু",
+      "headwordRoman": "alu",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "alu",
+      "senses": [
+        {
+          "definitionBn": "মাটির নিচে জন্মানো গোলাকার সবজি।",
+          "definitionEn": "potato"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "আলু ভাজা মজার।",
+          "en": "Fried potato is tasty."
+        }
+      ]
+    },
+    {
+      "id": "pyaj",
+      "headword": "পেঁয়াজ",
+      "headwordRoman": "pyaj",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "pẽaz",
+      "senses": [
+        {
+          "definitionBn": "ঝাঁঝালো স্তরযুক্ত রান্নার সবজি।",
+          "definitionEn": "onion"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "পেঁয়াজ কাটলে চোখে জল আসে।",
+          "en": "Cutting onions brings tears."
+        }
+      ]
+    },
+    {
+      "id": "roshun",
+      "headword": "রসুন",
+      "headwordRoman": "roshun",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "roʃun",
+      "senses": [
+        {
+          "definitionBn": "ঝাঁঝালো গন্ধযুক্ত রান্নার মশলা।",
+          "definitionEn": "garlic"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "রসুন খাবারে স্বাদ আনে।",
+          "en": "Garlic adds flavor to food."
+        }
+      ]
+    },
+    {
+      "id": "lonka",
+      "headword": "লঙ্কা",
+      "headwordRoman": "lonka",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "lɔŋka",
+      "senses": [
+        {
+          "definitionBn": "ঝাল স্বাদের ছোট ফল; মরিচ।",
+          "definitionEn": "chili pepper"
+        }
+      ],
+      "synonyms": [
+        "মরিচ"
+      ],
+      "examples": [
+        {
+          "bn": "লঙ্কা খুব ঝাল।",
+          "en": "The chili is very hot."
+        }
+      ]
+    },
+    {
+      "id": "modhu",
+      "headword": "মধু",
+      "headwordRoman": "modhu",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "modʱu",
+      "senses": [
+        {
+          "definitionBn": "মৌমাছির তৈরি মিষ্টি তরল।",
+          "definitionEn": "honey"
+        }
+      ],
+      "synonyms": [
+        "মকরন্দ"
+      ],
+      "examples": [
+        {
+          "bn": "মধু স্বাস্থ্যের জন্য ভালো।",
+          "en": "Honey is good for health."
+        }
+      ]
+    },
+    {
+      "id": "doi",
+      "headword": "দই",
+      "headwordRoman": "doi",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "doi",
+      "senses": [
+        {
+          "definitionBn": "দুধ জমিয়ে তৈরি টক-মিষ্টি খাবার।",
+          "definitionEn": "yogurt; curd"
+        }
+      ],
+      "synonyms": [
+        "দধি"
+      ],
+      "examples": [
+        {
+          "bn": "খাওয়ার পরে দই খাই।",
+          "en": "I eat yogurt after a meal."
+        }
+      ]
+    },
+    {
+      "id": "mishti",
+      "headword": "মিষ্টি",
+      "headwordRoman": "mishti",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "miʃʈi",
+      "senses": [
+        {
+          "definitionBn": "চিনি দিয়ে তৈরি মিষ্টি খাবার।",
+          "definitionEn": "sweet; sweets"
+        }
+      ],
+      "synonyms": [
+        "মিঠাই"
+      ],
+      "examples": [
+        {
+          "bn": "উৎসবে মিষ্টি বিলি হয়।",
+          "en": "Sweets are shared during festivals."
+        }
+      ]
+    },
+    {
+      "id": "sorbot",
+      "headword": "শরবত",
+      "headwordRoman": "sorbot",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃɔrbot",
+      "senses": [
+        {
+          "definitionBn": "ফল বা চিনির মিষ্টি ঠান্ডা পানীয়।",
+          "definitionEn": "sherbet; cool drink"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "গরমে শরবত খেতে ভালো।",
+          "en": "A cool drink is nice in the heat."
+        }
+      ]
+    },
+    {
+      "id": "ekhon",
+      "headword": "এখন",
+      "headwordRoman": "ekhon",
+      "partOfSpeech": "adverb",
+      "pronunciationIPA": "ækʰon",
+      "senses": [
+        {
+          "definitionBn": "বর্তমান মুহূর্তে।",
+          "definitionEn": "now"
+        }
+      ],
+      "synonyms": [
+        "বর্তমানে"
+      ],
+      "examples": [
+        {
+          "bn": "আমি এখন ব্যস্ত।",
+          "en": "I am busy now."
+        }
+      ]
+    },
+    {
+      "id": "tokhon",
+      "headword": "তখন",
+      "headwordRoman": "tokhon",
+      "partOfSpeech": "adverb",
+      "pronunciationIPA": "tɔkʰon",
+      "senses": [
+        {
+          "definitionBn": "সেই সময়ে; অতীতের কোনো মুহূর্তে।",
+          "definitionEn": "then; at that time"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "তখন সন্ধ্যা হয়ে গিয়েছিল।",
+          "en": "It was evening then."
+        }
+      ]
+    },
+    {
+      "id": "aj",
+      "headword": "আজ",
+      "headwordRoman": "aj",
+      "partOfSpeech": "adverb",
+      "pronunciationIPA": "adʒ",
+      "senses": [
+        {
+          "definitionBn": "বর্তমান দিনে।",
+          "definitionEn": "today"
+        }
+      ],
+      "synonyms": [
+        "অদ্য"
+      ],
+      "examples": [
+        {
+          "bn": "আজ ছুটির দিন।",
+          "en": "Today is a holiday."
+        }
+      ]
+    },
+    {
+      "id": "kal",
+      "headword": "কাল",
+      "headwordRoman": "kal",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "kal",
+      "senses": [
+        {
+          "definitionBn": "গতকাল বা আগামীকাল; সময়।",
+          "definitionEn": "yesterday; tomorrow"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "কাল আবার দেখা হবে।",
+          "en": "We will meet again tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "gotokal",
+      "headword": "গতকাল",
+      "headwordRoman": "gotokal",
+      "partOfSpeech": "adverb",
+      "pronunciationIPA": "gɔtokal",
+      "senses": [
+        {
+          "definitionBn": "আজকের আগের দিন।",
+          "definitionEn": "yesterday"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "গতকাল বৃষ্টি হয়েছিল।",
+          "en": "It rained yesterday."
+        }
+      ]
+    },
+    {
+      "id": "agamikal",
+      "headword": "আগামীকাল",
+      "headwordRoman": "agamikal",
+      "partOfSpeech": "adverb",
+      "pronunciationIPA": "agamikal",
+      "senses": [
+        {
+          "definitionBn": "আজকের পরের দিন।",
+          "definitionEn": "tomorrow"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "আগামীকাল পরীক্ষা।",
+          "en": "The exam is tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "shokal_bela",
+      "headword": "ভোর",
+      "headwordRoman": "bhor",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bʱor",
+      "senses": [
+        {
+          "definitionBn": "দিনের একেবারে শুরুর সময়।",
+          "definitionEn": "dawn; early morning"
+        }
+      ],
+      "synonyms": [
+        "ঊষা",
+        "প্রত্যুষ"
+      ],
+      "examples": [
+        {
+          "bn": "ভোরে পাখি ডাকে।",
+          "en": "Birds sing at dawn."
+        }
+      ]
+    },
+    {
+      "id": "dupur",
+      "headword": "দুপুর",
+      "headwordRoman": "dupur",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dupur",
+      "senses": [
+        {
+          "definitionBn": "দিনের মধ্যভাগ।",
+          "definitionEn": "noon; midday"
+        }
+      ],
+      "synonyms": [
+        "মধ্যাহ্ন"
+      ],
+      "examples": [
+        {
+          "bn": "দুপুরে রোদ প্রখর।",
+          "en": "The sun is intense at noon."
+        }
+      ]
+    },
+    {
+      "id": "sondhya",
+      "headword": "সন্ধ্যা",
+      "headwordRoman": "sondhya",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃondʱæ",
+      "senses": [
+        {
+          "definitionBn": "সূর্যাস্তের সময়।",
+          "definitionEn": "evening"
+        }
+      ],
+      "synonyms": [
+        "সাঁঝ"
+      ],
+      "examples": [
+        {
+          "bn": "সন্ধ্যায় প্রদীপ জ্বালাই।",
+          "en": "We light lamps in the evening."
+        }
+      ]
+    },
+    {
+      "id": "ghonta",
+      "headword": "ঘণ্টা",
+      "headwordRoman": "ghonta",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "gʱonʈa",
+      "senses": [
+        {
+          "definitionBn": "ষাট মিনিটের সময়কাল।",
+          "definitionEn": "hour"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "এক ঘণ্টা অপেক্ষা করলাম।",
+          "en": "I waited for an hour."
+        }
+      ]
+    },
+    {
+      "id": "minit",
+      "headword": "মিনিট",
+      "headwordRoman": "minit",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "miniʈ",
+      "senses": [
+        {
+          "definitionBn": "ষাট সেকেন্ডের সময়কাল।",
+          "definitionEn": "minute"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "পাঁচ মিনিট সময় দাও।",
+          "en": "Give me five minutes."
+        }
+      ]
+    },
+    {
+      "id": "soptaho",
+      "headword": "সপ্তাহ",
+      "headwordRoman": "soptaho",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃɔptaho",
+      "senses": [
+        {
+          "definitionBn": "সাত দিনের সময়কাল।",
+          "definitionEn": "week"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "সপ্তাহে একদিন ছুটি।",
+          "en": "There is one holiday a week."
+        }
+      ]
+    },
+    {
+      "id": "mash",
+      "headword": "মাস",
+      "headwordRoman": "mash",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "maʃ",
+      "senses": [
+        {
+          "definitionBn": "বছরের বারো ভাগের এক ভাগ।",
+          "definitionEn": "month"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "প্রতি মাসে বেতন পাই।",
+          "en": "I get a salary every month."
+        }
+      ]
+    },
+    {
+      "id": "bosha",
+      "headword": "বসা",
+      "headwordRoman": "bosha",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "bɔʃa",
+      "senses": [
+        {
+          "definitionBn": "আসন গ্রহণ করা; উপবেশন করা।",
+          "definitionEn": "to sit"
+        }
+      ],
+      "synonyms": [
+        "উপবেশন করা"
+      ],
+      "examples": [
+        {
+          "bn": "চেয়ারে বসো।",
+          "en": "Sit on the chair."
+        }
+      ]
+    },
+    {
+      "id": "dan_verb",
+      "headword": "দাঁড়ানো",
+      "headwordRoman": "daranno",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "dãɽano",
+      "senses": [
+        {
+          "definitionBn": "সোজা হয়ে পায়ে ভর দিয়ে থাকা।",
+          "definitionEn": "to stand"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "লাইনে দাঁড়াও।",
+          "en": "Stand in the line."
+        }
+      ]
+    },
+    {
+      "id": "othha",
+      "headword": "ওঠা",
+      "headwordRoman": "otha",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "oʈʰa",
+      "senses": [
+        {
+          "definitionBn": "নিচ থেকে উপরে যাওয়া; জেগে ওঠা।",
+          "definitionEn": "to rise; to get up"
+        }
+      ],
+      "synonyms": [
+        "উত্থান করা"
+      ],
+      "examples": [
+        {
+          "bn": "সকালে তাড়াতাড়ি ওঠো।",
+          "en": "Get up early in the morning."
+        }
+      ]
+    },
+    {
+      "id": "nama",
+      "headword": "নামা",
+      "headwordRoman": "nama",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "nama",
+      "senses": [
+        {
+          "definitionBn": "উপর থেকে নিচে আসা।",
+          "definitionEn": "to descend; to get down"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "সিঁড়ি দিয়ে নামো।",
+          "en": "Come down the stairs."
+        }
+      ]
+    },
+    {
+      "id": "kena",
+      "headword": "কেনা",
+      "headwordRoman": "kena",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "kena",
+      "senses": [
+        {
+          "definitionBn": "অর্থের বিনিময়ে জিনিস নেওয়া।",
+          "definitionEn": "to buy"
+        }
+      ],
+      "synonyms": [
+        "ক্রয় করা"
+      ],
+      "examples": [
+        {
+          "bn": "বাজার থেকে সবজি কিনি।",
+          "en": "I buy vegetables from the market."
+        }
+      ]
+    },
+    {
+      "id": "becha",
+      "headword": "বেচা",
+      "headwordRoman": "becha",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "betʃa",
+      "senses": [
+        {
+          "definitionBn": "অর্থের বিনিময়ে জিনিস দেওয়া।",
+          "definitionEn": "to sell"
+        }
+      ],
+      "synonyms": [
+        "বিক্রয় করা"
+      ],
+      "examples": [
+        {
+          "bn": "সে ফল বেচে।",
+          "en": "He sells fruit."
+        }
+      ]
+    },
+    {
+      "id": "khonja",
+      "headword": "খোঁজা",
+      "headwordRoman": "khonja",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "kʰõdʒa",
+      "senses": [
+        {
+          "definitionBn": "হারানো বা কাঙ্ক্ষিত কিছু অনুসন্ধান করা।",
+          "definitionEn": "to search; to look for"
+        }
+      ],
+      "synonyms": [
+        "অনুসন্ধান করা"
+      ],
+      "examples": [
+        {
+          "bn": "চাবিটা খুঁজছি।",
+          "en": "I am looking for the key."
+        }
+      ]
+    },
+    {
+      "id": "paoa",
+      "headword": "পাওয়া",
+      "headwordRoman": "paoa",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "paoa",
+      "senses": [
+        {
+          "definitionBn": "কিছু লাভ করা বা অর্জন করা।",
+          "definitionEn": "to get; to find"
+        }
+      ],
+      "synonyms": [
+        "লাভ করা"
+      ],
+      "examples": [
+        {
+          "bn": "আমি চিঠিটা পেয়েছি।",
+          "en": "I have received the letter."
+        }
+      ]
+    },
+    {
+      "id": "bhaba",
+      "headword": "ভাবা",
+      "headwordRoman": "bhaba",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "bʱaba",
+      "senses": [
+        {
+          "definitionBn": "মনে চিন্তা করা।",
+          "definitionEn": "to think"
+        }
+      ],
+      "synonyms": [
+        "চিন্তা করা"
+      ],
+      "examples": [
+        {
+          "bn": "ভেবে সিদ্ধান্ত নাও।",
+          "en": "Think before deciding."
+        }
+      ]
+    },
+    {
+      "id": "jana",
+      "headword": "জানা",
+      "headwordRoman": "jana",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "dʒana",
+      "senses": [
+        {
+          "definitionBn": "কোনো তথ্য বা বিষয় বোঝা।",
+          "definitionEn": "to know"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "আমি উত্তরটি জানি।",
+          "en": "I know the answer."
+        }
+      ]
+    },
+    {
+      "id": "bojha",
+      "headword": "বোঝা",
+      "headwordRoman": "bojha",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "bodʒʱa",
+      "senses": [
+        {
+          "definitionBn": "অর্থ বা ভাব উপলব্ধি করা।",
+          "definitionEn": "to understand"
+        }
+      ],
+      "synonyms": [
+        "উপলব্ধি করা"
+      ],
+      "examples": [
+        {
+          "bn": "কথাটা বুঝেছ?",
+          "en": "Did you understand this?"
+        }
+      ]
+    },
+    {
+      "id": "sekha",
+      "headword": "শেখা",
+      "headwordRoman": "shekha",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "ʃekʰa",
+      "senses": [
+        {
+          "definitionBn": "নতুন জ্ঞান বা দক্ষতা অর্জন করা।",
+          "definitionEn": "to learn"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "সে সাঁতার শিখছে।",
+          "en": "He is learning to swim."
+        }
+      ]
+    },
+    {
+      "id": "sekhano",
+      "headword": "শেখানো",
+      "headwordRoman": "shekhano",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "ʃekʰano",
+      "senses": [
+        {
+          "definitionBn": "অন্যকে জ্ঞান বা দক্ষতা দেওয়া।",
+          "definitionEn": "to teach"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "তিনি অঙ্ক শেখান।",
+          "en": "He teaches mathematics."
+        }
+      ]
+    },
+    {
+      "id": "khola_verb",
+      "headword": "খোলা",
+      "headwordRoman": "khola",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "kʰola",
+      "senses": [
+        {
+          "definitionBn": "বন্ধ কিছু উন্মুক্ত করা।",
+          "definitionEn": "to open"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "জানালাটা খোলো।",
+          "en": "Open the window."
+        }
+      ]
+    },
+    {
+      "id": "bondho_kora",
+      "headword": "বন্ধ করা",
+      "headwordRoman": "bondho kora",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "bɔndʱo kɔra",
+      "senses": [
+        {
+          "definitionBn": "খোলা কিছু আটকে দেওয়া।",
+          "definitionEn": "to close"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "দরজা বন্ধ করো।",
+          "en": "Close the door."
+        }
+      ]
+    },
+    {
+      "id": "dhora",
+      "headword": "ধরা",
+      "headwordRoman": "dhora",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "dʱɔra",
+      "senses": [
+        {
+          "definitionBn": "হাত দিয়ে কিছু আঁকড়ে রাখা।",
+          "definitionEn": "to hold; to catch"
+        }
+      ],
+      "synonyms": [
+        "আঁকড়ানো"
+      ],
+      "examples": [
+        {
+          "bn": "বলটা ধরো।",
+          "en": "Catch the ball."
+        }
+      ]
+    },
+    {
+      "id": "chhora",
+      "headword": "ছাড়া",
+      "headwordRoman": "chhara",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "tʃʰaɽa",
+      "senses": [
+        {
+          "definitionBn": "ধরে রাখা কিছু মুক্ত করা।",
+          "definitionEn": "to release; to leave"
+        }
+      ],
+      "synonyms": [
+        "মুক্ত করা"
+      ],
+      "examples": [
+        {
+          "bn": "পাখিটা ছেড়ে দাও।",
+          "en": "Release the bird."
+        }
+      ]
+    },
+    {
+      "id": "thaka",
+      "headword": "থাকা",
+      "headwordRoman": "thaka",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "tʰaka",
+      "senses": [
+        {
+          "definitionBn": "কোনো স্থানে অবস্থান করা; বাস করা।",
+          "definitionEn": "to stay; to live"
+        }
+      ],
+      "synonyms": [
+        "অবস্থান করা"
+      ],
+      "examples": [
+        {
+          "bn": "সে শহরে থাকে।",
+          "en": "He lives in the city."
+        }
+      ]
+    },
+    {
+      "id": "bhalobasha_v",
+      "headword": "ভালোবাসা",
+      "headwordRoman": "bhalobasha",
+      "partOfSpeech": "verb",
+      "pronunciationIPA": "bʱalobaʃa",
+      "senses": [
+        {
+          "definitionBn": "গভীর স্নেহ বা প্রেম অনুভব করা।",
+          "definitionEn": "to love"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "মা সন্তানকে ভালোবাসেন।",
+          "en": "A mother loves her child."
+        }
+      ]
+    },
+    {
+      "id": "shundor",
+      "headword": "সুন্দর",
+      "headwordRoman": "shundor",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "ʃundor",
+      "senses": [
+        {
+          "definitionBn": "দেখতে মনোরম ও আকর্ষণীয়।",
+          "definitionEn": "beautiful"
+        }
+      ],
+      "synonyms": [
+        "মনোরম",
+        "রূপবান"
+      ],
+      "examples": [
+        {
+          "bn": "ফুলটি খুব সুন্দর।",
+          "en": "The flower is very beautiful."
+        }
+      ]
+    },
+    {
+      "id": "bishri",
+      "headword": "বিশ্রী",
+      "headwordRoman": "bishri",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "biʃri",
+      "senses": [
+        {
+          "definitionBn": "দেখতে অপ্রীতিকর; কুৎসিত।",
+          "definitionEn": "ugly"
+        }
+      ],
+      "synonyms": [
+        "কুৎসিত"
+      ],
+      "examples": [
+        {
+          "bn": "জায়গাটা বিশ্রী নোংরা।",
+          "en": "The place is ugly and dirty."
+        }
+      ]
+    },
+    {
+      "id": "porishkar",
+      "headword": "পরিষ্কার",
+      "headwordRoman": "porishkar",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "poriʃkar",
+      "senses": [
+        {
+          "definitionBn": "ময়লাহীন ও স্বচ্ছ।",
+          "definitionEn": "clean; clear"
+        }
+      ],
+      "synonyms": [
+        "নির্মল",
+        "স্বচ্ছ"
+      ],
+      "examples": [
+        {
+          "bn": "ঘরটি পরিষ্কার আছে।",
+          "en": "The room is clean."
+        }
+      ]
+    },
+    {
+      "id": "nongra",
+      "headword": "নোংরা",
+      "headwordRoman": "nongra",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "nɔŋra",
+      "senses": [
+        {
+          "definitionBn": "ময়লাযুক্ত ও অপরিচ্ছন্ন।",
+          "definitionEn": "dirty"
+        }
+      ],
+      "synonyms": [
+        "ময়লা",
+        "অপরিষ্কার"
+      ],
+      "examples": [
+        {
+          "bn": "জামাটা নোংরা হয়ে গেছে।",
+          "en": "The shirt has become dirty."
+        }
+      ]
+    },
+    {
+      "id": "bhari",
+      "headword": "ভারী",
+      "headwordRoman": "bhari",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "bʱari",
+      "senses": [
+        {
+          "definitionBn": "ওজনে বেশি।",
+          "definitionEn": "heavy"
+        }
+      ],
+      "synonyms": [
+        "গুরুভার"
+      ],
+      "examples": [
+        {
+          "bn": "ব্যাগটা খুব ভারী।",
+          "en": "The bag is very heavy."
+        }
+      ]
+    },
+    {
+      "id": "halka",
+      "headword": "হালকা",
+      "headwordRoman": "halka",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "halka",
+      "senses": [
+        {
+          "definitionBn": "ওজনে কম।",
+          "definitionEn": "light (weight)"
+        }
+      ],
+      "synonyms": [
+        "লঘু"
+      ],
+      "examples": [
+        {
+          "bn": "পালক খুব হালকা।",
+          "en": "A feather is very light."
+        }
+      ]
+    },
+    {
+      "id": "shokto",
+      "headword": "শক্ত",
+      "headwordRoman": "shokto",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "ʃɔkto",
+      "senses": [
+        {
+          "definitionBn": "কঠিন ও দৃঢ়; সহজে ভাঙে না।",
+          "definitionEn": "hard; strong"
+        }
+      ],
+      "synonyms": [
+        "কঠিন",
+        "দৃঢ়"
+      ],
+      "examples": [
+        {
+          "bn": "লোহা খুব শক্ত।",
+          "en": "Iron is very hard."
+        }
+      ]
+    },
+    {
+      "id": "norom",
+      "headword": "নরম",
+      "headwordRoman": "norom",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "nɔrom",
+      "senses": [
+        {
+          "definitionBn": "কোমল ও সহজে চাপা যায়।",
+          "definitionEn": "soft"
+        }
+      ],
+      "synonyms": [
+        "কোমল",
+        "মোলায়েম"
+      ],
+      "examples": [
+        {
+          "bn": "বালিশটা নরম।",
+          "en": "The pillow is soft."
+        }
+      ]
+    },
+    {
+      "id": "mishti_adj",
+      "headword": "মিষ্টি",
+      "headwordRoman": "mishti",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "miʃʈi",
+      "senses": [
+        {
+          "definitionBn": "চিনির মতো স্বাদযুক্ত।",
+          "definitionEn": "sweet"
+        }
+      ],
+      "synonyms": [
+        "মধুর"
+      ],
+      "examples": [
+        {
+          "bn": "আমটা খুব মিষ্টি।",
+          "en": "The mango is very sweet."
+        }
+      ]
+    },
+    {
+      "id": "tita",
+      "headword": "তিতা",
+      "headwordRoman": "tita",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "tita",
+      "senses": [
+        {
+          "definitionBn": "নিমের মতো অপ্রীতিকর স্বাদযুক্ত।",
+          "definitionEn": "bitter"
+        }
+      ],
+      "synonyms": [
+        "তিক্ত"
+      ],
+      "examples": [
+        {
+          "bn": "ওষুধটা তিতা।",
+          "en": "The medicine is bitter."
+        }
+      ]
+    },
+    {
+      "id": "tok_sour",
+      "headword": "টক",
+      "headwordRoman": "tok",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "ʈɔk",
+      "senses": [
+        {
+          "definitionBn": "লেবুর মতো অম্ল স্বাদযুক্ত।",
+          "definitionEn": "sour"
+        }
+      ],
+      "synonyms": [
+        "অম্ল"
+      ],
+      "examples": [
+        {
+          "bn": "তেঁতুল খুব টক।",
+          "en": "Tamarind is very sour."
+        }
+      ]
+    },
+    {
+      "id": "ghono",
+      "headword": "ঘন",
+      "headwordRoman": "ghono",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "gʱɔno",
+      "senses": [
+        {
+          "definitionBn": "পুরু ও নিবিড়; পাতলা নয়।",
+          "definitionEn": "thick; dense"
+        }
+      ],
+      "synonyms": [
+        "নিবিড়"
+      ],
+      "examples": [
+        {
+          "bn": "বনটি খুব ঘন।",
+          "en": "The forest is very dense."
+        }
+      ]
+    },
+    {
+      "id": "patla",
+      "headword": "পাতলা",
+      "headwordRoman": "patla",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "patla",
+      "senses": [
+        {
+          "definitionBn": "সরু ও কম পুরু।",
+          "definitionEn": "thin"
+        }
+      ],
+      "synonyms": [
+        "সরু"
+      ],
+      "examples": [
+        {
+          "bn": "কাগজটা পাতলা।",
+          "en": "The paper is thin."
+        }
+      ]
+    },
+    {
+      "id": "sotej",
+      "headword": "সতেজ",
+      "headwordRoman": "sotej",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "ʃotedʒ",
+      "senses": [
+        {
+          "definitionBn": "তাজা ও প্রাণবন্ত।",
+          "definitionEn": "fresh"
+        }
+      ],
+      "synonyms": [
+        "তাজা"
+      ],
+      "examples": [
+        {
+          "bn": "সতেজ ফুল সুগন্ধি ছড়ায়।",
+          "en": "Fresh flowers spread fragrance."
+        }
+      ]
+    },
+    {
+      "id": "shanto",
+      "headword": "শান্ত",
+      "headwordRoman": "shanto",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "ʃanto",
+      "senses": [
+        {
+          "definitionBn": "অস্থিরতাহীন ও ধীর।",
+          "definitionEn": "calm; quiet"
+        }
+      ],
+      "synonyms": [
+        "ধীর",
+        "নিরিবিলি"
+      ],
+      "examples": [
+        {
+          "bn": "হ্রদের জল শান্ত।",
+          "en": "The lake water is calm."
+        }
+      ]
+    },
+    {
+      "id": "shuru",
+      "headword": "শুরু",
+      "headwordRoman": "shuru",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃuru",
+      "senses": [
+        {
+          "definitionBn": "কোনো কিছুর আরম্ভ।",
+          "definitionEn": "beginning; start"
+        }
+      ],
+      "synonyms": [
+        "আরম্ভ",
+        "সূচনা"
+      ],
+      "examples": [
+        {
+          "bn": "খেলা শুরু হয়েছে।",
+          "en": "The game has started."
+        }
+      ]
+    },
+    {
+      "id": "shesh",
+      "headword": "শেষ",
+      "headwordRoman": "shesh",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃeʃ",
+      "senses": [
+        {
+          "definitionBn": "কোনো কিছুর সমাপ্তি।",
+          "definitionEn": "end; finish"
+        }
+      ],
+      "synonyms": [
+        "সমাপ্তি",
+        "অন্ত"
+      ],
+      "examples": [
+        {
+          "bn": "গল্পের শেষ সুন্দর।",
+          "en": "The end of the story is beautiful."
+        }
+      ]
+    },
+    {
+      "id": "gati",
+      "headword": "গতি",
+      "headwordRoman": "gati",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "goti",
+      "senses": [
+        {
+          "definitionBn": "চলার হার বা বেগ।",
+          "definitionEn": "speed; motion"
+        }
+      ],
+      "synonyms": [
+        "বেগ"
+      ],
+      "examples": [
+        {
+          "bn": "গাড়ির গতি বেশি।",
+          "en": "The car speed is high."
+        }
+      ]
+    },
+    {
+      "id": "ojon",
+      "headword": "ওজন",
+      "headwordRoman": "ojon",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "odʒon",
+      "senses": [
+        {
+          "definitionBn": "কোনো বস্তুর ভার।",
+          "definitionEn": "weight"
+        }
+      ],
+      "synonyms": [
+        "ভার"
+      ],
+      "examples": [
+        {
+          "bn": "ব্যাগের ওজন মাপো।",
+          "en": "Measure the weight of the bag."
+        }
+      ]
+    },
+    {
+      "id": "maap",
+      "headword": "মাপ",
+      "headwordRoman": "maap",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "map",
+      "senses": [
+        {
+          "definitionBn": "পরিমাণ বা আকারের হিসাব।",
+          "definitionEn": "measure; size"
+        }
+      ],
+      "synonyms": [
+        "পরিমাপ"
+      ],
+      "examples": [
+        {
+          "bn": "জামার মাপ নাও।",
+          "en": "Take the measurement of the shirt."
+        }
+      ]
+    },
+    {
+      "id": "dhoron",
+      "headword": "ধরন",
+      "headwordRoman": "dhoron",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dʱɔron",
+      "senses": [
+        {
+          "definitionBn": "প্রকার বা রকম।",
+          "definitionEn": "type; kind"
+        }
+      ],
+      "synonyms": [
+        "প্রকার",
+        "রকম"
+      ],
+      "examples": [
+        {
+          "bn": "নানা ধরনের ফুল আছে।",
+          "en": "There are various kinds of flowers."
+        }
+      ]
+    },
+    {
+      "id": "karon",
+      "headword": "কারণ",
+      "headwordRoman": "karon",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "karon",
+      "senses": [
+        {
+          "definitionBn": "যে জন্য কিছু ঘটে; হেতু।",
+          "definitionEn": "reason; cause"
+        }
+      ],
+      "synonyms": [
+        "হেতু"
+      ],
+      "examples": [
+        {
+          "bn": "দেরির কারণ কী?",
+          "en": "What is the reason for the delay?"
+        }
+      ]
+    },
+    {
+      "id": "fol_result",
+      "headword": "ফলাফল",
+      "headwordRoman": "folafol",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "fɔlafol",
+      "senses": [
+        {
+          "definitionBn": "কোনো কাজের পরিণাম।",
+          "definitionEn": "result; outcome"
+        }
+      ],
+      "synonyms": [
+        "পরিণাম"
+      ],
+      "examples": [
+        {
+          "bn": "পরীক্ষার ফলাফল ভালো।",
+          "en": "The exam result is good."
+        }
+      ]
+    },
+    {
+      "id": "niyom",
+      "headword": "নিয়ম",
+      "headwordRoman": "niyom",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "niom",
+      "senses": [
+        {
+          "definitionBn": "মেনে চলার বিধি।",
+          "definitionEn": "rule; regulation"
+        }
+      ],
+      "synonyms": [
+        "বিধি",
+        "নিয়মনীতি"
+      ],
+      "examples": [
+        {
+          "bn": "নিয়ম মেনে চলো।",
+          "en": "Follow the rules."
+        }
+      ]
+    },
+    {
+      "id": "odhikar",
+      "headword": "অধিকার",
+      "headwordRoman": "odhikar",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "odʱikar",
+      "senses": [
+        {
+          "definitionBn": "বৈধ দাবি বা ক্ষমতা।",
+          "definitionEn": "right; entitlement"
+        }
+      ],
+      "synonyms": [
+        "হক"
+      ],
+      "examples": [
+        {
+          "bn": "শিক্ষা সবার অধিকার।",
+          "en": "Education is everyone right."
+        }
+      ]
+    },
+    {
+      "id": "dayitto",
+      "headword": "দায়িত্ব",
+      "headwordRoman": "dayitto",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dajitto",
+      "senses": [
+        {
+          "definitionBn": "পালন করার কর্তব্য।",
+          "definitionEn": "responsibility; duty"
+        }
+      ],
+      "synonyms": [
+        "কর্তব্য"
+      ],
+      "examples": [
+        {
+          "bn": "এটি আমার দায়িত্ব।",
+          "en": "This is my responsibility."
+        }
+      ]
+    },
+    {
+      "id": "shopoth",
+      "headword": "শপথ",
+      "headwordRoman": "shopoth",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃɔpotʰ",
+      "senses": [
+        {
+          "definitionBn": "গম্ভীর অঙ্গীকার বা প্রতিজ্ঞা।",
+          "definitionEn": "oath; vow"
+        }
+      ],
+      "synonyms": [
+        "প্রতিজ্ঞা"
+      ],
+      "examples": [
+        {
+          "bn": "সে সত্য বলার শপথ নিল।",
+          "en": "He took an oath to tell the truth."
+        }
+      ]
+    },
+    {
+      "id": "shukh",
+      "headword": "সুখ",
+      "headwordRoman": "shukh",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃukʰ",
+      "senses": [
+        {
+          "definitionBn": "স্বাচ্ছন্দ্য ও তৃপ্তির অবস্থা।",
+          "definitionEn": "happiness; comfort"
+        }
+      ],
+      "synonyms": [
+        "স্বাচ্ছন্দ্য"
+      ],
+      "examples": [
+        {
+          "bn": "সুখ টাকায় কেনা যায় না।",
+          "en": "Happiness cannot be bought with money."
+        }
+      ]
+    },
+    {
+      "id": "sahos",
+      "headword": "সাহস",
+      "headwordRoman": "sahos",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃahoʃ",
+      "senses": [
+        {
+          "definitionBn": "ভয়কে জয় করার মনোবল।",
+          "definitionEn": "courage; bravery"
+        }
+      ],
+      "synonyms": [
+        "বীরত্ব",
+        "হিম্মত"
+      ],
+      "examples": [
+        {
+          "bn": "তার অনেক সাহস।",
+          "en": "He has great courage."
+        }
+      ]
+    },
+    {
+      "id": "office",
+      "headword": "অফিস",
+      "headwordRoman": "ofis",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ofiʃ",
+      "senses": [
+        {
+          "definitionBn": "যেখানে কর্মচারীরা কাজ করে।",
+          "definitionEn": "office"
+        }
+      ],
+      "synonyms": [
+        "কার্যালয়"
+      ],
+      "examples": [
+        {
+          "bn": "বাবা অফিসে গেছেন।",
+          "en": "Father has gone to the office."
+        }
+      ]
+    },
+    {
+      "id": "hashpatal",
+      "headword": "হাসপাতাল",
+      "headwordRoman": "hashpatal",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "haʃpatal",
+      "senses": [
+        {
+          "definitionBn": "যেখানে রোগীর চিকিৎসা হয়।",
+          "definitionEn": "hospital"
+        }
+      ],
+      "synonyms": [
+        "চিকিৎসালয়"
+      ],
+      "examples": [
+        {
+          "bn": "রোগীকে হাসপাতালে নেওয়া হলো।",
+          "en": "The patient was taken to the hospital."
+        }
+      ]
+    },
+    {
+      "id": "mondir",
+      "headword": "মন্দির",
+      "headwordRoman": "mondir",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "mondir",
+      "senses": [
+        {
+          "definitionBn": "দেবতার পূজার স্থান।",
+          "definitionEn": "temple"
+        }
+      ],
+      "synonyms": [
+        "দেবালয়"
+      ],
+      "examples": [
+        {
+          "bn": "সকালে মন্দিরে ঘণ্টা বাজে।",
+          "en": "The temple bell rings in the morning."
+        }
+      ]
+    },
+    {
+      "id": "moshjid",
+      "headword": "মসজিদ",
+      "headwordRoman": "moshjid",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "mɔsdʒid",
+      "senses": [
+        {
+          "definitionBn": "নামাজ পড়ার স্থান।",
+          "definitionEn": "mosque"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "মসজিদে আজান হচ্ছে।",
+          "en": "The call to prayer is sounding at the mosque."
+        }
+      ]
+    },
+    {
+      "id": "setu",
+      "headword": "সেতু",
+      "headwordRoman": "setu",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃetu",
+      "senses": [
+        {
+          "definitionBn": "নদী বা খাল পার হওয়ার নির্মিত পথ।",
+          "definitionEn": "bridge"
+        }
+      ],
+      "synonyms": [
+        "পুল",
+        "সাঁকো"
+      ],
+      "examples": [
+        {
+          "bn": "নদীর উপর সেতু আছে।",
+          "en": "There is a bridge over the river."
+        }
+      ]
+    },
+    {
+      "id": "bagan",
+      "headword": "বাগান",
+      "headwordRoman": "bagan",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bagan",
+      "senses": [
+        {
+          "definitionBn": "ফুল ও গাছের যত্নে গড়া জায়গা।",
+          "definitionEn": "garden"
+        }
+      ],
+      "synonyms": [
+        "উদ্যান"
+      ],
+      "examples": [
+        {
+          "bn": "বাগানে গোলাপ ফুটেছে।",
+          "en": "Roses have bloomed in the garden."
+        }
+      ]
+    },
+    {
+      "id": "deyal",
+      "headword": "দেয়াল",
+      "headwordRoman": "deyal",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "deal",
+      "senses": [
+        {
+          "definitionBn": "ঘর বা জায়গা ঘেরা খাড়া গাঁথনি।",
+          "definitionEn": "wall"
+        }
+      ],
+      "synonyms": [
+        "প্রাচীর",
+        "ভিত"
+      ],
+      "examples": [
+        {
+          "bn": "দেয়ালে ছবি টাঙানো।",
+          "en": "A picture hangs on the wall."
+        }
+      ]
+    },
+    {
+      "id": "chhad",
+      "headword": "ছাদ",
+      "headwordRoman": "chhad",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "tʃʰad",
+      "senses": [
+        {
+          "definitionBn": "ঘরের উপরের আচ্ছাদন।",
+          "definitionEn": "roof; rooftop"
+        }
+      ],
+      "synonyms": [
+        "ছাউনি"
+      ],
+      "examples": [
+        {
+          "bn": "ছাদে দাঁড়িয়ে আকাশ দেখি।",
+          "en": "I stand on the roof and watch the sky."
+        }
+      ]
+    },
+    {
+      "id": "siri",
+      "headword": "সিঁড়ি",
+      "headwordRoman": "siri",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃĩɽi",
+      "senses": [
+        {
+          "definitionBn": "উপরে-নিচে ওঠানামার ধাপ।",
+          "definitionEn": "stairs"
+        }
+      ],
+      "synonyms": [
+        "সোপান"
+      ],
+      "examples": [
+        {
+          "bn": "সিঁড়ি দিয়ে উপরে ওঠো।",
+          "en": "Go up the stairs."
+        }
+      ]
+    },
+    {
+      "id": "bela",
+      "headword": "বেলা",
+      "headwordRoman": "bela",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "bæla",
+      "senses": [
+        {
+          "definitionBn": "দিনের একটি ভাগ বা সময়।",
+          "definitionEn": "time of day"
+        }
+      ],
+      "synonyms": [
+        "কাল"
+      ],
+      "examples": [
+        {
+          "bn": "বেলা হয়ে গেছে, ওঠো।",
+          "en": "It is late in the day, get up."
+        }
+      ]
+    },
+    {
+      "id": "jaiga",
+      "headword": "জায়গা",
+      "headwordRoman": "jaiga",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dʒaega",
+      "senses": [
+        {
+          "definitionBn": "নির্দিষ্ট স্থান বা অবস্থান।",
+          "definitionEn": "place; space"
+        }
+      ],
+      "synonyms": [
+        "স্থান"
+      ],
+      "examples": [
+        {
+          "bn": "এই জায়গাটি শান্ত।",
+          "en": "This place is quiet."
+        }
+      ]
+    },
+    {
+      "id": "jinis",
+      "headword": "জিনিস",
+      "headwordRoman": "jinis",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dʒiniʃ",
+      "senses": [
+        {
+          "definitionBn": "কোনো বস্তু বা দ্রব্য।",
+          "definitionEn": "thing; object"
+        }
+      ],
+      "synonyms": [
+        "বস্তু",
+        "দ্রব্য"
+      ],
+      "examples": [
+        {
+          "bn": "ব্যাগে অনেক জিনিস আছে।",
+          "en": "There are many things in the bag."
+        }
+      ]
+    },
+    {
+      "id": "dorkar",
+      "headword": "দরকার",
+      "headwordRoman": "dorkar",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "dɔrkar",
+      "senses": [
+        {
+          "definitionBn": "প্রয়োজন বা আবশ্যকতা।",
+          "definitionEn": "need; necessity"
+        }
+      ],
+      "synonyms": [
+        "প্রয়োজন",
+        "আবশ্যক"
+      ],
+      "examples": [
+        {
+          "bn": "আমার এই বইটি দরকার।",
+          "en": "I need this book."
+        }
+      ]
+    },
+    {
+      "id": "shorbonim",
+      "headword": "সর্বনাম",
+      "headwordRoman": "shorbonam",
+      "partOfSpeech": "noun",
+      "pronunciationIPA": "ʃɔrbonam",
+      "senses": [
+        {
+          "definitionBn": "নামের পরিবর্তে ব্যবহৃত শব্দ।",
+          "definitionEn": "pronoun"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "আমি একটি সর্বনাম।",
+          "en": "Ami is a pronoun."
+        }
+      ]
+    },
+    {
+      "id": "hyan",
+      "headword": "হ্যাঁ",
+      "headwordRoman": "han",
+      "partOfSpeech": "other",
+      "pronunciationIPA": "hæ̃",
+      "senses": [
+        {
+          "definitionBn": "সম্মতি বা স্বীকৃতির শব্দ।",
+          "definitionEn": "yes"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "হ্যাঁ, আমি রাজি।",
+          "en": "Yes, I agree."
+        }
+      ]
+    },
+    {
+      "id": "na",
+      "headword": "না",
+      "headwordRoman": "na",
+      "partOfSpeech": "other",
+      "pronunciationIPA": "na",
+      "senses": [
+        {
+          "definitionBn": "অস্বীকার বা নিষেধের শব্দ।",
+          "definitionEn": "no; not"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "না, এটা ঠিক নয়।",
+          "en": "No, this is not right."
+        }
+      ]
+    },
+    {
+      "id": "hoyto",
+      "headword": "হয়তো",
+      "headwordRoman": "hoyto",
+      "partOfSpeech": "adverb",
+      "pronunciationIPA": "hɔjto",
+      "senses": [
+        {
+          "definitionBn": "সম্ভবত; নিশ্চিত নয় এমন।",
+          "definitionEn": "perhaps; maybe"
+        }
+      ],
+      "synonyms": [
+        "সম্ভবত"
+      ],
+      "examples": [
+        {
+          "bn": "হয়তো কাল বৃষ্টি হবে।",
+          "en": "Perhaps it will rain tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "shob",
+      "headword": "সব",
+      "headwordRoman": "shob",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "ʃɔb",
+      "senses": [
+        {
+          "definitionBn": "সমগ্র; সকল কিছু।",
+          "definitionEn": "all; every"
+        }
+      ],
+      "synonyms": [
+        "সকল",
+        "সমস্ত"
+      ],
+      "examples": [
+        {
+          "bn": "সব কাজ শেষ হয়েছে।",
+          "en": "All the work is done."
+        }
+      ]
+    },
+    {
+      "id": "kichu",
+      "headword": "কিছু",
+      "headwordRoman": "kichu",
+      "partOfSpeech": "other",
+      "pronunciationIPA": "kitʃu",
+      "senses": [
+        {
+          "definitionBn": "অল্প পরিমাণ; কোনো জিনিস।",
+          "definitionEn": "some; something"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "আমাকে কিছু জল দাও।",
+          "en": "Give me some water."
+        }
+      ]
+    },
+    {
+      "id": "onek",
+      "headword": "অনেক",
+      "headwordRoman": "onek",
+      "partOfSpeech": "adjective",
+      "pronunciationIPA": "onek",
+      "senses": [
+        {
+          "definitionBn": "বিপুল পরিমাণ; বহু।",
+          "definitionEn": "many; much"
+        }
+      ],
+      "synonyms": [
+        "বহু",
+        "প্রচুর"
+      ],
+      "examples": [
+        {
+          "bn": "আকাশে অনেক তারা।",
+          "en": "There are many stars in the sky."
+        }
+      ]
+    },
+    {
+      "id": "ekhane",
+      "headword": "এখানে",
+      "headwordRoman": "ekhane",
+      "partOfSpeech": "adverb",
+      "pronunciationIPA": "ækʰane",
+      "senses": [
+        {
+          "definitionBn": "এই স্থানে।",
+          "definitionEn": "here"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "তুমি এখানে বসো।",
+          "en": "You sit here."
+        }
+      ]
+    },
+    {
+      "id": "okhane",
+      "headword": "ওখানে",
+      "headwordRoman": "okhane",
+      "partOfSpeech": "adverb",
+      "pronunciationIPA": "okʰane",
+      "senses": [
+        {
+          "definitionBn": "ওই স্থানে।",
+          "definitionEn": "there"
+        }
+      ],
+      "synonyms": [
+        "সেখানে"
+      ],
+      "examples": [
+        {
+          "bn": "বইটা ওখানে রাখো।",
+          "en": "Put the book there."
+        }
+      ]
+    },
+    {
+      "id": "bhitore",
+      "headword": "ভিতরে",
+      "headwordRoman": "bhitore",
+      "partOfSpeech": "adverb",
+      "pronunciationIPA": "bʱitore",
+      "senses": [
+        {
+          "definitionBn": "কোনো কিছুর ভেতরের দিকে।",
+          "definitionEn": "inside"
+        }
+      ],
+      "synonyms": [
+        "অভ্যন্তরে"
+      ],
+      "examples": [
+        {
+          "bn": "ঘরের ভিতরে এসো।",
+          "en": "Come inside the room."
+        }
+      ]
+    },
+    {
+      "id": "baire",
+      "headword": "বাইরে",
+      "headwordRoman": "baire",
+      "partOfSpeech": "adverb",
+      "pronunciationIPA": "baire",
+      "senses": [
+        {
+          "definitionBn": "কোনো কিছুর বাইরের দিকে।",
+          "definitionEn": "outside"
+        }
+      ],
+      "examples": [
+        {
+          "bn": "শিশুরা বাইরে খেলছে।",
+          "en": "The children are playing outside."
+        }
+      ]
+    },
+    {
+      "id": "upore",
+      "headword": "উপরে",
+      "headwordRoman": "upore",
+      "partOfSpeech": "adverb",
+      "pronunciationIPA": "upore",
+      "senses": [
+        {
+          "definitionBn": "কোনো কিছুর উপরের দিকে।",
+          "definitionEn": "above; up"
+        }
+      ],
+      "synonyms": [
+        "ঊর্ধ্বে"
+      ],
+      "examples": [
+        {
+          "bn": "টেবিলের উপরে বই আছে।",
+          "en": "There is a book on the table."
+        }
+      ]
+    },
+    {
+      "id": "niche",
+      "headword": "নিচে",
+      "headwordRoman": "niche",
+      "partOfSpeech": "adverb",
+      "pronunciationIPA": "nitʃe",
+      "senses": [
+        {
+          "definitionBn": "কোনো কিছুর নিচের দিকে।",
+          "definitionEn": "below; down"
+        }
+      ],
+      "synonyms": [
+        "তলায়"
+      ],
+      "examples": [
+        {
+          "bn": "গাছের নিচে বসি।",
+          "en": "I sit under the tree."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "FEAT-003",
+  "type": "feat",
+  "description": "Polish the renderer UI/UX and accessibility for both beginners and expert users: clearer loading/empty/error states, a discoverable keyboard-shortcuts / help affordance, onboarding hint, responsive layout, and robust error handling around IPC calls. Extend renderer tests. Depends on FEAT-002 for the final version string and any API shape.",
+  "status": "completed",
+  "steps": [
+    "Add an error state to search: in src/renderer/components/SearchResults.tsx wrap the window.wordsetu.search call so a rejected promise sets an error state and renders a friendly 'Something went wrong' message with a retry affordance, instead of leaving the UI stuck on 'Searching…'. Keep the existing loading and empty/no-results states.",
+    "Improve keyboard-shortcut discoverability: add a Help/Shortcuts affordance. Extend the existing About modal in src/renderer/App.tsx (or add a small 'Keyboard shortcuts' section/modal) that lists the shortcuts already wired ( / or Ctrl+F focus search, Ctrl+, settings, Ctrl+D toggle favorite, Esc close). Make it reachable from the sidebar footer and/or the Help menu action. Do not invent shortcuts that are not wired in App.tsx's keydown handler.",
+    "Add a first-run onboarding hint on the home/Word-of-the-Day view (src/renderer/components/WordOfTheDayView.tsx or App.tsx home branch): a brief, dismissible tip explaining phonetic typing (type 'ami' to get আমি) and how to search. Keep it lightweight and offline; no external assets.",
+    "Accessibility and responsive polish in src/renderer/styles.css and the components: ensure the search combobox and suggestions already have correct ARIA (verify aria-expanded/aria-controls/role=listbox/option present in SearchBar.tsx), add visible focus outlines for keyboard users, ensure color contrast in both light and dark themes, and make the sidebar + results layout degrade gracefully at narrow widths (e.g. stack results list above detail below a breakpoint). Add aria-live to the loading/error region so screen readers announce state changes.",
+    "Harden other IPC-driven views (FavoritesView, HistoryView, WordOfTheDayView, SettingsView) so a rejected IPC promise does not crash the view — degrade to a neutral empty/error state. Keep changes minimal and consistent with existing patterns.",
+    "Extend tests/app.test.tsx (jsdom + @testing-library/react with the spied window.wordsetu already set up in tests/setup.ts) to cover: (a) the search error path renders the error message when window.wordsetu.search rejects; (b) the help/shortcuts affordance opens and lists shortcuts; (c) the onboarding hint renders and can be dismissed. Assertions must render the real component tree and assert on visible text / roles, following the existing app.test.tsx pattern.",
+    "Wrap any React state updates triggered by events in the new tests appropriately so no new act(...) warnings are introduced beyond the existing baseline."
+  ],
+  "acceptance_criteria": [
+    "A rejected search IPC promise renders a friendly error state with retry rather than a stuck loading state, verified by a test in tests/app.test.tsx",
+    "A discoverable keyboard-shortcuts/help affordance exists and lists only the shortcuts actually wired in App.tsx, verified by a test",
+    "A dismissible onboarding hint about phonetic typing renders on the home view, verified by a test",
+    "SearchBar retains correct combobox ARIA and the loading/error region is announced via aria-live; layout stacks gracefully at narrow widths",
+    "npm run typecheck, npm run lint, npm test, and npm run build all exit 0"
+  ],
+  "verification": [
+    "npm run typecheck",
+    "npm run lint",
+    "npm test",
+    "npm run build"
+  ],
+  "blocked_reason": null,
+  "findings": "Implemented renderer polish: (1) SearchResults now has an error state via Promise .then(onFulfilled, onRejected) with a Retry button and aria-live/role=alert regions; loading/empty regions got role=status + aria-live=polite. (2) Added a Keyboard shortcuts modal in App.tsx reachable from the sidebar footer, listing ONLY the 4 wired shortcuts (/ or Ctrl+F, Ctrl+comma, Ctrl+D, Esc); Esc now also closes it. (3) Added a dismissible first-run onboarding hint in WordOfTheDayView (persisted via localStorage key wordsetu.onboardingDismissed) explaining phonetic typing (ami -> \u0986\u09ae\u09bf) and search. (4) styles.css: :focus-visible outlines, .shortcuts/.onboarding/kbd styles, extra responsive breakpoints (results list bounded height at 860px, stacking at 560px). (5) Hardened FavoritesView, WordOfTheDayView, and App initial-load IPC calls to degrade on rejection. (6) Added 3 tests to app.test.tsx (search error+retry, shortcuts modal, onboarding render+dismiss). Notes: ESLint react-hooks/set-state-in-effect forbids synchronous setState in effect bodies, so error reset was moved into the success callback instead of the effect body. The onboarding example Bangla word is rendered as \u201c\u0986\u09ae\u09bf\u201d (quoted) so it does not collide with the exact-text getByText('\u0986\u09ae\u09bf') assertions in the pre-existing phonetic/WOTD tests. Kept act() warnings at the pre-existing baseline of 3 by awaiting the debounced suggestion in the new error test. Verified: typecheck, lint, test (71 passed / 6 suites), build, and package:linux all exit 0; release/linux-unpacked/wordsetu executable + resources/resources/dictionary/entries.json produced. No .exe on Linux (Windows-only, via CI)."
+}
