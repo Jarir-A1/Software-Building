@@ -134,8 +134,8 @@ after the build. It writes the installer to:
 release/WordSetu-Setup-<version>.exe
 ```
 
-For example, at version `0.1.0` the file is
-`release/WordSetu-Setup-0.1.0.exe`.
+For example, at version `0.2.0` the file is
+`release/WordSetu-Setup-0.2.0.exe`.
 
 ### How a customer installs it
 
