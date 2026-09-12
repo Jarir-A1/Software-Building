@@ -1,0 +1,57 @@
+{
+  "name": "wordsetu",
+  "private": true,
+  "version": "0.1.0",
+  "description": "WordSetu - a production-ready offline Bangla dictionary desktop application for Windows 11.",
+  "author": "WordSetu Team <team@wordsetu.example>",
+  "license": "MIT",
+  "main": "dist/main/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build:renderer": "vite build",
+    "build:main": "node scripts/build-main.mjs",
+    "build": "rimraf dist && npm run typecheck && npm run build:main && npm run build:renderer",
+    "dev": "concurrently -k \"vite\" \"wait-on tcp:5173 && cross-env WORDSETU_DEV_SERVER=http://localhost:5173 electron dist/main/index.js\"",
+    "package:linux": "npm run build && electron-builder --linux dir",
+    "package:win": "npm run build && electron-builder --win nsis",
+    "start": "electron dist/main/index.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^24.13.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.70.0",
+    "@typescript-eslint/parser": "^8.70.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "@vitest/coverage-v8": "^5.0.0",
+    "concurrently": "^10.0.5",
+    "cross-env": "^10.1.0",
+    "electron": "^44.3.0",
+    "electron-builder": "^26.15.3",
+    "esbuild": "^0.28.2",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "jsdom": "^30.0.1",
+    "prettier": "^3.9.6",
+    "rimraf": "^6.1.3",
+    "typescript": "~5.6.0",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.0",
+    "wait-on": "^9.1.0"
+  }
+}
