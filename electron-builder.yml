@@ -1,0 +1,93 @@
+# electron-builder configuration for WordSetu.
+#
+# This produces the Windows NSIS .exe installer (the customer facing artifact)
+# and, for pipeline validation on this Linux sandbox, a Linux AppImage and an
+# unpacked "dir" build. The actual Windows .exe is built on Windows 11 or on a
+# GitHub Actions windows-latest runner (see .github/workflows/build-windows.yml
+# and the "Package for Windows 11" section of README.md).
+appId: com.wordsetu.app
+productName: WordSetu
+copyright: Copyright (c) 2025 WordSetu Team
+
+# Packaging asar keeps the app source in a single archive. The dictionary data
+# is shipped OUTSIDE asar via extraResources (below) so the main process can
+# read it from process.resourcesPath at runtime.
+asar: true
+
+directories:
+  output: release
+  buildResources: build
+
+# Only the compiled output and the manifest are packaged into the app. Sources,
+# tests, and tooling are excluded to keep the installer small.
+files:
+  - dist/**
+  - package.json
+
+# Ship the offline dictionary as an extra resource. In the packaged app this is
+# copied to <resourcesPath>/resources/dictionary, which is exactly one of the
+# candidate paths probed by resolveDictionaryPath() in src/main/index.ts
+# (path.join(process.resourcesPath, 'resources', 'dictionary', 'entries.json')).
+# Dev and packaged builds therefore both resolve the data without code changes.
+extraResources:
+  - from: resources/dictionary
+    to: resources/dictionary
+    filter:
+      - '**/*'
+
+# ---------------------------------------------------------------------------
+# Windows target: NSIS .exe installer.
+# ---------------------------------------------------------------------------
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  icon: build/icon.ico
+  artifactName: WordSetu-Setup-${version}.${ext}
+  # ---- Code signing (DISABLED placeholder) --------------------------------
+  # To sign the Windows build, provide a code signing certificate. Either set
+  # the CSC_LINK / CSC_KEY_PASSWORD environment variables in CI (preferred),
+  # or uncomment and point to a local certificate file below. Leaving these
+  # commented ships an UNSIGNED installer (Windows SmartScreen will warn until
+  # reputation is built or a trusted certificate is used).
+  #
+  #   env CSC_LINK=path-or-base64-of-your.pfx
+  #   env CSC_KEY_PASSWORD=your-cert-password
+  #
+  # certificateFile: build/certs/wordsetu.pfx
+  # certificatePassword: ${env.CSC_KEY_PASSWORD}
+  # signingHashAlgorithms:
+  #   - sha256
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: WordSetu
+  installerIcon: build/icon.ico
+  uninstallerIcon: build/icon.ico
+  # Use the app icon in the Windows "Programs and Features" list.
+  installerHeaderIcon: build/icon.ico
+
+# ---------------------------------------------------------------------------
+# Linux target: AppImage for distribution plus "dir" for fast pipeline proof.
+# Built on this sandbox to validate the whole packaging flow end to end.
+# ---------------------------------------------------------------------------
+linux:
+  target:
+    - AppImage
+    - dir
+  icon: build/icon.png
+  category: Education
+  synopsis: Offline Bangla dictionary
+  description: WordSetu is an offline Bangla dictionary desktop application.
+
+# ---------------------------------------------------------------------------
+# Publishing is intentionally disabled here. Releases are produced explicitly
+# with `--publish never`; wire an actual provider (GitHub, S3, generic) only
+# when a release channel is chosen.
+# ---------------------------------------------------------------------------
+publish: null

@@ -1,0 +1,68 @@
+name: Build Windows Installer
+
+# Builds the WordSetu Windows NSIS .exe installer on a Windows runner and
+# uploads it as a workflow artifact. This is the supported way to produce the
+# customer facing installer, since the .exe cannot be built on the Linux
+# development sandbox without wine.
+on:
+  push:
+    branches:
+      - main
+      - master
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Ensure Electron binary is present
+        # Some CI caches skip the Electron postinstall; this fetches the binary
+        # if it is missing and is a no op when it already exists.
+        shell: pwsh
+        run: node node_modules/electron/install.js
+
+      - name: Type-check
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Test
+        run: npm test
+
+      - name: Build renderer, main, and preload
+        run: npm run build
+
+      - name: Package Windows NSIS installer
+        # ---- Code signing (DISABLED placeholder) --------------------------
+        # To produce a signed installer, add repository secrets named
+        # WINDOWS_CSC_LINK (base64 encoded .pfx or a URL) and
+        # WINDOWS_CSC_KEY_PASSWORD, then uncomment the env block below.
+        # electron-builder reads CSC_LINK / CSC_KEY_PASSWORD automatically.
+        #
+        # env:
+        #   CSC_LINK: ${{ secrets.WINDOWS_CSC_LINK }}
+        #   CSC_KEY_PASSWORD: ${{ secrets.WINDOWS_CSC_KEY_PASSWORD }}
+        run: npx electron-builder --win nsis --publish never
+
+      - name: Upload installer artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: WordSetu-Windows-Installer
+          path: release/*.exe
+          if-no-files-found: error
